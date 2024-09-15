@@ -1,0 +1,233 @@
+{% extends 'base/base.html' %}
+{% load static %}
+{% load i18n %}
+{% block title %}
+Kazakhstan Cities
+{% endblock %}
+{% block extra_css %}
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        {#header {#}
+        {#    background: #333;#}
+        {#    color: #fff;#}
+        {#    padding-top: 30px;#}
+        {#    min-height: 70px;#}
+        {#    border-bottom: #0779e4 3px solid;#}
+        {
+        #}#}
+
+        {#header a {#}
+        {#    color: #fff;#}
+        {#    text-decoration: none;#}
+        {#    text-transform: uppercase;#}
+        {#    font-size: 16px;#}
+        {
+        #}#}
+        {##}
+        {#header ul {#}
+        {#    padding: 0;#}
+        {#    list-style: none;#}
+        {
+        #}#}
+        {##}
+        {#header li {#}
+        {#    float: left;#}
+        {#    display: inline;#}
+        {#    padding: 0 20px 0 20px;#}
+        {
+        #}#}
+
+        header #branding {
+            float: left;
+        }
+
+        header #branding h1 {
+            margin: 0;
+        }
+
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+
+        #showcase {
+            min-height: 400px;
+            background: url('https://example.com/your-image.jpg') no-repeat center center/cover;
+            text-align: center;
+            color: #fff;
+        }
+
+        #showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+
+        #showcase p {
+            font-size: 20px;
+            color: green;
+        }
+
+        .info {
+            margin: 20px 0;
+        }
+
+        .info img {
+            width: 100%;
+            height: auto;
+        }
+
+        .info h2 {
+            text-align: center;
+            padding: 10px;
+            color: green;
+        }
+
+        .info p {
+            color: green;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 30px;
+            margin-top: 30px;
+        }
+
+        }
+        }
+        }
+        }
+    </style>
+{% endblock %}
+
+{% block main %}
+<body>
+<div id="showcase">
+    <div class="container">
+        <h1>{% blocktrans %}Welcome to Kazakhstan{% endblocktrans %}</h1>
+        <p>{% blocktrans %}Discover the vast beauty and cultural heritage of Kazakhstan{% endblocktrans %}</p>
+    </div>
+</div>
+
+<div class="container">
+    <section id="kazakhstan" class="info">
+        <img src="{% static 'img/kazakhstan.jpg' %}" alt="Kazakhstan">
+        <h2>{% blocktrans %}Kazakhstan: Where Ancient Traditions and Modern Horizons Converge{% endblocktrans %}</h2>
+        <p>{% blocktrans %}Kazakhstan is a country of vast steppes, mountains, and rich history, where nomadic traditions blend
+            seamlessly with modern ambitions.{% endblocktrans %}</p>
+        <ul>
+            <p>{% blocktrans %}Kazakhstan, the largest landlocked country in the world, is a diverse nation with a vibrant mix
+                of cultures, landscapes, and histories. Its cities are centers of innovation and tradition, from the
+                futuristic architecture of Nur-Sultan to the cultural depth of Almaty.{% endblocktrans %}</p>
+
+            <h2>{% blocktrans %}History{% endblocktrans %}</h2>
+            <p>{% blocktrans %}Kazakhstan's history is one of nomadic tribes, conquerors, and empire builders. It has been a
+                key crossroads for centuries, influenced by the Mongol Empire, the Silk Road, and Soviet rule. Today, the
+                country is independent and flourishing, preserving its past while looking to the future.{% endblocktrans %}</p>
+
+            <h2>{% blocktrans %}Culture{% endblocktrans %}</h2>
+            <p>{% blocktrans %}Kazakh culture is rooted in nomadic traditions, with strong influences from Russia, China, and
+                Persia. The country celebrates its heritage through music, horseback riding, and wrestling, alongside modern
+                festivals, art, and architecture. Kazakh cuisine is famous for dishes like beshbarmak (boiled meat and pasta)
+                and kumis (fermented mare's milk).{% endblocktrans %}</p>
+
+            <h2>{% blocktrans %}Modern Kazakhstan{% endblocktrans %}</h2>
+            <p>{% blocktrans %}Since gaining independence in 1991, Kazakhstan has rapidly modernized its infrastructure,
+                economy, and global standing. Nur-Sultan, the futuristic capital, is a symbol of the country’s
+                transformation, with cutting-edge architecture and a vision for the future.{% endblocktrans %}</p>
+
+            <h2>{% blocktrans %}Tourism{% endblocktrans %}</h2>
+            <p>{% blocktrans %}Tourists are increasingly drawn to Kazakhstan's dramatic landscapes, ancient history, and
+                dynamic cities. Whether trekking through the Altai Mountains, exploring the vast steppes, or visiting the
+                urban centers, Kazakhstan offers something for every traveler.{% endblocktrans %}</p>
+        </ul>
+    </section>
+
+    <section id="nur-sultan" class="info">
+        <img src="{% static 'img/nur-sultan.jpg' %}" alt="Nur-Sultan">
+        <h2>{% blocktrans %}Nur-Sultan: The Futuristic Capital{% endblocktrans %}</h2>
+        <p>{% blocktrans %}Nur-Sultan (formerly Astana), the capital of Kazakhstan, is known for its futuristic skyline and
+            ambitious urban planning.{% endblocktrans %}</p>
+        <ul>
+            <li><strong>{% blocktrans %}Bayterek Tower{% endblocktrans %}</strong>{% blocktrans %}: A symbol of Nur-Sultan
+                offering panoramic views of the city.{% endblocktrans %}
+            </li>
+            <li><strong>{% blocktrans %}Khan Shatyr{% endblocktrans %}</strong>{% blocktrans %}: A massive tent-shaped
+                shopping and entertainment complex.{% endblocktrans %}
+            </li>
+            <li><strong>{% blocktrans %}Palace of Peace and Reconciliation{% endblocktrans %}</strong>{% blocktrans %}: A
+                striking glass pyramid symbolizing unity and peace.{% endblocktrans %}
+            </li>
+        </ul>
+    </section>
+
+    <section id="almaty" class="info">
+        <img src="{% static 'img/almaty.jpg' %}" alt="Almaty">
+        <h2>{% blocktrans %}Almaty: The Cultural Heart of Kazakhstan{% endblocktrans %}</h2>
+        <p>{% blocktrans %}Almaty, Kazakhstan’s largest city, is a hub of culture, history, and natural beauty.{% endblocktrans %}</p>
+        <ul>
+            <li><strong>{% blocktrans %}Kok Tobe Mountain{% endblocktrans %}</strong>{% blocktrans %}: A popular viewpoint
+                offering a stunning panorama of Almaty and the surrounding mountains.{% endblocktrans %}
+            </li>
+            <li><strong>{% blocktrans %}Zenkov Cathedral{% endblocktrans %}</strong>{% blocktrans %}: One of the tallest
+                wooden buildings in the world, located in Panfilov Park.{% endblocktrans %}
+            </li>
+            <li><strong>{% blocktrans %}Medeu Skating Rink{% endblocktrans %}</strong>{% blocktrans %}: A world-famous
+                outdoor skating rink set in the scenic foothills of the Alatau Mountains.{% endblocktrans %}
+            </li>
+        </ul>
+    </section>
+
+    <section id="shymkent" class="info">
+        <img src="{% static 'img/shymkent.jpg' %}" alt="Shymkent">
+        <h2>{% blocktrans %}Shymkent: The City of Gardens{% endblocktrans %}</h2>
+        <p>{% blocktrans %}Shymkent, one of Kazakhstan’s oldest cities, is known for its vibrant markets and green parks.{% endblocktrans %}</p>
+        <ul>
+            <li><strong>{% blocktrans %}Shymkent Zoo{% endblocktrans %}</strong>{% blocktrans %}: One of the largest zoos in
+                Central Asia, housing a variety of wildlife.{% endblocktrans %}
+            </li>
+            <li><strong>{% blocktrans %}Ordabasy Square{% endblocktrans %}</strong>{% blocktrans %}: A historic square at the
+                heart of the city with monuments commemorating Kazakh unity.{% endblocktrans %}
+            </li>
+            <li><strong>{% blocktrans %}Central Park{% endblocktrans %}</strong>{% blocktrans %}: A popular spot for locals
+                to relax and enjoy nature.{% endblocktrans %}
+            </li>
+        </ul>
+    </section>
+
+    <section id="aktobe" class="info">
+        <img src="{% static 'img/aktobe.jpg' %}" alt="Aktobe">
+        <h2>{% blocktrans %}Aktobe: The Energy Hub{% endblocktrans %}</h2>
+        <p>{% blocktrans %}Aktobe is an industrial city in western Kazakhstan, playing a major role in the country's energy
+            sector.{% endblocktrans %}</p>
+        <ul>
+            <li><strong>{% blocktrans %}Nurgasyr Mosque{% endblocktrans %}</strong>{% blocktrans %}: One of the largest mosques
+                in the region, known for its modern architecture.{% endblocktrans %}
+            </li>
+            <li><strong>{% blocktrans %}Regional Museum{% endblocktrans %}</strong>{% blocktrans %}: A museum showcasing the
+                history and culture of Aktobe and the surrounding region.{% endblocktrans %}
+            </li>
+            <li><strong>{% blocktrans %}Aktobe Reservoir{% endblocktrans %}</strong>{% blocktrans %}: A recreational area where
+                locals enjoy boating and fishing.{% endblocktrans %}
+            </li>
+        </ul>
+    </section>
+</div>
+</body>
+
+{% endblock %}

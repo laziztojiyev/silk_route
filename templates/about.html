@@ -1,0 +1,190 @@
+{% extends 'base/base.html' %}
+{% load static %}
+{% load i18n %}
+{% block tittle %}About{% endblock %}
+{% block extra_css %}
+    <style>
+        {#body {#}
+        {#    font-family: Arial, sans-serif;#}
+        {#    line-height: 1.6;#}
+        {#    margin: 0;#}
+        {#    padding: 0;#}
+        {#    background-color: #f4f4f4;#}
+        {
+        #}#}
+
+        {#.container {#}
+        {#    width: 80%;#}
+        {#    margin: auto;#}
+        {#    overflow: hidden;#}
+        {
+        #}#}
+
+        {#header {#}
+        {#    background: #333;#}
+        {#    color: #fff;#}
+        {#    padding-top: 30px;#}
+        {#    min-height: 70px;#}
+        {#    border-bottom: #0779e4 3px solid;#}
+        {
+        #}#}
+
+        {#header a {#}
+        {#    color: #fff;#}
+        {#    text-decoration: none;#}
+        {#    text-transform: uppercase;#}
+        {#    font-size: 16px;#}
+        {
+        #}#}
+        {##}
+        {#header ul {#}
+        {#    padding: 0;#}
+        {#    list-style: none;#}
+        {
+        #}#}
+        {##}
+        {#header li {#}
+        {#    float: left;#}
+        {#    display: inline;#}
+        {#    padding: 0 20px 0 20px;#}
+        {
+        #}#}
+
+        header #branding {
+            float: left;
+        }
+
+        header #branding h1 {
+            margin: 0;
+        }
+
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+
+        #showcase {
+            min-height: 400px;
+            background: url('https://example.com/your-image.jpg') no-repeat center center/cover;
+            text-align: center;
+            color: #fff;
+        }
+
+        #showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+
+        #showcase p {
+            font-size: 20px;
+            color: green;
+        }
+
+        .info {
+            margin: 20px 0;
+        }
+
+        .info img {
+            width: 100%;
+            height: auto;
+        }
+
+        .info h2 {
+            text-align: center;
+            padding: 10px;
+            color: green;
+        }
+
+        .info p {
+            color: green;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 30px;
+            margin-top: 30px;
+        }
+
+        }
+        }
+        }
+        }
+        }
+        }
+    </style>
+{% endblock %}
+
+
+
+{% block main %}
+    <div class="container-fluid py-5">
+    <div class="container pt-5">
+            <div class="text-center mb-3 pb-3">
+            <h1>{% blocktrans %}About Us{% endblocktrans %}</h1>
+        </div>
+        <div class="row">
+            <div class="col-lg-6" style="min-height: 500px;">
+                <div class="position-relative h-100">
+                    <img class="position-absolute w-100 h-100" src="{% static 'img/khiva_about.png' %}"
+                         style="object-fit: cover;">
+                </div>
+            </div>
+            <div class="col-lg-6 pt-5 pb-lg-5">
+                <div class="about-text bg-white p-4 p-lg-5 my-lg-5">
+                    {#                    <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">#}
+                    {#                        {% blocktrans %}About Us{% endblocktrans %}</h6>#}
+                    <h1 class="mb-3">
+                        {% blocktrans %}We offer the best tour packages to fit your budget.{% endblocktrans %}</h1>
+                    <p>{% blocktrans %}
+                        SILK ROUTE DMC (Destination Management Company) welcomes you to an extraordinary journey through
+                        the East, delving deep into traditions and histories spanning thousands of years. We are
+                        committed to providing you with an unforgettable holiday, showcasing the jewels of Central Asia,
+                        such as Samarkand, Bukhara, and Khiva.
+
+                        Our professional team guarantees high-quality service and aims to enhance your understanding of
+                        our culture, history, and geography. We offer a wide range of services, including:
+                        <br>
+                        - Guided tours to the cities of the Great Silk Road: Tashkent, Samarkand, Bukhara, Khiva, and
+                        other historical sites.
+                        <br>
+                        - Visa support.
+                        <br>
+                        - Hotel booking with various levels of comfort.
+                        <br>
+                        - Rental services for vehicles of different classes.
+                        <br>
+                        - Booking of air and train tickets.
+                        <br>
+                        - Arrangements for children's and student groups.
+                        <br>
+                        - Participation in Uzbekistan's various festivals.
+                        <br>
+                        - Tailored tours encompassing bike trips, photo tours, eco-tours, and beyond.
+                        <br>
+                        Our guides are highly qualified, dependable, and possess essential personal qualities. They are
+                        proficient in various foreign languages, including Turkish, Russian, English, French, German,
+                        Spanish, Italian, Japanese, and more. The excursions designed by our specialists are
+                        individualized, incorporating fascinating historical facts without adhering to standard
+                        templates. Our guides and translators boast deep knowledge of the region's history, as well as
+                        the culture and traditions of the local populace. They will regale you with legends and stories,
+                        immersing you in the enchanting ambiance of the East. Join us and immerse yourself in the unique
+                        beauty of Uzbekistan with SILKROUTE!
+                        </span>
+                    {% endblocktrans %}</p>
+                    <div class="row mb-4">
+                        <div class="col-6">
+                            <img class="img-fluid" src="{% static 'img/about_1.png' %}" alt="">
+                        </div>
+                        <div class="col-6">
+                            <img class="img-fluid" src="{% static 'img/about_2.png' %}" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

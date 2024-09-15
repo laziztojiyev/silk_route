@@ -1,0 +1,18 @@
+{% extends 'base/base.html' %}
+{% load static %}
+{% load i18n %}
+{% block main %}
+
+    <div class="container text-center pb-5 card" style="margin-top: 80px;">
+        <div class="card-body" style="margin-top: 30px">
+
+        </div>
+
+        <img style="height: 100px; width:100px; margin-left:45%; margin-top: 30px"
+             src="https://alijahon.uz/static/app/success_icon.png"
+             alt="Green Success Image">
+        <h3 class="mt-4">{% blocktrans %}Your application has been accepted!{% endblocktrans %}</h3>
+        <p>{% blocktrans %}An operator will contact you soon for more detailed information.{% endblocktrans %}</p>
+        <p>{% blocktrans %}Please make sure your phone is turned on!{% endblocktrans %}</p>
+    </div>
+{% endblock %}

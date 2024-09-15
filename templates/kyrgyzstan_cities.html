@@ -1,0 +1,195 @@
+{% extends 'base/base.html' %}
+{% load static %}
+{% load i18n %}
+{% block tittle %}About Kyrgyzstan{% endblock %}
+{% block extra_css %}
+    <style>
+        {#body {#}
+        {#    font-family: Arial, sans-serif;#}
+        {#    line-height: 1.6;#}
+        {#    margin: 0;#}
+        {#    padding: 0;#}
+        {#    background-color: #f4f4f4;#}
+        {
+        #}#}
+
+        {#.container {#}
+        {#    width: 80%;#}
+        {#    margin: auto;#}
+        {#    overflow: hidden;#}
+        {
+        #}#}
+
+        {#header {#}
+        {#    background: #333;#}
+        {#    color: #fff;#}
+        {#    padding-top: 30px;#}
+        {#    min-height: 70px;#}
+        {#    border-bottom: #0779e4 3px solid;#}
+        {
+        #}#}
+
+        {#header a {#}
+        {#    color: #fff;#}
+        {#    text-decoration: none;#}
+        {#    text-transform: uppercase;#}
+        {#    font-size: 16px;#}
+        {
+        #}#}
+        {##}
+        {#header ul {#}
+        {#    padding: 0;#}
+        {#    list-style: none;#}
+        {
+        #}#}
+        {##}
+        {#header li {#}
+        {#    float: left;#}
+        {#    display: inline;#}
+        {#    padding: 0 20px 0 20px;#}
+        {
+        #}#}
+
+        header #branding {
+            float: left;
+        }
+
+        header #branding h1 {
+            margin: 0;
+        }
+
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+
+        #showcase {
+            min-height: 400px;
+            background: url('https://example.com/your-image.jpg') no-repeat center center/cover;
+            text-align: center;
+            color: #fff;
+        }
+
+        #showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+
+        #showcase p {
+            font-size: 20px;
+            color: green;
+        }
+
+        .info {
+            margin: 20px 0;
+        }
+
+        .info img {
+            width: 100%;
+            height: auto;
+        }
+
+        .info h2 {
+            text-align: center;
+            padding: 10px;
+            color: green;
+        }
+
+        .info p {
+            color: green;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 30px;
+            margin-top: 30px;
+        }
+
+        }
+        }
+        }
+        }
+        }
+        }
+    </style>
+{% endblock %}
+{% block main %}
+<body>
+<div id="showcase">
+    <div class="container">
+        <h1>{% blocktrans %}Welcome to Kyrgyzstan{% endblocktrans %}</h1>
+        <p>{% blocktrans %}Discover the land of mountains and rich cultural heritage{% endblocktrans %}</p>
+    </div>
+</div>
+
+<div class="container">
+    <section id="kyrgyzstan" class="info">
+        <img src="{% static 'img/kyrgyzstan.jpg' %}" alt="Kyrgyzstan">
+        <h2>{% blocktrans %}Kyrgyzstan: A Land of Mountains, Nomads, and Tradition{% endblocktrans %}</h2>
+        <p>{% blocktrans %}Kyrgyzstan is known for its stunning natural beauty, featuring towering peaks, alpine lakes, and a strong nomadic heritage.{% endblocktrans %}</p>
+        <ul>
+            <p>{% blocktrans %}Nestled in the heart of Central Asia, Kyrgyzstan is a country where nomadic traditions and unspoiled landscapes define the culture and way of life. From the vibrant capital of Bishkek to the remote mountain villages, Kyrgyzstan offers visitors a unique experience.{% endblocktrans %}</p>
+
+            <h2>{% blocktrans %}History{% endblocktrans %}</h2>
+            <p>{% blocktrans %}Kyrgyzstan’s history is intertwined with nomadic cultures and the Silk Road. It was influenced by various empires, including the Mongols, Russians, and Soviets. Today, it is an independent country with a strong sense of identity and pride in its heritage.{% endblocktrans %}</p>
+
+            <h2>{% blocktrans %}Culture{% endblocktrans %}</h2>
+            <p>{% blocktrans %}The Kyrgyz culture is deeply rooted in nomadic traditions, with strong influences from Turkish, Persian, and Russian cultures. Yurts, horses, and traditional music are central to life in Kyrgyzstan, and festivals often celebrate the country's nomadic past. Kyrgyz cuisine, such as beshbarmak and kymyz, reflects its pastoral roots.{% endblocktrans %}</p>
+
+            <h2>{% blocktrans %}Modern Kyrgyzstan{% endblocktrans %}</h2>
+            <p>{% blocktrans %}Since gaining independence from the Soviet Union in 1991, Kyrgyzstan has worked to modernize while preserving its cultural heritage. Bishkek, the capital, is a growing city with Soviet-era architecture alongside modern developments.{% endblocktrans %}</p>
+
+            <h2>{% blocktrans %}Tourism{% endblocktrans %}</h2>
+            <p>{% blocktrans %}Kyrgyzstan is becoming a popular destination for adventure tourism, especially trekking, horse riding, and mountaineering in the Tian Shan and Pamir-Alay mountain ranges. Visitors are also drawn to its beautiful lakes, such as Issyk-Kul, and the traditional lifestyle of its nomadic people.{% endblocktrans %}</p>
+        </ul>
+    </section>
+
+    <section id="bishkek" class="info">
+        <img src="{% static 'img/bishkek.jpg' %}" alt="Bishkek">
+        <h2>{% blocktrans %}Bishkek: The Growing Capital{% endblocktrans %}</h2>
+        <p>{% blocktrans %}Bishkek, the capital of Kyrgyzstan, is a bustling city with wide boulevards, green spaces, and a rich history.{% endblocktrans %}</p>
+        <ul>
+            <li><strong>{% blocktrans %}Ala-Too Square{% endblocktrans %}</strong>{% blocktrans %}: The central square of Bishkek, known for its monuments and national celebrations.{% endblocktrans %}</li>
+            <li><strong>{% blocktrans %}Osh Bazaar{% endblocktrans %}</strong>{% blocktrans %}: A lively market offering a wide variety of local produce, spices, and handmade goods.{% endblocktrans %}</li>
+            <li><strong>{% blocktrans %}Victory Square{% endblocktrans %}</strong>{% blocktrans %}: A significant memorial dedicated to the victory in World War II.{% endblocktrans %}</li>
+        </ul>
+    </section>
+
+    <section id="issyk-kul" class="info">
+        <img src="{% static 'img/issyk-kul.jpg' %}" alt="Issyk-Kul">
+        <h2>{% blocktrans %}Issyk-Kul: The Pearl of Central Asia{% endblocktrans %}</h2>
+        <p>{% blocktrans %}Issyk-Kul is one of the largest alpine lakes in the world, renowned for its clear waters and stunning mountain backdrop.{% endblocktrans %}</p>
+        <ul>
+            <li><strong>{% blocktrans %}Cholpon-Ata{% endblocktrans %}</strong>{% blocktrans %}: A resort town on the shores of Issyk-Kul, famous for its petroglyphs and beach resorts.{% endblocktrans %}</li>
+            <li><strong>{% blocktrans %}Barskoon Gorge{% endblocktrans %}</strong>{% blocktrans %}: A dramatic gorge located near Issyk-Kul, offering breathtaking views and hiking opportunities.{% endblocktrans %}</li>
+            <li><strong>{% blocktrans %}Skazka Canyon{% endblocktrans %}</strong>{% blocktrans %}: A colorful canyon near Issyk-Kul known for its surreal rock formations.{% endblocktrans %}</li>
+        </ul>
+    </section>
+
+    <section id="osh" class="info">
+        <img src="{% static 'img/osh.jpg' %}" alt="Osh">
+        <h2>{% blocktrans %}Osh: The Ancient City{% endblocktrans %}</h2>
+        <p>{% blocktrans %}Osh, one of the oldest cities in Central Asia, is a key stop along the ancient Silk Road and known for its rich cultural heritage.{% endblocktrans %}</p>
+        <ul>
+            <li><strong>{% blocktrans %}Sulayman Mountain{% endblocktrans %}</strong>{% blocktrans %}: A UNESCO World Heritage Site, considered a sacred mountain in Islam.{% endblocktrans %}</li>
+            <li><strong>{% blocktrans %}Osh Bazaar{% endblocktrans %}</strong>{% blocktrans %}: One of the largest and most vibrant markets in Central Asia, reflecting the multicultural history of Osh.{% endblocktrans %}</li>
+            <li><strong>{% blocktrans %}Russian Orthodox Church{% endblocktrans %}</strong>{% blocktrans %}: A historic church reflecting the city's diverse religious heritage.{% endblocktrans %}</li>
+        </ul>
+    </section>
+
+    <section id="karakol" class="info">
+        <img src="{% static 'img/karakol.jpg' %}" alt="Karakol">
+        <h2>{% blocktrans %}Karakol: Gateway to Adventure{% endblocktrans %}</h2>
+        <p>{% blocktrans %}Karakol, located near the eastern end of Issyk-Kul, is a gateway to the mountains and a center for outdoor activities like trekking and skiing.{% endblocktrans %}</p>
+        <ul>
+            <li><strong>{% blocktrans %}Dungan Mosque{% endblocktrans %}</strong>{% blocktrans %}: A unique wooden mosque built by the Dungan people without using any nails.{% endblocktrans %}</li>
+            <li><strong>{% blocktrans %}Holy Trinity Cathedral{% endblocktrans %}</strong>{% blocktrans %}: A wooden Russian Orthodox Church in Karakol, known for its architecture and cultural significance.{% endblocktrans %}</li>
+            <li><strong>{% blocktrans %}Jeti-Ögüz Gorge{% endblocktrans %}</strong>{% blocktrans %}: A spectacular gorge famous for its red rock formations and hiking trails.{% endblocktrans %}</li>
+        </ul>
+    </section>
+</div>
+</body>
+{% endblock %}

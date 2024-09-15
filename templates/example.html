@@ -1,0 +1,205 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SilkRoute Navbar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Navbar container */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #fff;
+        }
+
+        /* Left side (logo, email, phone) */
+        .navbar-left {
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar-left img {
+            width: 120px; /* Adjust logo size */
+            margin-right: 15px;
+        }
+
+        .navbar-left .contact-info {
+            font-size: 14px;
+            color: #6aa84f;
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar-left .contact-info a {
+            text-decoration: none;
+            color: #6aa84f;
+            margin-right: 10px;
+        }
+
+        .navbar-left .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        .navbar-left .contact-info span {
+            margin-right: 15px;
+        }
+
+        /* Right side (nav links, social media, language switch) */
+        .navbar-right {
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar-right ul {
+            list-style: none;
+            display: flex;
+            margin-right: 30px;
+        }
+
+        .navbar-right ul li {
+            margin: 0 15px;
+        }
+
+        .navbar-right ul li a {
+            text-decoration: none;
+            color: #333;
+            font-size: 16px;
+            transition: color 0.3s;
+        }
+
+        .navbar-right ul li a:hover {
+            color: #6aa84f;
+        }
+
+        /* Social media icons */
+        .navbar-right .social-icons {
+            display: flex;
+            margin-right: 30px;
+        }
+
+        .navbar-right .social-icons a {
+            margin: 0 10px;
+            color: #6aa84f;
+            font-size: 20px;
+            text-decoration: none;
+        }
+
+        .navbar-right .social-icons a:hover {
+            color: #3c763d;
+        }
+
+        /* Multilingual Switch */
+        .multilang-wrap {
+            display: flex;
+            align-items: center;
+            margin-left: 20px;
+        }
+
+        .multilang-wrap ul {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            margin: 0;
+        }
+
+        .multilang-wrap ul li {
+            display: flex;
+            align-items: center;
+            margin-right: 15px;
+        }
+
+        .multilang-wrap ul li a {
+            text-decoration: none;
+            color: #6aa84f;
+            font-size: 1.25rem;
+            margin-right: 5px;
+        }
+
+        .multilang-wrap ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .multilang-wrap ul li img {
+            width: 20px;
+            height: auto;
+            margin-left: 5px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <!-- Left Section: Logo and Contact Info -->
+        <div class="navbar-left">
+            <img src="logo.png" alt="SilkRoute Logo"> <!-- Replace with your logo -->
+            <div class="contact-info">
+                <span>📧 <a href="mailto:info@silkroute.uz">info@silkroute.uz</a></span>
+                <span>📞 <a href="tel:+998908182022">+99890 8182022</a></span>
+            </div>
+        </div>
+
+        <!-- Right Section: Nav Links, Social Media, and Languages -->
+        <div class="navbar-right">
+            <!-- Nav Links -->
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Об Узбекистане</a></li>
+                <li><a href="#">Услуги</a></li>
+                <li><a href="#">Туры</a></li>
+                <li><a href="#">Связаться с нами</a></li>
+            </ul>
+
+            <!-- Social Media Icons -->
+            <div class="social-icons">
+                <a class="text-primary px-3" href="https://www.facebook.com/silkroute.uz">
+                    <i class="fab fa-facebook-f" style="font-size: 1.5rem;"></i>
+                </a>
+                <a class="text-primary px-3" href="">
+                    <i class="fab fa-twitter" style="font-size: 1.5rem;"></i>
+                </a>
+                <a class="text-primary px-3" href="https://vk.com/id845402373">
+                    <i class="fab fa-vk" style="font-size: 1.5rem;"></i>
+                </a>
+                <a class="text-primary px-3" href="https://www.instagram.com/silkroute_travel?igsh=M2tnMmtzc250cDdk">
+                    <i class="fab fa-instagram" style="font-size: 1.5rem;"></i>
+                </a>
+                <a class="text-primary px-3" href="https://t.me/Silk_Route_Travel">
+                    <i class="fab fa-telegram-plane" style="font-size: 1.5rem;"></i>
+                </a>
+            </div>
+
+            <!-- Multilingual Switch -->
+            <div class="multilang-wrap ml-3">
+                <ul class="wpm-language-switcher switcher-list" style="font-size: 1.25rem;">
+                    <li class="item-language-en">
+                        <a href="{% url 'set_language' %}?next={{ request.path }}&language=en">English</a>
+                        <img src="{% static 'img/icons8-united-kingdom-20.png' %}" alt="En">
+                    </li>
+                    <li class="item-language-ru">
+                        <a href="{% url 'set_language' %}?next={{ request.path }}&language=ru">Русский</a>
+                        <img src="{% static 'img/icons8-russia-20.png' %}" alt="Ru">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

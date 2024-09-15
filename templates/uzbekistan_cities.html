@@ -1,0 +1,253 @@
+{% extends 'base/base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}
+    Uzbekistan Cities
+{% endblock %}
+{% block extra_css %}
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        {#header {#}
+        {#    background: #333;#}
+        {#    color: #fff;#}
+        {#    padding-top: 30px;#}
+        {#    min-height: 70px;#}
+        {#    border-bottom: #0779e4 3px solid;#}
+        {
+        #}#}
+
+        {#header a {#}
+        {#    color: #fff;#}
+        {#    text-decoration: none;#}
+        {#    text-transform: uppercase;#}
+        {#    font-size: 16px;#}
+        {
+        #}#}
+        {##}
+        {#header ul {#}
+        {#    padding: 0;#}
+        {#    list-style: none;#}
+        {
+        #}#}
+        {##}
+        {#header li {#}
+        {#    float: left;#}
+        {#    display: inline;#}
+        {#    padding: 0 20px 0 20px;#}
+        {
+        #}#}
+
+        header #branding {
+            float: left;
+        }
+
+        header #branding h1 {
+            margin: 0;
+        }
+
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+
+        #showcase {
+            min-height: 400px;
+            background: url('https://example.com/your-image.jpg') no-repeat center center/cover;
+            text-align: center;
+            color: #fff;
+        }
+
+        #showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+
+        #showcase p {
+            font-size: 20px;
+            color: green;
+        }
+
+        .info {
+            margin: 20px 0;
+        }
+
+        .info img {
+            width: 100%;
+            height: auto;
+        }
+
+        .info h2 {
+            text-align: center;
+            padding: 10px;
+            color: green;
+        }
+
+        .info p {
+            color: green;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 30px;
+            margin-top: 30px;
+        }
+
+        }
+        }
+        }
+        }
+    </style>
+{% endblock %}
+
+{% block main %}
+    <body>
+    <div id="showcase">
+        <div class="container">
+            <h1>{% blocktrans %}Welcome to Uzbekistan{% endblocktrans %}</h1>
+            <p>{% blocktrans %}Explore the heart of Central Asia{% endblocktrans %}</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <section id="uzbekistan" class="info">
+            <img src="{% static 'img/tashkent.jpg' %}" alt="Uzbekistan">
+            <h2>{% blocktrans %}Uzbekistan: A Journey Through Silk Road Heritage, Cultural Riches, and Modern
+                Ambitions{% endblocktrans %}</h2>
+            <p>{% blocktrans %}Exploring Uzbekistan: Where Ancient Traditions Meet Vibrant
+                Modernity{% endblocktrans %}</p>
+            <ul>
+                <p>{% blocktrans %}Uzbekistan, located in Central Asia, is a country rich in history, culture, and
+                    natural beauty. As
+                    one of the major hubs on the ancient Silk Road, Uzbekistan has been a crossroads of civilizations
+                    for centuries.{% endblocktrans %}</p>
+
+                <h2>{% blocktrans %}History{% endblocktrans %}</h2>
+                <p>{% blocktrans %}Uzbekistan boasts a fascinating history that dates back thousands of years. It is
+                    home to ancient
+                    cities like Samarkand, Bukhara, and Khiva, which have long been centers of trade, culture, and
+                    learning. These cities feature stunning architectural masterpieces, including mosques, madrasas, and
+                    mausoleums that reflect the country's Islamic heritage.{% endblocktrans %}</p>
+
+                <h2>{% blocktrans %}Culture{% endblocktrans %}</h2>
+                <p>{% blocktrans %}The culture of Uzbekistan is a vibrant blend of Persian, Turkic, and Russian
+                    influences. Traditional
+                    music, dance, and handicrafts are an integral part of Uzbek life. The country's cuisine is also
+                    renowned, with dishes like plov (a hearty rice dish), shashlik (grilled meat skewers), and various
+                    breads and pastries.{% endblocktrans %}</p>
+
+                <h2>{% blocktrans %}Modern Uzbekistan{% endblocktrans %}</h2>
+                <p>{% blocktrans %}Today, Uzbekistan is a country on the rise. Since gaining independence in 1991, it
+                    has been working
+                    to modernize its economy and infrastructure while preserving its rich cultural heritage. Tashkent,
+                    the capital, is a modern city with a blend of Soviet-era architecture and contemporary
+                    developments.{% endblocktrans %}</p>
+
+                <h2>{% blocktrans %}Tourism{% endblocktrans %}</h2>
+                <p>{% blocktrans %}Uzbekistan is becoming an increasingly popular tourist destination. Visitors are
+                    drawn to its
+                    historical sites, bustling bazaars, and warm hospitality. Whether exploring the ancient streets of
+                    Samarkand or enjoying the tranquility of the Uzbek countryside, there is much to discover in this
+                    captivating country.{% endblocktrans %}</p>
+            </ul>
+        </section>
+        <section id="tashkent" class="info">
+            <img src="{% static 'img/tashkent.jpg' %}" alt="Tashkent">
+            <h2>{% blocktrans %}Tashkent: The Vibrant Capital{% endblocktrans %}</h2>
+            <p>{% blocktrans %}Tashkent, the capital city of Uzbekistan, is a bustling metropolis where modernity meets
+                tradition.{% endblocktrans %}</p>
+            <ul>
+                <li><strong>{% blocktrans %}Khast Imam Complex{% endblocktrans %}</strong>{% blocktrans %}: A spiritual
+                    center housing the famous Quran of Caliph Uthman.{% endblocktrans %}
+                </li>
+                <li><strong>{% blocktrans %}Chorsu Bazaar{% endblocktrans %}</strong>{% blocktrans %}: A lively market
+                    offering a glimpse into local life with fresh
+                    produce, spices, and traditional crafts.{% endblocktrans %}
+                </li>
+                <li><strong>{% blocktrans %}Amir Timur Square{% endblocktrans %}</strong>{% blocktrans %}: A central
+                    landmark surrounded by important buildings and a
+                    statue of the great conqueror.{% endblocktrans %}
+                </li>
+            </ul>
+        </section>
+
+        <section id="samarkand" class="info">
+            <img src="{% static 'img/samarkand2.jpg' %}" alt="Samarkand">
+            <h2>{% blocktrans %}Samarkand: The Jewel of the Silk Road{% endblocktrans %}</h2>
+            <p>{% blocktrans %}Samarkand, one of the oldest inhabited cities in Central Asia, is a treasure trove of
+                historical and
+                architectural wonders.{% endblocktrans %}</p>
+            <ul>
+                <li><strong>{% blocktrans %}Registan Square{% endblocktrans %}</strong>{% blocktrans %}: A magnificent
+                    ensemble of three madrasahs with stunning Islamic
+                    architecture.{% endblocktrans %}
+                </li>
+                <li><strong>{% blocktrans %}Shah-i-Zinda{% endblocktrans %}</strong>{% blocktrans %}: A necropolis with
+                    intricately decorated mausoleums.{% endblocktrans %}</li>
+                <li><strong>{% blocktrans %}Bibi-Khanym Mosque{% endblocktrans %}</strong>{% blocktrans %}: Once one of
+                    the largest mosques in the Islamic world, it still
+                    impresses with its grandeur.{% endblocktrans %}
+                </li>
+            </ul>
+        </section>
+
+        <section id="bukhara" class="info">
+            <img src="{% static 'img/bukhara.jpg' %}" alt="Bukhara">
+            <h2>{% blocktrans %}Bukhara: The Living Museum{% endblocktrans %}</h2>
+            <p>{% blocktrans %}Bukhara, a UNESCO World Heritage Site, is a city where history is alive in every
+                corner.{% endblocktrans %}</p>
+            <ul>
+                <li><strong>{% blocktrans %}The Ark Fortress{% endblocktrans %}</strong>{% blocktrans %}: A massive
+                    fortress that has been a symbol of power for centuries.{% endblocktrans %}
+                </li>
+                <li><strong>{% blocktrans %}Poi Kalyan Complex{% endblocktrans %}</strong>{% blocktrans %}: Featuring
+                    the Kalyan Minaret, Kalyan Mosque, and Mir-i-Arab
+                    Madrasah.{% endblocktrans %}
+                </li>
+                <li><strong>{% blocktrans %}Lyab-i Hauz{% endblocktrans %}</strong>{% blocktrans %}: A picturesque plaza
+                    centered around a pool, surrounded by historic
+                    buildings.{% endblocktrans %}
+                </li>
+            </ul>
+        </section>
+        <section id="khiva" class="info">
+            <img src="{% static 'img/98.jpg' %}" alt="Khiva">
+            <h2>{% blocktrans %}Khiva: The Ancient Oasis{% endblocktrans %}</h2>
+            <p>{% blocktrans %}Khiva, an ancient city located on the edge of the Kyzylkum Desert, is renowned for its
+                well-preserved
+                architecture and historical significance.{% endblocktrans %}</p>
+            <ul>
+                <li><strong>{% blocktrans %}Ichan Kala{% endblocktrans %}</strong>{% blocktrans %}: The historic inner
+                    town, a UNESCO World Heritage Site, featuring an
+                    impressive collection of mosques, minarets, and madrasahs.{% endblocktrans %}
+                </li>
+                <li><strong>{% blocktrans %}Khiva Minaret{% endblocktrans %}</strong>{% blocktrans %}: Known for its
+                    distinctive blue tile work and panoramic views of the
+                    city.{% endblocktrans %}
+                </li>
+                <li><strong>{% blocktrans %}Pakhlavan Makhmud Mausoleum{% endblocktrans %}</strong>{% blocktrans %}: An
+                    important religious site, known for its intricate
+                    tile work and historical significance.{% endblocktrans %}
+                </li>
+            </ul>
+        </section>
+    </div>
+
+    </body>
+{% endblock %}

@@ -1,0 +1,831 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-28 19:43+0500\n"
+"PO-Revision-Date: 2024-08-28 18:52+0500\n"
+"Last-Translator:   <>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Translated-Using: django-rosetta 0.10.0\n"
+
+#: apps/models.py:81
+msgid "Номер платежа в системе CLICK"
+msgstr ""
+
+#: apps/models.py:84
+msgid "Сумма оплаты (в сумах)"
+msgstr ""
+
+#: apps/models.py:90
+msgid "Выполняемое действие"
+msgstr ""
+
+#: apps/models.py:93
+msgid "Статус"
+msgstr ""
+
+#: apps/utils.py:90
+msgid "SIGN CHECK FAILED!"
+msgstr ""
+
+#: apps/utils.py:94
+msgid "Action not found"
+msgstr ""
+
+#: apps/utils.py:98
+msgid "Order not found"
+msgstr ""
+
+#: apps/utils.py:103
+msgid "Incorrect parameter amount"
+msgstr ""
+
+#: apps/utils.py:107
+msgid "Already paid"
+msgstr ""
+
+#: apps/utils.py:113
+msgid "Transaction not found"
+msgstr ""
+
+#: apps/utils.py:119
+msgid "Transaction cancelled"
+msgstr ""
+
+#: templates/about.html:148
+msgid "Welcome to Uzbekistan"
+msgstr "Добро пожаловать в Узбекистан"
+
+#: templates/about.html:149
+msgid "Explore the heart of Central Asia"
+msgstr "Ваш проводник в Центральную Азию"
+
+#: templates/about.html:156
+msgid ""
+"Uzbekistan: A Journey Through Silk Road Heritage, Cultural Riches, and "
+"Modern\n"
+"                Ambitions"
+msgstr ""
+"Узбекистан: Путешествие по наследию Шелкового пути, культурным богатствам и "
+"современным амбициям"
+
+#: templates/about.html:158
+msgid "Exploring Uzbekistan: Where Ancient Traditions Meet Vibrant Modernity"
+msgstr ""
+"Исследуя Узбекистан: Там, где древние традиции встречаются с яркой "
+"современностью."
+
+#: templates/about.html:160
+msgid ""
+"Uzbekistan, located in Central Asia, is a country rich in history, culture, "
+"and natural beauty. As\n"
+"                    one of the major hubs on the ancient Silk Road, "
+"Uzbekistan has been a crossroads of civilizations\n"
+"                    for centuries."
+msgstr ""
+"Узбекистан, расположенный в Центральной Азии, - это страна, богатая "
+"историей, культурой и природной красотой. Как один из главных узлов на "
+"древнем Шелковом пути, Узбекистан на протяжении веков был перекрестком "
+"цивилизаций."
+
+#: templates/about.html:164
+msgid "History"
+msgstr "История"
+
+#: templates/about.html:165
+msgid ""
+"Uzbekistan boasts a fascinating history that dates back thousands of years. "
+"It is home to ancient\n"
+"                    cities like Samarkand, Bukhara, and Khiva, which have "
+"long been centers of trade, culture, and\n"
+"                    learning. These cities feature stunning architectural "
+"masterpieces, including mosques, madrasas, and\n"
+"                    mausoleums that reflect the country's Islamic heritage."
+msgstr ""
+"Узбекистан может похвастаться увлекательной историей, насчитывающей тысячи "
+"лет. Здесь находятся древние города, такие как Самарканд, Бухара и Хива, "
+"которые на протяжении долгого времени были центрами торговли, культуры и "
+"образования. Эти города известны своими архитектурными шедеврами, включая "
+"мечети, медресе и мавзолеи, отражающие исламское наследие страны."
+
+#: templates/about.html:170
+msgid "Culture"
+msgstr "Культура"
+
+#: templates/about.html:171
+msgid ""
+"The culture of Uzbekistan is a vibrant blend of Persian, Turkic, and Russian "
+"influences. Traditional\n"
+"                    music, dance, and handicrafts are an integral part of "
+"Uzbek life. The country's cuisine is also\n"
+"                    renowned, with dishes like plov (a hearty rice dish), "
+"shashlik (grilled meat skewers), and various\n"
+"                    breads and pastries."
+msgstr ""
+"Культура Узбекистана – это яркое сочетание персидского, тюркского и русского "
+"влияний. Традиционная музыка, танцы и ремесла являются неотъемлемой частью "
+"жизни узбеков. Также известна кухня страны, в том числе блюда, такие как "
+"плов, шашлык и разнообразные хлеба и выпечки."
+
+#: templates/about.html:176
+msgid "Modern Uzbekistan"
+msgstr "Современный Узбекистан"
+
+#: templates/about.html:177
+msgid ""
+"Today, Uzbekistan is a country on the rise. Since gaining independence in "
+"1991, it has been working\n"
+"                    to modernize its economy and infrastructure while "
+"preserving its rich cultural heritage. Tashkent,\n"
+"                    the capital, is a modern city with a blend of Soviet-era "
+"architecture and contemporary\n"
+"                    developments."
+msgstr ""
+"Сегодня Узбекистан – это страна, находящаяся на подъеме. С момента обретения "
+"независимости в 1991 году он работает над модернизацией своей экономики и "
+"инфраструктуры, сохраняя при этом свое богатое культурное наследие. Ташкент, "
+"столица страны, представляет собой современный город, сочетающий советскую "
+"архитектуру с современными постройками."
+
+#: templates/about.html:182
+msgid "Tourism"
+msgstr "Туризм"
+
+#: templates/about.html:183
+msgid ""
+"Uzbekistan is becoming an increasingly popular tourist destination. Visitors "
+"are drawn to its\n"
+"                    historical sites, bustling bazaars, and warm "
+"hospitality. Whether exploring the ancient streets of\n"
+"                    Samarkand or enjoying the tranquility of the Uzbek "
+"countryside, there is much to discover in this\n"
+"                    captivating country."
+msgstr ""
+"Узбекистан становится все более популярным туристическим направлением. "
+"Посетителей привлекают его исторические памятники, шумные базары и "
+"гостеприимство местных жителей. Независимо от того, исследуете ли вы древние "
+"улицы Самарканда или наслаждаетесь спокойствием узбекской деревни, в этой "
+"очаровательной стране есть что открыть для себя."
+
+#: templates/about.html:191
+msgid "Tashkent: The Vibrant Capital"
+msgstr "Ташкент: Яркая столица"
+
+#: templates/about.html:192
+msgid ""
+"Tashkent, the capital city of Uzbekistan, is a bustling metropolis where "
+"modernity meets tradition."
+msgstr ""
+"Ташкент, столица Узбекистана, - это оживленный мегаполис, где современность "
+"встречается с традицией."
+
+#: templates/about.html:194
+msgid "Khast Imam Complex"
+msgstr "Хаст-Имам Комплекс"
+
+#: templates/about.html:194
+msgid ": A spiritual center housing the famous Quran of Caliph Uthman."
+msgstr ": Духовный центр, в котором хранится знаменитый Коран халифа Усмана."
+
+#: templates/about.html:196
+msgid "Chorsu Bazaar"
+msgstr "Чорсу Базар"
+
+#: templates/about.html:196
+msgid ""
+": A lively market offering a glimpse into local life with fresh\n"
+"                    produce, spices, and traditional crafts."
+msgstr ""
+": Оживленный рынок, предлагающий взглянуть на местную жизнь с его свежими "
+"продуктами, специями и традиционными ремеслами."
+
+#: templates/about.html:199
+msgid "Amir Timur Square"
+msgstr "Площадь Амира Тимура"
+
+#: templates/about.html:199
+msgid ""
+": A central landmark surrounded by important buildings and a\n"
+"                    statue of the great conqueror."
+msgstr ""
+": Центральная достопримечательность, окруженная важными зданиями и статуей "
+"великого завоевателя."
+
+#: templates/about.html:207
+msgid "Samarkand: The Jewel of the Silk Road"
+msgstr "Самарканд: Жемчужина Шелкового пути"
+
+#: templates/about.html:208
+msgid ""
+"Samarkand, one of the oldest inhabited cities in Central Asia, is a treasure "
+"trove of historical and\n"
+"                architectural wonders."
+msgstr ""
+"Самарканд, один из старейших населенных городов Центральной Азии, является "
+"сокровищницей исторических и архитектурных чудес."
+
+#: templates/about.html:211
+msgid "Registan Square"
+msgstr "Площадь Регистан"
+
+#: templates/about.html:211
+msgid ""
+": A magnificent ensemble of three madrasahs with stunning Islamic\n"
+"                    architecture."
+msgstr ""
+": Великолепный ансамбль из трех медресе с потрясающей исламской архитектурой."
+
+#: templates/about.html:214
+msgid "Shah-i-Zinda"
+msgstr "Шах-и-Зинда"
+
+#: templates/about.html:214
+msgid ": A necropolis with intricately decorated mausoleums."
+msgstr ": Некрополь с искусно украшенными мавзолеями."
+
+#: templates/about.html:215
+msgid "Bibi-Khanym Mosque"
+msgstr "Мечеть Биби-Ханым"
+
+#: templates/about.html:215
+msgid ""
+": Once one of the largest mosques in the Islamic world, it still\n"
+"                    impresses with its grandeur."
+msgstr ""
+": Когда-то одна из крупнейших мечетей в исламском мире, она до сих пор "
+"поражает своим величием."
+
+#: templates/about.html:223
+msgid "Bukhara: The Living Museum"
+msgstr "Бухара: Живой музей"
+
+#: templates/about.html:224
+msgid ""
+"Bukhara, a UNESCO World Heritage Site, is a city where history is alive in "
+"every corner."
+msgstr ""
+"Бухара, объект всемирного наследия ЮНЕСКО, - это город, в котором история "
+"оживает на каждом шагу."
+
+#: templates/about.html:226
+msgid "The Ark Fortress"
+msgstr "Крепость Арк"
+
+#: templates/about.html:226
+msgid ": A massive fortress that has been a symbol of power for centuries."
+msgstr ": Массивная крепость, символизировавшая власть на протяжении веков."
+
+#: templates/about.html:228
+msgid "Poi Kalyan Complex"
+msgstr "Комплекс Пои-Калян"
+
+#: templates/about.html:228
+msgid ""
+": Featuring the Kalyan Minaret, Kalyan Mosque, and Mir-i-Arab\n"
+"                    Madrasah."
+msgstr ": Включает минарет Калян, мечеть Калян и медресе Мир-и-Араб."
+
+#: templates/about.html:231
+msgid "Lyab-i Hauz"
+msgstr "Ляби-Хауз"
+
+#: templates/about.html:231
+msgid ""
+": A picturesque plaza centered around a pool, surrounded by historic\n"
+"                    buildings."
+msgstr ""
+": Живописная площадь, окруженная историческими зданиями вокруг бассейна."
+
+#: templates/about.html:238
+msgid "Khiva: The Ancient Oasis"
+msgstr "Хива: Древний оазис"
+
+#: templates/about.html:239
+msgid ""
+"Khiva, an ancient city located on the edge of the Kyzylkum Desert, is "
+"renowned for its well-preserved\n"
+"                architecture and historical significance."
+msgstr ""
+"Хива, древний город на краю пустыни Кызылкум, известен своей хорошо "
+"сохранившейся архитектурой и исторической значимостью."
+
+#: templates/about.html:242
+msgid "Ichan Kala"
+msgstr "Ичан-Кала"
+
+#: templates/about.html:242
+msgid ""
+": The historic inner town, a UNESCO World Heritage Site, featuring an\n"
+"                    impressive collection of mosques, minarets, and "
+"madrasahs."
+msgstr ""
+": Историческая внутренняя часть города, объект всемирного наследия ЮНЕСКО, с "
+"впечатляющей коллекцией мечетей, минаретов и медресе."
+
+#: templates/about.html:245
+msgid "Khiva Minaret"
+msgstr "Минарет Хивы"
+
+#: templates/about.html:245
+msgid ""
+": Known for its distinctive blue tile work and panoramic views of the\n"
+"                    city."
+msgstr ""
+": Известен своей характерной синей плиткой и панорамными видами на город."
+
+#: templates/about.html:248
+msgid "Pakhlavan Makhmud Mausoleum"
+msgstr "Мавзолей Пахлаван Махмуда"
+
+#: templates/about.html:248
+msgid ""
+": An important religious site, known for its intricate\n"
+"                    tile work and historical significance."
+msgstr ""
+": Важное религиозное место, известное своей сложной плиткой и исторической "
+"значимостью."
+
+#: templates/base/base.html:51
+msgid ""
+"\n"
+"                        Home"
+msgstr ""
+"\n"
+"Главная"
+
+#: templates/base/base.html:54
+msgid ""
+"\n"
+"                        About Us"
+msgstr ""
+"\n"
+"Об Узбекистане"
+
+#: templates/base/base.html:57
+msgid ""
+"\n"
+"                        Services"
+msgstr ""
+"\n"
+"Услуги"
+
+#: templates/base/base.html:59
+msgid ""
+"Tour\n"
+"                        Packages"
+msgstr "Туры"
+
+#: templates/base/base.html:61 templates/index.html:712
+msgid ""
+"\n"
+"                        Contact Us"
+msgstr ""
+"\n"
+"Связаться с нами"
+
+#: templates/base/base.html:178 templates/index.html:680
+msgid ""
+"Welcome to Silkroute Travel Agency, your gateway to unforgettable journeys "
+"across the\n"
+"                globe.\n"
+"                Named after the legendary Silk Road, our agency embodies the "
+"spirit of exploration,\n"
+"                adventure, and cultural exchange. Whether you're seeking "
+"historical wonders, natural beauty,\n"
+"                or vibrant cultures, we are here to make your travel dreams "
+"a reality."
+msgstr ""
+"Добро пожаловать в туристическое агентство Silkroute – ваш проводник в "
+"незабываемые путешествия по всему миру.\n"
+"\n"
+"Названное в честь легендарного Шелкового пути, наше агентство воплощает дух "
+"исследований, приключений и культурного обмена. Независимо от того, ищете ли "
+"вы исторические чудеса, природную красоту или яркие культуры, мы здесь, "
+"чтобы воплотить ваши мечты о путешествиях в реальность."
+
+#: templates/base/base.html:183
+msgid ""
+"Follow\n"
+"                Us"
+msgstr "Подписывайтесь на нас"
+
+#: templates/base/base.html:196 templates/index.html:698
+msgid ""
+"Our\n"
+"                Services"
+msgstr ""
+"Наши\n"
+"услуги"
+
+#: templates/base/base.html:200 templates/index.html:52
+#: templates/index.html:702
+msgid "About Us"
+msgstr "Об Узбекистане"
+
+#: templates/base/base.html:204 templates/index.html:55
+#: templates/index.html:706 templates/service.html:10 templates/service.html:14
+#: templates/service.html:77
+msgid "Services"
+msgstr "Услуги"
+
+#: templates/base/base.html:206 templates/blog.html:12 templates/blog.html:16
+#: templates/index.html:708
+msgid "Packages"
+msgstr "Туры"
+
+#: templates/base/base.html:209
+msgid ""
+"\n"
+"                    Contact Us"
+msgstr ""
+"\n"
+"Связаться с нами"
+
+#: templates/base/base.html:223
+msgid ""
+"Contact\n"
+"                Us"
+msgstr "Связаться с нами"
+
+#: templates/base/base.html:225 templates/index.html:731
+msgid "3 Block Chorsu, Shaykhantakhur district,Tashkent, Uzbekistan"
+msgstr "г.Ташкент, Шайхантахурский район, массив Чорсу , дом 3."
+
+#: templates/blog.html:14 templates/contact.html:14 templates/index.html:49
+#: templates/service.html:12 templates/single.html:13
+msgid "Home"
+msgstr "Главная"
+
+#: templates/contact.html:11 templates/contact.html:16 templates/index.html:728
+msgid "Contact Us"
+msgstr "Связаться с нами"
+
+#: templates/contact.html:87
+msgid "Contact For Any Query"
+msgstr ""
+
+#: templates/contact.html:98
+msgid "Your Name"
+msgstr "Ваше имя"
+
+#: templates/contact.html:104
+msgid "Your Email"
+msgstr "Ваш адрес электронной почты"
+
+#: templates/contact.html:111
+msgid "Subject"
+msgstr "Тема"
+
+#: templates/contact.html:117
+msgid "Message"
+msgstr ""
+
+#: templates/contact.html:118
+msgid "Please enter your message"
+msgstr "Пожалуйста, введите ваше сообщение"
+
+#: templates/contact.html:122
+msgid ""
+"Send\n"
+"                                    Message"
+msgstr ""
+"Отправить\n"
+"сообщение"
+
+#: templates/index.html:57
+msgid "Tour Packages"
+msgstr "Туры"
+
+#: templates/index.html:59
+msgid "Contact"
+msgstr "Связаться с нами"
+
+#: templates/index.html:134
+msgid "Your guide to THE Central Asia"
+msgstr "Ваш проводник в Центральную Азию"
+
+#: templates/index.html:145
+msgid "Discover the history of Central Asia with Silk Route"
+msgstr "Откройте всю историю Центральной Азии вместе с Silk Route"
+
+#: templates/index.html:239
+msgid "We offer the best tour packages to fit your budget."
+msgstr "Мы предлагаем лучшие туристические пакеты в рамках вашего бюджета"
+
+#: templates/index.html:240
+msgid ""
+"\n"
+"                        SILK ROUTE DMC (Destination Management Company) "
+"welcomes you to an extraordinary journey through\n"
+"                        the East, delving deep into traditions and histories "
+"spanning thousands of years. We are\n"
+"                        committed to providing you with an unforgettable "
+"holiday, showcasing the jewels of Central Asia,\n"
+"                        such as Samarkand, Bukhara, and Khiva.\n"
+"\n"
+"                        Our professional team guarantees high-quality "
+"service and aims to enhance your understanding of\n"
+"                        our culture, history, and geography. We offer a wide "
+"range of services, including:\n"
+"                        <br>\n"
+"                        - Guided tours to the cities of the Great Silk Road: "
+"Tashkent, Samarkand, Bukhara, Khiva, and\n"
+"                        other historical sites.\n"
+"                        <br>\n"
+"                        - Visa support.\n"
+"                        <br>\n"
+"                        - Hotel booking with various levels of comfort.\n"
+"                        <br>\n"
+"                        - Rental services for vehicles of different "
+"classes.\n"
+"                        <br>\n"
+"                        - Booking of air and train tickets.\n"
+"                        <br><br>\n"
+"                        - Arrangements for children's and student groups.\n"
+"                        <br><br>\n"
+"                        - Participation in Uzbekistan's various festivals.\n"
+"                        <br><br>\n"
+"                        - Tailored tours encompassing bike trips, photo "
+"tours, eco-tours, and beyond.\n"
+"                        <br>\n"
+"                        Our guides are highly qualified, dependable, and "
+"possess essential personal qualities. They are\n"
+"                        proficient in various foreign languages, including "
+"Turkish, Russian, English, French, German,\n"
+"                        Spanish, Italian, Japanese, and more. The excursions "
+"designed by our specialists are\n"
+"                        individualized, incorporating fascinating historical "
+"facts without adhering to standard\n"
+"                        templates. Our guides and translators boast deep "
+"knowledge of the region's history, as well as\n"
+"                        the culture and traditions of the local populace. "
+"They will regale you with legends and stories,\n"
+"                        immersing you in the enchanting ambiance of the "
+"East. Join us and immerse yourself in the unique\n"
+"                        beauty of Uzbekistan with SILKROUTE!\n"
+"                        </span>\n"
+"                    "
+msgstr ""
+"\n"
+"SILK ROUTE – ваш путеводитель по Великому Шелковому пути. \n"
+"SILK ROUTE приглашает вас в необыкновенное путешествие по городам Средней "
+"Азии, погружаясь в традиции и историю, охватывающую тысячи лет. Мы стремимся "
+"предоставить вам незабываемый отдых, демонстрируя организацией туров по "
+"Узбекистану и по странам Средней Азии. Мы работаем как с индивидуальными "
+"туристами, так и с большими группами, гарантируя интересное и комфортное "
+"пребывание в странах Великого Шелкового пути. \n"
+"Наша профессиональная команда гарантирует высококачественное обслуживание и "
+"стремится улучшить ваше понимание нашей культуры, истории и географии. Мы "
+"предлагаем широкий спектр услуг, в том числе:\n"
+"- Экскурсии по городам Великого Шелкового пути: такие как Ташкент, "
+"Самарканд, Бухара, Хива и другие исторические города.\n"
+"- Визовая поддержка.\n"
+"- Бронирование отелей (различного уровня и комфорта).\n"
+"- Услуга по аренде автомобилей (разных классов).\n"
+"- Бронирование авиа и ж/д билетов.\n"
+"- Организация детских и студенческих групп.\n"
+"- Участие в различных фестивалях. (В городах Узбекистана).\n"
+"- Индивидуальные туры, включающие велопоездки, фототуры, экотуры и многое "
+"другое.\n"
+"\n"
+"Наши гиды высококвалифицированные, обладающие всеми необходимыми личными и "
+"профессиональными качествами. Они владеют несколькими иностранными языками, "
+"включая турецкий, русский, английский, индонезийский, французский, немецкий, "
+"испанский, итальянский, японский и другие. Предлагаемые Экскурсии, "
+"разработанные нашими специалистами, считаются уникальны, включают в себя "
+"увлекательные исторические факты, не придерживаясь стандартных шаблонов. "
+"Наши гиды и переводчики обладают глубоким знанием истории региона, а также "
+"культуры и традиций местного населения. Они побалуют вас легендами и "
+"историями, погружая в чарующую атмосферу Востока. Присоединяйтесь к нам и "
+"погрузитесь в неповторимую красоту Средней Азии вместе с SILKROUTE!"
+
+#: templates/index.html:304
+msgid "Competitive Pricing"
+msgstr "Конкурентное ценообразование"
+
+#: templates/index.html:305
+msgid ""
+"Get the best value for your money with our competitive pricing on\n"
+"                            hotel bookings.\n"
+"                            We work tirelessly to bring you the most "
+"attractive rates, ensuring you can enjoy your stay\n"
+"                            without breaking the bank."
+msgstr ""
+"Получите лучшее соотношение цены и качества с нашими конкурентоспособными "
+"ценамина бронирование отелей. Мы работаем не покладая рук, чтобы "
+"предоставить вам самые привлекательные цены,гарантируя, что вы сможете "
+"насладиться своим пребыванием, не опустошая свой кошелек."
+
+#: templates/index.html:319
+msgid "Best Services"
+msgstr "Лучшие услуги"
+
+#: templates/index.html:320
+msgid ""
+"Experience top-notch customer service from the moment you book\n"
+"                            until the end of your stay.\n"
+"                            Our dedicated support team is available 24/7 to "
+"assist with any questions or concerns,\n"
+"                            ensuring a seamless and enjoyable experience."
+msgstr ""
+"Испытайте первоклассное обслуживание клиентов с момента бронирования и до "
+"конца вашего пребывания. Наша специализированная служба поддержки доступна "
+"24/7, чтобы помочь с любыми вопросами или проблемами, гарантируя безупречный "
+"и приятный опыт."
+
+#: templates/index.html:334
+msgid "Cultural and Historical Stays"
+msgstr "Культурные и исторические туры"
+
+#: templates/index.html:335
+msgid ""
+"Immerse yourself in history and culture with our unique\n"
+"                            accommodations located in historical buildings "
+"and cultural hotspots.\n"
+"                            Enjoy a stay in a Mausoleum, a Mosque, or a "
+"boutique hotel in the heart of a vibrant\n"
+"                            cultural district."
+msgstr ""
+"Погрузитесь в историю и культуру с нашими уникальными номерами, "
+"расположенными в исторических зданиях и культурных центрах. Насладитесь "
+"пребыванием в мавзолее, мечети или бутик-отеле в самом сердце оживленного "
+"культурного района."
+
+#: templates/index.html:420
+msgid ""
+"\n"
+"                Services"
+msgstr ""
+"\n"
+"Наши\n"
+"услуги"
+
+#: templates/index.html:422 templates/service.html:78
+msgid "Tours & Travel Services"
+msgstr "Туры и туристические услуги"
+
+#: templates/index.html:428 templates/service.html:84
+msgid "Travel Guide"
+msgstr "Наши путеводители"
+
+#: templates/index.html:429 templates/service.html:85
+msgid ""
+"Embark on an unforgettable journey with our expertly crafted travel\n"
+"                        guide,\n"
+"                        designed to inspire and inform every traveler. From "
+"the bustling cities to serene landscapes,\n"
+"                        our guide covers the world's most breathtaking "
+"destinations with insider tips, must-see\n"
+"                        attractions, and hidden gems."
+msgstr ""
+"Отправьтесь в незабываемое путешествие с нашим искусно составленным "
+"путеводителем, призванным вдохновлять и информировать каждого "
+"путешественника. От шумных городов до безмятежных пейзажей, наш путеводитель "
+"охватывает самые захватывающие места в мире с советами от знатоков, "
+"обязательными к посещению достопримечательностями и скрытыми жемчужинами."
+
+#: templates/index.html:439 templates/service.html:95
+msgid "Ticket Booking"
+msgstr "Бронирование билетов"
+
+#: templates/index.html:440 templates/service.html:96
+msgid ""
+"Secure your journey with ease using our seamless ticket booking\n"
+"                        service. Whether you're planning\n"
+"                        a quick getaway or a long-haul adventure, our "
+"platform offers a hassle-free experience to book\n"
+"                        flights,\n"
+"                        trains, and bus tickets at the best prices."
+msgstr ""
+"Защитите свое путешествие с легкостью, используя наш безупречный сервис "
+"бронирования билетов. Планируете ли вы короткую поездку или долгое "
+"приключение, наша платформа предлагает беспроблемный опыт бронирования "
+"билетов на самолеты, поезда и автобусы по лучшим ценам."
+
+#: templates/index.html:450 templates/service.html:106
+msgid "Hotel Booking"
+msgstr "Бронирование отеля"
+
+#: templates/index.html:451 templates/service.html:107
+msgid ""
+"Find the perfect place to rest and recharge with our comprehensive\n"
+"                        hotel booking service.\n"
+"                        From luxurious resorts to cozy bed and breakfasts, "
+"our platform offers a wide range of\n"
+"                        accommodations\n"
+"                        to suit every traveler's needs and preferences."
+msgstr ""
+"Найдите идеальное место для отдыха и восстановления сил с помощью нашей "
+"комплексной службы бронирования отелей. От роскошных курортов до уютных "
+"гостевых домов и завтраков, наша платформа предлагает широкий выбор "
+"вариантов размещения, которые удовлетворят потребности и предпочтения "
+"каждого путешественника."
+
+#: templates/index.html:470
+msgid "Perfect Tour Packages"
+msgstr "Идеальные туристические пакеты"
+
+#: templates/index.html:686
+msgid "Follow Us"
+msgstr "Подписывайтесь на нас"
+
+#: templates/single.html:11 templates/single.html:15
+msgid "Blog Detail"
+msgstr "Детали блога"
+
+#: templates/single.html:373
+#, fuzzy
+#| msgid "Your Name"
+msgid "Full Name"
+msgstr "Ваше имя"
+
+#: templates/single.html:377
+#, fuzzy
+#| msgid "Your Email"
+msgid "Email"
+msgstr "Ваш адрес электронной почты"
+
+#: templates/single.html:382
+msgid "Phone Number"
+msgstr "Номер телефона."
+
+#: templates/single.html:386
+msgid "Additional Information"
+msgstr "Дополнительная информация."
+
+#: templates/single.html:391
+msgid ""
+"After you have filled in the information, our staff will contact you within "
+"1 day."
+msgstr ""
+"После того как вы заполните информацию, наш персонал свяжется с вами в "
+"течение одного дня."
+
+#: templates/single.html:394
+msgid "Order Now"
+msgstr "Забронировать сейчас."
+
+#~ msgid "Our Services"
+#~ msgstr "Услуги"
+
+#~ msgid "About"
+#~ msgstr "Об Узбекистане"
+
+#~ msgid "Destination"
+#~ msgstr "Место назначения"
+
+#~ msgid "Guides"
+#~ msgstr "гиды"
+
+#~ msgid "Blog"
+#~ msgstr "Блог"
+
+#~ msgid ""
+#~ "\n"
+#~ "                    Destination"
+#~ msgstr ""
+#~ "\n"
+#~ "Место назначения"
+
+#~ msgid ""
+#~ "\n"
+#~ "                    Guides"
+#~ msgstr ""
+#~ "\n"
+#~ "гиды"
+
+#~ msgid ""
+#~ "\n"
+#~ "                    Blog"
+#~ msgstr ""
+#~ "\n"
+#~ "Блог"
+
+#~ msgid "Tours & Travel"
+#~ msgstr "Туры и путешествия"
+
+#~ msgid "Book Now"
+#~ msgstr "Забронируйте сейчас"
+
+#, fuzzy
+#~ msgid "Home "
+#~ msgstr "Главная"
+
+#~ msgid "Discover Amazing Places With Us"
+#~ msgstr "Откройте для себя удивительные места вместе с нами"
+
+#~ msgid "Let's Discover The World Together"
+#~ msgstr "Давайте откроем мир вместе"
