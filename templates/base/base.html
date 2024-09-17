@@ -138,23 +138,23 @@
             <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
                 <div class="navbar-nav ml-auto py-0">
                     <a href="{% url 'index' %}"
-                       class="nav-item nav-link {% if request.path == 'index' %}active{% endif %}">Home</a>
+                       class="nav-item nav-link {% if request.path == 'index' %}active{% endif %}">{% blocktrans %}Home{% endblocktrans %}</a>
                     <!-- Travel Guide Dropdown -->
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Travel Guide</a>
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">{% blocktrans %}Travel Guide{% endblocktrans %}</a>
                         <div class="dropdown-menu border-0 rounded-0 m-0">
-                            <a href="{% url 'uzbekistan_cities' %}" class="dropdown-item">Uzbekistan Cities</a>
-                            <a href="{% url 'kazakhstan_cities' %}" class="dropdown-item">Kazakhstan Cities</a>
-                            <a href="{% url 'kyrgyzstan_cities' %}" class="dropdown-item">Kyrgyzstan Cities</a>
-                            <a href="{% url 'tajikistan_cities' %}" class="dropdown-item">Tajikistan Cities</a>
+                            <a href="{% url 'uzbekistan_cities' %}" class="dropdown-item">{% blocktrans %}Uzbekistan Cities{% endblocktrans %}</a>
+                            <a href="{% url 'kazakhstan_cities' %}" class="dropdown-item">{% blocktrans %}Kazakhstan Cities{% endblocktrans %}</a>
+                            <a href="{% url 'kyrgyzstan_cities' %}" class="dropdown-item">{% blocktrans %}Kyrgyzstan Cities{% endblocktrans %}</a>
+                            <a href="{% url 'tajikistan_cities' %}" class="dropdown-item">{% blocktrans %}Tajikistan Cities{% endblocktrans %}</a>
                         </div>
                     </div>
                     <a href="{% url 'services' %}"
-                       class="nav-item nav-link {% if request.path == 'services' %}active{% endif %}">Services</a>
-                    <a href="{% url 'packages' %}" class="nav-item nav-link">Tour Packages</a>
-                    <a href="{% url 'contact' %}" class="nav-item nav-link">Contact Us</a>
+                       class="nav-item nav-link {% if request.path == 'services' %}active{% endif %}">{% blocktrans %}Services{% endblocktrans %}</a>
+                    <a href="{% url 'packages' %}" class="nav-item nav-link">{% blocktrans %}Tour Packages{% endblocktrans %}</a>
+                    <a href="{% url 'contact' %}" class="nav-item nav-link">{% blocktrans %}Contact Us{% endblocktrans %}</a>
                     <a href="{% url 'about' %}"
-                       class="nav-item nav-link {% if request.path == 'about' %}active{% endif %}">About Us</a>
+                       class="nav-item nav-link {% if request.path == 'about' %}active{% endif %}">{% blocktrans %}About Us{% endblocktrans %}</a>
 
 
                 </div>
