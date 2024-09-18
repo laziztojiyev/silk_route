@@ -78,7 +78,7 @@
                                 <button class="btn btn-secondary dropdown-toggle" type="button" id="languageDropdown"
                                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
                                         style="font-size: 1rem;">
-                                    Language
+                                    {% blocktrans %}Language{% endblocktrans %}
                                 </button>
                                 <div class="dropdown-menu" aria-labelledby="languageDropdown">
                                     <a class="dropdown-item"
@@ -141,12 +141,12 @@
                        class="nav-item nav-link {% if request.path == 'index' %}active{% endif %}">{% blocktrans %}Home{% endblocktrans %}</a>
                     <!-- Travel Guide Dropdown -->
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">{% blocktrans %}Travel Guide{% endblocktrans %}</a>
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">{% blocktrans %}Countries{% endblocktrans %}</a>
                         <div class="dropdown-menu border-0 rounded-0 m-0">
-                            <a href="{% url 'uzbekistan_cities' %}" class="dropdown-item">{% blocktrans %}Uzbekistan Cities{% endblocktrans %}</a>
-                            <a href="{% url 'kazakhstan_cities' %}" class="dropdown-item">{% blocktrans %}Kazakhstan Cities{% endblocktrans %}</a>
-                            <a href="{% url 'kyrgyzstan_cities' %}" class="dropdown-item">{% blocktrans %}Kyrgyzstan Cities{% endblocktrans %}</a>
-                            <a href="{% url 'tajikistan_cities' %}" class="dropdown-item">{% blocktrans %}Tajikistan Cities{% endblocktrans %}</a>
+                            <a href="{% url 'uzbekistan_cities' %}" class="dropdown-item">{% blocktrans %}Uzbekistan{% endblocktrans %}</a>
+                            <a href="{% url 'kazakhstan_cities' %}" class="dropdown-item">{% blocktrans %}Kazakhstan{% endblocktrans %}</a>
+                            <a href="{% url 'kyrgyzstan_cities' %}" class="dropdown-item">{% blocktrans %}Kyrgyzstan{% endblocktrans %}</a>
+                            <a href="{% url 'tajikistan_cities' %}" class="dropdown-item">{% blocktrans %}Tajikistan{% endblocktrans %}</a>
                         </div>
                     </div>
                     <a href="{% url 'services' %}"
