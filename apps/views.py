@@ -146,6 +146,7 @@ class CreateClickTransactionView(CreateView):
         # Redirect to the generated URL
         return redirect(url)
 
+
 class OrderedDetailView(TemplateView):
     template_name = 'ordered.html'
     queryset = Booking.objects.all()
