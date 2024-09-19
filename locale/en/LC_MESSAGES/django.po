@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-28 19:43+0500\n"
+"POT-Creation-Date: 2024-09-19 19:24+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,19 +18,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: apps/models.py:81
+#: apps/models.py:79
 msgid "Номер платежа в системе CLICK"
 msgstr ""
 
-#: apps/models.py:84
+#: apps/models.py:82
 msgid "Сумма оплаты (в сумах)"
 msgstr ""
 
-#: apps/models.py:90
+#: apps/models.py:88
 msgid "Выполняемое действие"
 msgstr ""
 
-#: apps/models.py:93
+#: apps/models.py:91
 msgid "Статус"
 msgstr ""
 
@@ -62,442 +62,18 @@ msgstr ""
 msgid "Transaction cancelled"
 msgstr ""
 
-#: templates/about.html:148
-msgid "Welcome to Uzbekistan"
-msgstr ""
-
-#: templates/about.html:149
-msgid "Explore the heart of Central Asia"
-msgstr ""
-
-#: templates/about.html:156
-msgid ""
-"Uzbekistan: A Journey Through Silk Road Heritage, Cultural Riches, and "
-"Modern\n"
-"                Ambitions"
-msgstr ""
-
-#: templates/about.html:158
-msgid "Exploring Uzbekistan: Where Ancient Traditions Meet Vibrant Modernity"
-msgstr ""
-
-#: templates/about.html:160
-msgid ""
-"Uzbekistan, located in Central Asia, is a country rich in history, culture, "
-"and natural beauty. As\n"
-"                    one of the major hubs on the ancient Silk Road, "
-"Uzbekistan has been a crossroads of civilizations\n"
-"                    for centuries."
-msgstr ""
-
-#: templates/about.html:164
-msgid "History"
-msgstr ""
-
-#: templates/about.html:165
-msgid ""
-"Uzbekistan boasts a fascinating history that dates back thousands of years. "
-"It is home to ancient\n"
-"                    cities like Samarkand, Bukhara, and Khiva, which have "
-"long been centers of trade, culture, and\n"
-"                    learning. These cities feature stunning architectural "
-"masterpieces, including mosques, madrasas, and\n"
-"                    mausoleums that reflect the country's Islamic heritage."
-msgstr ""
-
-#: templates/about.html:170
-msgid "Culture"
-msgstr ""
-
-#: templates/about.html:171
-msgid ""
-"The culture of Uzbekistan is a vibrant blend of Persian, Turkic, and Russian "
-"influences. Traditional\n"
-"                    music, dance, and handicrafts are an integral part of "
-"Uzbek life. The country's cuisine is also\n"
-"                    renowned, with dishes like plov (a hearty rice dish), "
-"shashlik (grilled meat skewers), and various\n"
-"                    breads and pastries."
-msgstr ""
-
-#: templates/about.html:176
-msgid "Modern Uzbekistan"
-msgstr ""
-
-#: templates/about.html:177
-msgid ""
-"Today, Uzbekistan is a country on the rise. Since gaining independence in "
-"1991, it has been working\n"
-"                    to modernize its economy and infrastructure while "
-"preserving its rich cultural heritage. Tashkent,\n"
-"                    the capital, is a modern city with a blend of Soviet-era "
-"architecture and contemporary\n"
-"                    developments."
-msgstr ""
-
-#: templates/about.html:182
-msgid "Tourism"
-msgstr ""
-
-#: templates/about.html:183
-msgid ""
-"Uzbekistan is becoming an increasingly popular tourist destination. Visitors "
-"are drawn to its\n"
-"                    historical sites, bustling bazaars, and warm "
-"hospitality. Whether exploring the ancient streets of\n"
-"                    Samarkand or enjoying the tranquility of the Uzbek "
-"countryside, there is much to discover in this\n"
-"                    captivating country."
-msgstr ""
-
-#: templates/about.html:191
-msgid "Tashkent: The Vibrant Capital"
-msgstr ""
-
-#: templates/about.html:192
-msgid ""
-"Tashkent, the capital city of Uzbekistan, is a bustling metropolis where "
-"modernity meets tradition."
-msgstr ""
-
-#: templates/about.html:194
-msgid "Khast Imam Complex"
-msgstr ""
-
-#: templates/about.html:194
-msgid ": A spiritual center housing the famous Quran of Caliph Uthman."
-msgstr ""
-
-#: templates/about.html:196
-msgid "Chorsu Bazaar"
-msgstr ""
-
-#: templates/about.html:196
-msgid ""
-": A lively market offering a glimpse into local life with fresh\n"
-"                    produce, spices, and traditional crafts."
-msgstr ""
-
-#: templates/about.html:199
-msgid "Amir Timur Square"
-msgstr ""
-
-#: templates/about.html:199
-msgid ""
-": A central landmark surrounded by important buildings and a\n"
-"                    statue of the great conqueror."
-msgstr ""
-
-#: templates/about.html:207
-msgid "Samarkand: The Jewel of the Silk Road"
-msgstr ""
-
-#: templates/about.html:208
-msgid ""
-"Samarkand, one of the oldest inhabited cities in Central Asia, is a treasure "
-"trove of historical and\n"
-"                architectural wonders."
-msgstr ""
-
-#: templates/about.html:211
-msgid "Registan Square"
-msgstr ""
-
-#: templates/about.html:211
-msgid ""
-": A magnificent ensemble of three madrasahs with stunning Islamic\n"
-"                    architecture."
-msgstr ""
-
-#: templates/about.html:214
-msgid "Shah-i-Zinda"
-msgstr ""
-
-#: templates/about.html:214
-msgid ": A necropolis with intricately decorated mausoleums."
-msgstr ""
-
-#: templates/about.html:215
-msgid "Bibi-Khanym Mosque"
-msgstr ""
-
-#: templates/about.html:215
-msgid ""
-": Once one of the largest mosques in the Islamic world, it still\n"
-"                    impresses with its grandeur."
-msgstr ""
-
-#: templates/about.html:223
-msgid "Bukhara: The Living Museum"
-msgstr ""
-
-#: templates/about.html:224
-msgid ""
-"Bukhara, a UNESCO World Heritage Site, is a city where history is alive in "
-"every corner."
-msgstr ""
-
-#: templates/about.html:226
-msgid "The Ark Fortress"
-msgstr ""
-
-#: templates/about.html:226
-msgid ": A massive fortress that has been a symbol of power for centuries."
-msgstr ""
-
-#: templates/about.html:228
-msgid "Poi Kalyan Complex"
-msgstr ""
-
-#: templates/about.html:228
-msgid ""
-": Featuring the Kalyan Minaret, Kalyan Mosque, and Mir-i-Arab\n"
-"                    Madrasah."
-msgstr ""
-
-#: templates/about.html:231
-msgid "Lyab-i Hauz"
-msgstr ""
-
-#: templates/about.html:231
-msgid ""
-": A picturesque plaza centered around a pool, surrounded by historic\n"
-"                    buildings."
-msgstr ""
-
-#: templates/about.html:238
-msgid "Khiva: The Ancient Oasis"
-msgstr ""
-
-#: templates/about.html:239
-msgid ""
-"Khiva, an ancient city located on the edge of the Kyzylkum Desert, is "
-"renowned for its well-preserved\n"
-"                architecture and historical significance."
-msgstr ""
-
-#: templates/about.html:242
-msgid "Ichan Kala"
-msgstr ""
-
-#: templates/about.html:242
-msgid ""
-": The historic inner town, a UNESCO World Heritage Site, featuring an\n"
-"                    impressive collection of mosques, minarets, and "
-"madrasahs."
-msgstr ""
-
-#: templates/about.html:245
-msgid "Khiva Minaret"
-msgstr ""
-
-#: templates/about.html:245
-msgid ""
-": Known for its distinctive blue tile work and panoramic views of the\n"
-"                    city."
-msgstr ""
-
-#: templates/about.html:248
-msgid "Pakhlavan Makhmud Mausoleum"
-msgstr ""
-
-#: templates/about.html:248
-msgid ""
-": An important religious site, known for its intricate\n"
-"                    tile work and historical significance."
-msgstr ""
-
-#: templates/base/base.html:51
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "                        Home "
-msgid ""
-"\n"
-"                        Home"
-msgstr "Home"
-
-#: templates/base/base.html:54
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "                        Home "
-msgid ""
-"\n"
-"                        About Us"
-msgstr "Home"
-
-#: templates/base/base.html:57
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "                        Home "
-msgid ""
-"\n"
-"                        Services"
-msgstr "Home"
-
-#: templates/base/base.html:59
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "                        Home "
-msgid ""
-"Tour\n"
-"                        Packages"
-msgstr "Home"
-
-#: templates/base/base.html:61 templates/index.html:712
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "                        Home "
-msgid ""
-"\n"
-"                        Contact Us"
-msgstr "Home"
-
-#: templates/base/base.html:178 templates/index.html:680
-msgid ""
-"Welcome to Silkroute Travel Agency, your gateway to unforgettable journeys "
-"across the\n"
-"                globe.\n"
-"                Named after the legendary Silk Road, our agency embodies the "
-"spirit of exploration,\n"
-"                adventure, and cultural exchange. Whether you're seeking "
-"historical wonders, natural beauty,\n"
-"                or vibrant cultures, we are here to make your travel dreams "
-"a reality."
-msgstr ""
-
-#: templates/base/base.html:183
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "                        Home "
-msgid ""
-"Follow\n"
-"                Us"
-msgstr "Home"
-
-#: templates/base/base.html:196 templates/index.html:698
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "                        Home "
-msgid ""
-"Our\n"
-"                Services"
-msgstr "Home"
-
-#: templates/base/base.html:200 templates/index.html:52
-#: templates/index.html:702
+#: templates/about.html:126 templates/base/base.html:267
+#: templates/index.html:157
 msgid "About Us"
 msgstr "About Us"
 
-#: templates/base/base.html:204 templates/index.html:55
-#: templates/index.html:706 templates/service.html:10 templates/service.html:14
-#: templates/service.html:77
-msgid "Services"
-msgstr "Services"
-
-#: templates/base/base.html:206 templates/blog.html:12 templates/blog.html:16
-#: templates/index.html:708
-msgid "Packages"
-msgstr "Packages"
-
-#: templates/base/base.html:209
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "                        Home "
-msgid ""
-"\n"
-"                    Contact Us"
-msgstr "Home"
-
-#: templates/base/base.html:223
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "                        Home "
-msgid ""
-"Contact\n"
-"                Us"
-msgstr "Home"
-
-#: templates/base/base.html:225 templates/index.html:731
-msgid "3 Block Chorsu, Shaykhantakhur district,Tashkent, Uzbekistan"
-msgstr ""
-
-#: templates/blog.html:14 templates/contact.html:14 templates/index.html:49
-#: templates/service.html:12 templates/single.html:13
-msgid "Home"
-msgstr ""
-
-#: templates/contact.html:11 templates/contact.html:16 templates/index.html:728
-#, fuzzy
-#| msgid "Contact"
-msgid "Contact Us"
-msgstr "Contact"
-
-#: templates/contact.html:87
-msgid "Contact For Any Query"
-msgstr ""
-
-#: templates/contact.html:98
-msgid "Your Name"
-msgstr ""
-
-#: templates/contact.html:104
-msgid "Your Email"
-msgstr ""
-
-#: templates/contact.html:111
-msgid "Subject"
-msgstr ""
-
-#: templates/contact.html:117
-msgid "Message"
-msgstr ""
-
-#: templates/contact.html:118
-msgid "Please enter your message"
-msgstr ""
-
-#: templates/contact.html:122
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "                        Home "
-msgid ""
-"Send\n"
-"                                    Message"
-msgstr "Home"
-
-#: templates/index.html:57
-msgid "Tour Packages"
-msgstr "Tour Packages"
-
-#: templates/index.html:59
-msgid "Contact"
-msgstr "Contact"
-
-#: templates/index.html:134
-msgid "Your guide to THE Central Asia"
-msgstr ""
-
-#: templates/index.html:145
-msgid "Discover the history of Central Asia with Silk Route"
-msgstr ""
-
-#: templates/index.html:239
+#: templates/about.html:140 templates/index.html:171
 #, fuzzy
 #| msgid "We Provide Best Tour Packages In Your Budget"
 msgid "We offer the best tour packages to fit your budget."
 msgstr "We Provide Best Tour Packages In Your Budget"
 
-#: templates/index.html:240
+#: templates/about.html:141
 #, fuzzy
 #| msgid ""
 #| "\n"
@@ -569,11 +145,11 @@ msgid ""
 "classes.\n"
 "                        <br>\n"
 "                        - Booking of air and train tickets.\n"
-"                        <br><br>\n"
+"                        <br>\n"
 "                        - Arrangements for children's and student groups.\n"
-"                        <br><br>\n"
+"                        <br>\n"
 "                        - Participation in Uzbekistan's various festivals.\n"
-"                        <br><br>\n"
+"                        <br>\n"
 "                        - Tailored tours encompassing bike trips, photo "
 "tours, eco-tours, and beyond.\n"
 "                        <br>\n"
@@ -638,142 +214,1575 @@ msgstr ""
 "Uzbekistan with SILKROUTE!\n"
 "                    "
 
-#: templates/index.html:304
-msgid "Competitive Pricing"
-msgstr "Competitive Pricing"
-
-#: templates/index.html:305
-msgid ""
-"Get the best value for your money with our competitive pricing on\n"
-"                            hotel bookings.\n"
-"                            We work tirelessly to bring you the most "
-"attractive rates, ensuring you can enjoy your stay\n"
-"                            without breaking the bank."
+#: templates/base/base.html:81
+msgid "Language"
 msgstr ""
 
-#: templates/index.html:319
-#, fuzzy
-#| msgid "Services"
-msgid "Best Services"
-msgstr "Best Services"
-
-#: templates/index.html:320
-msgid ""
-"Experience top-notch customer service from the moment you book\n"
-"                            until the end of your stay.\n"
-"                            Our dedicated support team is available 24/7 to "
-"assist with any questions or concerns,\n"
-"                            ensuring a seamless and enjoyable experience."
-msgstr ""
-
-#: templates/index.html:334
-msgid "Cultural and Historical Stays"
-msgstr "Cultural and Historical Stays"
-
-#: templates/index.html:335
-msgid ""
-"Immerse yourself in history and culture with our unique\n"
-"                            accommodations located in historical buildings "
-"and cultural hotspots.\n"
-"                            Enjoy a stay in a Mausoleum, a Mosque, or a "
-"boutique hotel in the heart of a vibrant\n"
-"                            cultural district."
-msgstr ""
-
-#: templates/index.html:420
+#: templates/base/base.html:141 templates/service.html:12
 #, fuzzy
 #| msgid ""
 #| "\n"
 #| "                        Home "
 msgid ""
 "\n"
-"                Services"
+"                        Home"
 msgstr "Home"
 
-#: templates/index.html:422 templates/service.html:78
-msgid "Tours & Travel Services"
-msgstr "Tours & Travel Services"
-
-#: templates/index.html:428 templates/service.html:84
-msgid "Travel Guide"
-msgstr "Travel Guide"
-
-#: templates/index.html:429 templates/service.html:85
+#: templates/base/base.html:145
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "                        Home "
 msgid ""
-"Embark on an unforgettable journey with our expertly crafted travel\n"
-"                        guide,\n"
-"                        designed to inspire and inform every traveler. From "
-"the bustling cities to serene landscapes,\n"
-"                        our guide covers the world's most breathtaking "
-"destinations with insider tips, must-see\n"
-"                        attractions, and hidden gems."
+"\n"
+"                            Countries"
+msgstr "Home"
+
+#: templates/base/base.html:148
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "                        Home "
+msgid ""
+"\n"
+"                                Uzbekistan"
+msgstr "Home"
+
+#: templates/base/base.html:150
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "                        Home "
+msgid ""
+"\n"
+"                                Kazakhstan"
+msgstr "Home"
+
+#: templates/base/base.html:152
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "                        Home "
+msgid ""
+"\n"
+"                                Kyrgyzstan"
+msgstr "Home"
+
+#: templates/base/base.html:154
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "                        Home "
+msgid ""
+"\n"
+"                                Tajikistan"
+msgstr "Home"
+
+#: templates/base/base.html:159
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "                        Home "
+msgid ""
+"\n"
+"                        Services"
+msgstr "Home"
+
+#: templates/base/base.html:161
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "                        Home "
+msgid ""
+"Tour\n"
+"                        Packages"
+msgstr "Home"
+
+#: templates/base/base.html:163
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "                        Home "
+msgid ""
+"Contact\n"
+"                        Us"
+msgstr "Home"
+
+#: templates/base/base.html:166
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "                        Home "
+msgid ""
+"About\n"
+"                        Us"
+msgstr "Home"
+
+#: templates/base/base.html:233
+msgid ""
+"Welcome to Silkroute Travel Agency, your gateway to unforgettable journeys "
+"across the\n"
+"                globe.\n"
+"                Named after the legendary Silk Road, our agency embodies the "
+"spirit of exploration,\n"
+"                adventure, and cultural exchange. Whether you're seeking "
+"historical wonders, natural beauty,\n"
+"                or vibrant cultures, we are here to make your travel dreams "
+"a reality."
 msgstr ""
 
-#: templates/index.html:439 templates/service.html:95
-msgid "Ticket Booking"
-msgstr "Ticket Booking"
-
-#: templates/index.html:440 templates/service.html:96
+#: templates/base/base.html:238
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "                        Home "
 msgid ""
-"Secure your journey with ease using our seamless ticket booking\n"
-"                        service. Whether you're planning\n"
-"                        a quick getaway or a long-haul adventure, our "
-"platform offers a hassle-free experience to book\n"
-"                        flights,\n"
-"                        trains, and bus tickets at the best prices."
+"Follow\n"
+"                Us"
+msgstr "Home"
+
+#: templates/base/base.html:271 templates/service.html:10
+#: templates/service.html:15
+msgid "Services"
+msgstr "Services"
+
+#: templates/base/base.html:273
+msgid "Packages"
+msgstr "Packages"
+
+#: templates/base/base.html:277
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "                        Home "
+msgid ""
+"\n"
+"                        Contact Us"
+msgstr "Home"
+
+#: templates/base/base.html:291
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "                        Home "
+msgid ""
+"Contact\n"
+"                Us"
+msgstr "Home"
+
+#: templates/base/base.html:293
+msgid ""
+"3 Block Chorsu, Shaykhantakhur\n"
+"                district,Tashkent, Uzbekistan"
 msgstr ""
 
-#: templates/index.html:450 templates/service.html:106
-msgid "Hotel Booking"
-msgstr "Hotel Booking"
-
-#: templates/index.html:451 templates/service.html:107
-msgid ""
-"Find the perfect place to rest and recharge with our comprehensive\n"
-"                        hotel booking service.\n"
-"                        From luxurious resorts to cozy bed and breakfasts, "
-"our platform offers a wide range of\n"
-"                        accommodations\n"
-"                        to suit every traveler's needs and preferences."
-msgstr ""
-
-#: templates/index.html:470
+#: templates/blog.html:15 templates/index.html:113
 msgid "Perfect Tour Packages"
 msgstr "Perfect Tour Packages"
 
-#: templates/index.html:686
-msgid "Follow Us"
+#: templates/contact.html:11 templates/contact.html:16
+#, fuzzy
+#| msgid "Contact"
+msgid "Contact Us"
+msgstr "Contact"
+
+#: templates/contact.html:14 templates/single.html:127
+msgid "Home"
 msgstr ""
 
-#: templates/single.html:11 templates/single.html:15
-msgid "Blog Detail"
+#: templates/contact.html:87
+msgid "Contact For Any Query"
 msgstr ""
 
-#: templates/single.html:373
+#: templates/contact.html:98
+msgid "Your Name"
+msgstr ""
+
+#: templates/contact.html:104
+msgid "Your Email"
+msgstr ""
+
+#: templates/contact.html:111
+msgid "Subject"
+msgstr ""
+
+#: templates/contact.html:117
+msgid "Message"
+msgstr ""
+
+#: templates/contact.html:118
+msgid "Please enter your message"
+msgstr ""
+
+#: templates/contact.html:122
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "                        Home "
+msgid ""
+"Send\n"
+"                                    Message"
+msgstr "Home"
+
+#: templates/index.html:18
+msgid "Your guide to the Central Asia"
+msgstr ""
+
+#: templates/index.html:29
+#, fuzzy
+#| msgid "Let's Discover The World Together"
+msgid ""
+"Discover the history of Central Asia with Silk\n"
+"                                    Route"
+msgstr "Let's Discover The World Together"
+
+#: templates/index.html:172
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "                        SILKROUTE invites you to a truly unique "
+#| "experience of the East, offering a deep dive into the traditions\n"
+#| "                        and history of thousands of years. We are ready "
+#| "to offer you an unforgettable holiday with a visit to the pearls\n"
+#| "                        of Central Asia, such as Samarkand, Bukhara and "
+#| "Khiva. Our professional team guarantees high-quality service and\n"
+#| "                        helps to understand our culture, history and "
+#| "geography. We offer a wide range of services:\n"
+#| "                        <br>\n"
+#| "                        - Excursions to the cities\n"
+#| "                        of the Great Silk Road: Tashkent, Samarkand, "
+#| "Bukhara, Khiva and other historical places accompanied by experienced "
+#| "guides.\n"
+#| "                        <br>\n"
+#| "                        - Visa support. - Booking hotels of different "
+#| "levels of comfort. - Rent of vehicles of various classes.\n"
+#| "                        <br>\n"
+#| "                        - Booking air and train tickets. - Reception of "
+#| "children's and student groups for holidays.\n"
+#| "                        <br>\n"
+#| "                        - Participation in various festivals held in "
+#| "Uzbekistan.\n"
+#| "                        <br>\n"
+#| "                        - Planning various tours: bike trips, photo "
+#| "tours, eco-tours and much more.\n"
+#| "                        <br>\n"
+#| "                        Our guides are highly qualified, reliable and "
+#| "have all the necessary human qualities.\n"
+#| "                        They speak many foreign languages ​​- Turkish, "
+#| "Russian, English, French, German, Spanish, Italian,\n"
+#| "                        Japanese, etc. The excursions offered by our "
+#| "specialists are designed individually taking into account\n"
+#| "                        interesting historical facts, without adhering to "
+#| "standard templates. Our guides and translators are well\n"
+#| "                        acquainted with the history of the region, the "
+#| "culture and traditions of the local population.\n"
+#| "                        They will tell you legends and stories, immersing "
+#| "you in the magical atmosphere of the East.\n"
+#| "                        Join us and experience the unique beauty of "
+#| "Uzbekistan with SILKROUTE!\n"
+#| "                    "
+msgid ""
+"\n"
+"                            SILK ROUTE DMC (Destination Management Company) "
+"welcomes you to an extraordinary journey\n"
+"                            through\n"
+"                            the East, delving deep into traditions and "
+"histories spanning thousands of years. We are\n"
+"                            committed to providing you with an unforgettable "
+"holiday, showcasing the jewels of Central\n"
+"                            Asia,\n"
+"                            such as Samarkand, Bukhara, and Khiva.\n"
+"\n"
+"                            Our professional team guarantees high-quality "
+"service and aims to enhance your understanding\n"
+"                            of\n"
+"                            our culture, history, and geography. We offer a "
+"wide range of services, including:\n"
+"                            <br>\n"
+"                            - Guided tours to the cities of the Great Silk "
+"Road: Tashkent, Samarkand, Bukhara, Khiva,\n"
+"                            and\n"
+"                            other historical sites.\n"
+"                            <br>\n"
+"                            - Visa support.\n"
+"                            <br>\n"
+"                            - Hotel booking with various levels of comfort.\n"
+"                            <br>\n"
+"                            - Rental services for vehicles of different "
+"classes.\n"
+"                            <br>\n"
+"                            - Booking of air and train tickets.\n"
+"                            <br>\n"
+"                            - Arrangements for children's and student "
+"groups.\n"
+"                            <br>\n"
+"                            - Participation in Uzbekistan's various "
+"festivals.\n"
+"                            <br>\n"
+"                            - Tailored tours encompassing bike trips, photo "
+"tours, eco-tours, and beyond.\n"
+"                            <br>\n"
+"                            Our guides are highly qualified, dependable, and "
+"possess essential personal qualities. They\n"
+"                            are\n"
+"                            proficient in various foreign languages, "
+"including Turkish, Russian, English, French,\n"
+"                            German,\n"
+"                            Spanish, Italian, Japanese, and more. The "
+"excursions designed by our specialists are\n"
+"                            individualized, incorporating fascinating "
+"historical facts without adhering to standard\n"
+"                            templates. Our guides and translators boast deep "
+"knowledge of the region's history, as well\n"
+"                            as\n"
+"                            the culture and traditions of the local "
+"populace. They will regale you with legends and\n"
+"                            stories,\n"
+"                            immersing you in the enchanting ambiance of the "
+"East. Join us and immerse yourself in the\n"
+"                            unique\n"
+"                            beauty of Uzbekistan with SILKROUTE!\n"
+"                        "
+msgstr ""
+"\n"
+"                        SILKROUTE invites you to a truly unique experience "
+"of the East, offering a deep dive into the traditions\n"
+"                        and history of thousands of years. We are ready to "
+"offer you an unforgettable holiday with a visit to the pearls\n"
+"                        of Central Asia, such as Samarkand, Bukhara and "
+"Khiva. Our professional team guarantees high-quality service and\n"
+"                        helps to understand our culture, history and "
+"geography. We offer a wide range of services:\n"
+"                        <br>\n"
+"                        - Excursions to the cities\n"
+"                        of the Great Silk Road: Tashkent, Samarkand, "
+"Bukhara, Khiva and other historical places accompanied by experienced "
+"guides.\n"
+"                        <br>\n"
+"                        - Visa support. - Booking hotels of different levels "
+"of comfort. - Rent of vehicles of various classes.\n"
+"                        <br>\n"
+"                        - Booking air and train tickets. - Reception of "
+"children's and student groups for holidays.\n"
+"                        <br>\n"
+"                        - Participation in various festivals held in "
+"Uzbekistan.\n"
+"                        <br>\n"
+"                        - Planning various tours: bike trips, photo tours, "
+"eco-tours and much more.\n"
+"                        <br>\n"
+"                        Our guides are highly qualified, reliable and have "
+"all the necessary human qualities.\n"
+"                        They speak many foreign languages ​​- Turkish, "
+"Russian, English, French, German, Spanish, Italian,\n"
+"                        Japanese, etc. The excursions offered by our "
+"specialists are designed individually taking into account\n"
+"                        interesting historical facts, without adhering to "
+"standard templates. Our guides and translators are well\n"
+"                        acquainted with the history of the region, the "
+"culture and traditions of the local population.\n"
+"                        They will tell you legends and stories, immersing "
+"you in the magical atmosphere of the East.\n"
+"                        Join us and experience the unique beauty of "
+"Uzbekistan with SILKROUTE!\n"
+"                    "
+
+#: templates/index.html:244
+msgid "Competitive Pricing"
+msgstr "Competitive Pricing"
+
+#: templates/index.html:245
+msgid ""
+"Get the best value for your money with our competitive\n"
+"                                pricing on hotel bookings.\n"
+"                                We work tirelessly to bring you the most "
+"attractive rates, ensuring you can enjoy your\n"
+"                                staywithout breaking the bank."
+msgstr ""
+
+#: templates/index.html:259
+#, fuzzy
+#| msgid "Services"
+msgid "Best Services"
+msgstr "Best Services"
+
+#: templates/index.html:260
+msgid ""
+"Experience top-notch customer service from the moment you\n"
+"                                bookuntil the end of your stay.Our dedicated "
+"support team is available 24/7 \n"
+"                                to assist with any questions or concerns,"
+"ensuring a seamless and enjoyable experience."
+msgstr ""
+
+#: templates/index.html:273
+msgid "Cultural and Historical Stays"
+msgstr "Cultural and Historical Stays"
+
+#: templates/index.html:274
+msgid ""
+"Immerse yourself in history and culture with our unique\n"
+"                                accommodations located in historical "
+"buildings and cultural hotspots.\n"
+"                                Enjoy a stay in a Mausoleum, a Mosque, or a "
+"boutique hotel in the heart of a vibrant\n"
+"                                cultural district."
+msgstr ""
+
+#: templates/index.html:359 templates/service.html:78
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "                        Home "
+msgid ""
+"\n"
+"                    Services"
+msgstr "Home"
+
+#: templates/index.html:361 templates/service.html:80
+msgid "Tours & Travel Services"
+msgstr "Tours & Travel Services"
+
+#: templates/index.html:367 templates/service.html:86
+msgid "Travel Guide"
+msgstr "Travel Guide"
+
+#: templates/index.html:368
+msgid ""
+"Embark on an unforgettable journey with our expertly crafted\n"
+"                            travel guide,designed to inspire and inform "
+"every traveler. From the bustling cities to serene\n"
+"                            landscapes,our guide covers the world's most "
+"breathtaking destinations with insider tips, must-see\n"
+"                            attractions, and hidden gems."
+msgstr ""
+
+#: templates/index.html:377
+msgid "Cheap Flight & Train Tickets"
+msgstr ""
+
+#: templates/index.html:378
+msgid ""
+"Find the most affordable flight and train tickets with ease. Our\n"
+"                            service ensures you secure the best deals for "
+"both short getaways and long journeys, making\n"
+"                            travel affordable for everyone."
+msgstr ""
+
+#: templates/index.html:386 templates/service.html:110
+msgid "Hotel Booking"
+msgstr "Hotel Booking"
+
+#: templates/index.html:387
+msgid ""
+"Find the perfect place to rest and recharge with our\n"
+"                            comprehensive hotel booking service.\n"
+"                            From luxurious resorts to cozy bed and "
+"breakfasts, our platform offers a wide range of\n"
+"                            accommodations to suit every traveler's needs "
+"and preferences."
+msgstr ""
+
+#: templates/index.html:397 templates/service.html:123
+msgid "Custom & Group Tours"
+msgstr ""
+
+#: templates/index.html:398 templates/service.html:124
+msgid ""
+"We offer individual and group tours, tailored to your needs.\n"
+"                            Whether you're looking for personalized "
+"itineraries or group excursions, we've got you\n"
+"                            covered. Let us help you explore and experience "
+"destinations like never\n"
+"                            before."
+msgstr ""
+
+#: templates/index.html:408 templates/service.html:134
+msgid "Transfers & Corporate Trips"
+msgstr ""
+
+#: templates/index.html:409 templates/service.html:135
+msgid ""
+"We provide individual and group transfers, as well as corporate\n"
+"                            trips and conference organization services. From "
+"airport pickups to business event travel\n"
+"                            arrangements, we ensure your journey is smooth "
+"and stress-free."
+msgstr ""
+
+#: templates/index.html:418 templates/service.html:144
+#, fuzzy
+#| msgid "Services"
+msgid "Visa Services"
+msgstr "Best Services"
+
+#: templates/index.html:419 templates/service.html:145
+msgid ""
+"We assist with visa applications upon request. Our team of\n"
+"                            experts will guide you through the process, "
+"ensuring that all the required documents are in\n"
+"                            order for a successful application."
+msgstr ""
+
+#: templates/kazakhstan_cities.html:126
+msgid "Welcome to Kazakhstan"
+msgstr ""
+
+#: templates/kazakhstan_cities.html:127
+msgid "Discover the vast beauty and cultural heritage of Kazakhstan"
+msgstr ""
+
+#: templates/kazakhstan_cities.html:134
+msgid "Kazakhstan: Where Ancient Traditions and Modern Horizons Converge"
+msgstr ""
+
+#: templates/kazakhstan_cities.html:135
+msgid ""
+"Kazakhstan is a country of vast steppes, mountains, and rich history, where "
+"nomadic traditions blend\n"
+"            seamlessly with modern ambitions."
+msgstr ""
+
+#: templates/kazakhstan_cities.html:138
+msgid ""
+"Kazakhstan, the largest landlocked country in the world, is a diverse nation "
+"with a vibrant mix\n"
+"                of cultures, landscapes, and histories. Its cities are "
+"centers of innovation and tradition, from the\n"
+"                futuristic architecture of Nur-Sultan to the cultural depth "
+"of Almaty."
+msgstr ""
+
+#: templates/kazakhstan_cities.html:142 templates/kyrgyzstan_cities.html:136
+#: templates/tajikistan_cities.html:136 templates/uzbekistan_cities.html:145
+msgid "History"
+msgstr ""
+
+#: templates/kazakhstan_cities.html:143
+msgid ""
+"Kazakhstan's history is one of nomadic tribes, conquerors, and empire "
+"builders. It has been a\n"
+"                key crossroads for centuries, influenced by the Mongol "
+"Empire, the Silk Road, and Soviet rule. Today, the\n"
+"                country is independent and flourishing, preserving its past "
+"while looking to the future."
+msgstr ""
+
+#: templates/kazakhstan_cities.html:147 templates/kyrgyzstan_cities.html:139
+#: templates/tajikistan_cities.html:139 templates/uzbekistan_cities.html:152
+msgid "Culture"
+msgstr ""
+
+#: templates/kazakhstan_cities.html:148
+msgid ""
+"Kazakh culture is rooted in nomadic traditions, with strong influences from "
+"Russia, China, and\n"
+"                Persia. The country celebrates its heritage through music, "
+"horseback riding, and wrestling, alongside modern\n"
+"                festivals, art, and architecture. Kazakh cuisine is famous "
+"for dishes like beshbarmak (boiled meat and pasta)\n"
+"                and kumis (fermented mare's milk)."
+msgstr ""
+
+#: templates/kazakhstan_cities.html:153
+msgid "Modern Kazakhstan"
+msgstr ""
+
+#: templates/kazakhstan_cities.html:154
+msgid ""
+"Since gaining independence in 1991, Kazakhstan has rapidly modernized its "
+"infrastructure,\n"
+"                economy, and global standing. Nur-Sultan, the futuristic "
+"capital, is a symbol of the country’s\n"
+"                transformation, with cutting-edge architecture and a vision "
+"for the future."
+msgstr ""
+
+#: templates/kazakhstan_cities.html:158 templates/kyrgyzstan_cities.html:145
+#: templates/tajikistan_cities.html:145 templates/uzbekistan_cities.html:166
+msgid "Tourism"
+msgstr ""
+
+#: templates/kazakhstan_cities.html:159
+msgid ""
+"Tourists are increasingly drawn to Kazakhstan's dramatic landscapes, ancient "
+"history, and\n"
+"                dynamic cities. Whether trekking through the Altai "
+"Mountains, exploring the vast steppes, or visiting the\n"
+"                urban centers, Kazakhstan offers something for every "
+"traveler."
+msgstr ""
+
+#: templates/kazakhstan_cities.html:167
+msgid "Nur-Sultan: The Futuristic Capital"
+msgstr ""
+
+#: templates/kazakhstan_cities.html:168
+msgid ""
+"Nur-Sultan (formerly Astana), the capital of Kazakhstan, is known for its "
+"futuristic skyline and\n"
+"            ambitious urban planning."
+msgstr ""
+
+#: templates/kazakhstan_cities.html:171
+msgid "Bayterek Tower"
+msgstr ""
+
+#: templates/kazakhstan_cities.html:171
+msgid ""
+": A symbol of Nur-Sultan\n"
+"                offering panoramic views of the city."
+msgstr ""
+
+#: templates/kazakhstan_cities.html:174
+msgid "Khan Shatyr"
+msgstr ""
+
+#: templates/kazakhstan_cities.html:174
+msgid ""
+": A massive tent-shaped\n"
+"                shopping and entertainment complex."
+msgstr ""
+
+#: templates/kazakhstan_cities.html:177
+msgid "Palace of Peace and Reconciliation"
+msgstr ""
+
+#: templates/kazakhstan_cities.html:177
+msgid ""
+": A\n"
+"                striking glass pyramid symbolizing unity and peace."
+msgstr ""
+
+#: templates/kazakhstan_cities.html:185
+msgid "Almaty: The Cultural Heart of Kazakhstan"
+msgstr ""
+
+#: templates/kazakhstan_cities.html:186
+msgid ""
+"Almaty, Kazakhstan’s largest city, is a hub of culture, history, and natural "
+"beauty."
+msgstr ""
+
+#: templates/kazakhstan_cities.html:188
+msgid "Kok Tobe Mountain"
+msgstr ""
+
+#: templates/kazakhstan_cities.html:188
+msgid ""
+": A popular viewpoint\n"
+"                offering a stunning panorama of Almaty and the surrounding "
+"mountains."
+msgstr ""
+
+#: templates/kazakhstan_cities.html:191
+msgid "Zenkov Cathedral"
+msgstr ""
+
+#: templates/kazakhstan_cities.html:191
+msgid ""
+": One of the tallest\n"
+"                wooden buildings in the world, located in Panfilov Park."
+msgstr ""
+
+#: templates/kazakhstan_cities.html:194
+msgid "Medeu Skating Rink"
+msgstr ""
+
+#: templates/kazakhstan_cities.html:194
+msgid ""
+": A world-famous\n"
+"                outdoor skating rink set in the scenic foothills of the "
+"Alatau Mountains."
+msgstr ""
+
+#: templates/kazakhstan_cities.html:202
+msgid "Shymkent: The City of Gardens"
+msgstr ""
+
+#: templates/kazakhstan_cities.html:203
+msgid ""
+"Shymkent, one of Kazakhstan’s oldest cities, is known for its vibrant "
+"markets and green parks."
+msgstr ""
+
+#: templates/kazakhstan_cities.html:205
+msgid "Shymkent Zoo"
+msgstr ""
+
+#: templates/kazakhstan_cities.html:205
+msgid ""
+": One of the largest zoos in\n"
+"                Central Asia, housing a variety of wildlife."
+msgstr ""
+
+#: templates/kazakhstan_cities.html:208
+msgid "Ordabasy Square"
+msgstr ""
+
+#: templates/kazakhstan_cities.html:208
+msgid ""
+": A historic square at the\n"
+"                heart of the city with monuments commemorating Kazakh unity."
+msgstr ""
+
+#: templates/kazakhstan_cities.html:211
+msgid "Central Park"
+msgstr ""
+
+#: templates/kazakhstan_cities.html:211
+msgid ""
+": A popular spot for locals\n"
+"                to relax and enjoy nature."
+msgstr ""
+
+#: templates/kazakhstan_cities.html:219
+msgid "Aktobe: The Energy Hub"
+msgstr ""
+
+#: templates/kazakhstan_cities.html:220
+msgid ""
+"Aktobe is an industrial city in western Kazakhstan, playing a major role in "
+"the country's energy\n"
+"            sector."
+msgstr ""
+
+#: templates/kazakhstan_cities.html:223
+msgid "Nurgasyr Mosque"
+msgstr ""
+
+#: templates/kazakhstan_cities.html:223
+msgid ""
+": One of the largest mosques\n"
+"                in the region, known for its modern architecture."
+msgstr ""
+
+#: templates/kazakhstan_cities.html:226
+msgid "Regional Museum"
+msgstr ""
+
+#: templates/kazakhstan_cities.html:226
+msgid ""
+": A museum showcasing the\n"
+"                history and culture of Aktobe and the surrounding region."
+msgstr ""
+
+#: templates/kazakhstan_cities.html:229
+msgid "Aktobe Reservoir"
+msgstr ""
+
+#: templates/kazakhstan_cities.html:229
+msgid ""
+": A recreational area where\n"
+"                locals enjoy boating and fishing."
+msgstr ""
+
+#: templates/kyrgyzstan_cities.html:123
+msgid "Welcome to Kyrgyzstan"
+msgstr ""
+
+#: templates/kyrgyzstan_cities.html:124
+msgid "Discover the land of mountains and rich cultural heritage"
+msgstr ""
+
+#: templates/kyrgyzstan_cities.html:131
+msgid "Kyrgyzstan: A Land of Mountains, Nomads, and Tradition"
+msgstr ""
+
+#: templates/kyrgyzstan_cities.html:132
+msgid ""
+"Kyrgyzstan is known for its stunning natural beauty, featuring towering "
+"peaks, alpine lakes, and a strong nomadic heritage."
+msgstr ""
+
+#: templates/kyrgyzstan_cities.html:134
+msgid ""
+"Nestled in the heart of Central Asia, Kyrgyzstan is a country where nomadic "
+"traditions and unspoiled landscapes define the culture and way of life. From "
+"the vibrant capital of Bishkek to the remote mountain villages, Kyrgyzstan "
+"offers visitors a unique experience."
+msgstr ""
+
+#: templates/kyrgyzstan_cities.html:137
+msgid ""
+"Kyrgyzstan’s history is intertwined with nomadic cultures and the Silk Road. "
+"It was influenced by various empires, including the Mongols, Russians, and "
+"Soviets. Today, it is an independent country with a strong sense of identity "
+"and pride in its heritage."
+msgstr ""
+
+#: templates/kyrgyzstan_cities.html:140
+msgid ""
+"The Kyrgyz culture is deeply rooted in nomadic traditions, with strong "
+"influences from Turkish, Persian, and Russian cultures. Yurts, horses, and "
+"traditional music are central to life in Kyrgyzstan, and festivals often "
+"celebrate the country's nomadic past. Kyrgyz cuisine, such as beshbarmak and "
+"kymyz, reflects its pastoral roots."
+msgstr ""
+
+#: templates/kyrgyzstan_cities.html:142
+msgid "Modern Kyrgyzstan"
+msgstr ""
+
+#: templates/kyrgyzstan_cities.html:143
+msgid ""
+"Since gaining independence from the Soviet Union in 1991, Kyrgyzstan has "
+"worked to modernize while preserving its cultural heritage. Bishkek, the "
+"capital, is a growing city with Soviet-era architecture alongside modern "
+"developments."
+msgstr ""
+
+#: templates/kyrgyzstan_cities.html:146
+msgid ""
+"Kyrgyzstan is becoming a popular destination for adventure tourism, "
+"especially trekking, horse riding, and mountaineering in the Tian Shan and "
+"Pamir-Alay mountain ranges. Visitors are also drawn to its beautiful lakes, "
+"such as Issyk-Kul, and the traditional lifestyle of its nomadic people."
+msgstr ""
+
+#: templates/kyrgyzstan_cities.html:152
+msgid "Bishkek: The Growing Capital"
+msgstr ""
+
+#: templates/kyrgyzstan_cities.html:153
+msgid ""
+"Bishkek, the capital of Kyrgyzstan, is a bustling city with wide boulevards, "
+"green spaces, and a rich history."
+msgstr ""
+
+#: templates/kyrgyzstan_cities.html:155
+msgid "Ala-Too Square"
+msgstr ""
+
+#: templates/kyrgyzstan_cities.html:155
+msgid ""
+": The central square of Bishkek, known for its monuments and national "
+"celebrations."
+msgstr ""
+
+#: templates/kyrgyzstan_cities.html:156 templates/kyrgyzstan_cities.html:178
+msgid "Osh Bazaar"
+msgstr ""
+
+#: templates/kyrgyzstan_cities.html:156
+msgid ""
+": A lively market offering a wide variety of local produce, spices, and "
+"handmade goods."
+msgstr ""
+
+#: templates/kyrgyzstan_cities.html:157
+msgid "Victory Square"
+msgstr ""
+
+#: templates/kyrgyzstan_cities.html:157
+msgid ": A significant memorial dedicated to the victory in World War II."
+msgstr ""
+
+#: templates/kyrgyzstan_cities.html:163
+msgid "Issyk-Kul: The Pearl of Central Asia"
+msgstr ""
+
+#: templates/kyrgyzstan_cities.html:164
+msgid ""
+"Issyk-Kul is one of the largest alpine lakes in the world, renowned for its "
+"clear waters and stunning mountain backdrop."
+msgstr ""
+
+#: templates/kyrgyzstan_cities.html:166
+msgid "Cholpon-Ata"
+msgstr ""
+
+#: templates/kyrgyzstan_cities.html:166
+msgid ""
+": A resort town on the shores of Issyk-Kul, famous for its petroglyphs and "
+"beach resorts."
+msgstr ""
+
+#: templates/kyrgyzstan_cities.html:167
+msgid "Barskoon Gorge"
+msgstr ""
+
+#: templates/kyrgyzstan_cities.html:167
+msgid ""
+": A dramatic gorge located near Issyk-Kul, offering breathtaking views and "
+"hiking opportunities."
+msgstr ""
+
+#: templates/kyrgyzstan_cities.html:168
+msgid "Skazka Canyon"
+msgstr ""
+
+#: templates/kyrgyzstan_cities.html:168
+msgid ""
+": A colorful canyon near Issyk-Kul known for its surreal rock formations."
+msgstr ""
+
+#: templates/kyrgyzstan_cities.html:174
+msgid "Osh: The Ancient City"
+msgstr ""
+
+#: templates/kyrgyzstan_cities.html:175
+msgid ""
+"Osh, one of the oldest cities in Central Asia, is a key stop along the "
+"ancient Silk Road and known for its rich cultural heritage."
+msgstr ""
+
+#: templates/kyrgyzstan_cities.html:177
+msgid "Sulayman Mountain"
+msgstr ""
+
+#: templates/kyrgyzstan_cities.html:177
+msgid ": A UNESCO World Heritage Site, considered a sacred mountain in Islam."
+msgstr ""
+
+#: templates/kyrgyzstan_cities.html:178
+msgid ""
+": One of the largest and most vibrant markets in Central Asia, reflecting "
+"the multicultural history of Osh."
+msgstr ""
+
+#: templates/kyrgyzstan_cities.html:179
+msgid "Russian Orthodox Church"
+msgstr ""
+
+#: templates/kyrgyzstan_cities.html:179
+msgid ": A historic church reflecting the city's diverse religious heritage."
+msgstr ""
+
+#: templates/kyrgyzstan_cities.html:185
+msgid "Karakol: Gateway to Adventure"
+msgstr ""
+
+#: templates/kyrgyzstan_cities.html:186
+msgid ""
+"Karakol, located near the eastern end of Issyk-Kul, is a gateway to the "
+"mountains and a center for outdoor activities like trekking and skiing."
+msgstr ""
+
+#: templates/kyrgyzstan_cities.html:188
+msgid "Dungan Mosque"
+msgstr ""
+
+#: templates/kyrgyzstan_cities.html:188
+msgid ""
+": A unique wooden mosque built by the Dungan people without using any nails."
+msgstr ""
+
+#: templates/kyrgyzstan_cities.html:189
+msgid "Holy Trinity Cathedral"
+msgstr ""
+
+#: templates/kyrgyzstan_cities.html:189
+msgid ""
+": A wooden Russian Orthodox Church in Karakol, known for its architecture "
+"and cultural significance."
+msgstr ""
+
+#: templates/kyrgyzstan_cities.html:190
+msgid "Jeti-Ögüz Gorge"
+msgstr ""
+
+#: templates/kyrgyzstan_cities.html:190
+msgid ""
+": A spectacular gorge famous for its red rock formations and hiking trails."
+msgstr ""
+
+#: templates/ordered.html:14
+msgid "Your application has been accepted!"
+msgstr ""
+
+#: templates/ordered.html:15
+msgid "An operator will contact you soon for more detailed information."
+msgstr ""
+
+#: templates/ordered.html:16
+msgid "Please make sure your phone is turned on!"
+msgstr ""
+
+#: templates/service.html:87
+msgid ""
+"Embark on an unforgettable journey with our expertly crafted\n"
+"                            travel guide,\n"
+"                            designed to inspire and inform every traveler. "
+"From the bustling cities to serene\n"
+"                            landscapes,\n"
+"                            our guide covers the world's most breathtaking "
+"destinations with insider tips, must-see\n"
+"                            attractions, and hidden gems."
+msgstr ""
+
+#: templates/service.html:98
+msgid "Ticket Booking"
+msgstr "Ticket Booking"
+
+#: templates/service.html:99
+msgid ""
+"Secure your journey with ease using our seamless ticket booking\n"
+"                            service. Whether you're planning\n"
+"                            a quick getaway or a long-haul adventure, our "
+"platform offers a hassle-free experience to\n"
+"                            book\n"
+"                            flights,\n"
+"                            trains, and bus tickets at the best prices."
+msgstr ""
+
+#: templates/service.html:111
+msgid ""
+"Find the perfect place to rest and recharge with our\n"
+"                            comprehensive\n"
+"                            hotel booking service.\n"
+"                            From luxurious resorts to cozy bed and "
+"breakfasts, our platform offers a wide range of\n"
+"                            accommodations\n"
+"                            to suit every traveler's needs and preferences."
+msgstr ""
+
+#: templates/single.html:424
 msgid "Full Name"
 msgstr ""
 
-#: templates/single.html:377
+#: templates/single.html:428
 msgid "Email"
 msgstr ""
 
-#: templates/single.html:382
+#: templates/single.html:433
 msgid "Phone Number"
 msgstr ""
 
-#: templates/single.html:386
+#: templates/single.html:437
 msgid "Additional Information"
 msgstr ""
 
-#: templates/single.html:391
+#: templates/single.html:442
 msgid ""
 "After you have filled in the information, our staff will contact you within "
 "1 day."
 msgstr ""
 
-#: templates/single.html:394
+#: templates/single.html:445
 msgid "Order Now"
 msgstr ""
+
+#: templates/tajikistan_cities.html:123
+msgid "Welcome to Tajikistan"
+msgstr ""
+
+#: templates/tajikistan_cities.html:124
+msgid "Explore the Land of High Mountains and Rich Traditions"
+msgstr ""
+
+#: templates/tajikistan_cities.html:131
+msgid "Tajikistan: The Roof of the World"
+msgstr ""
+
+#: templates/tajikistan_cities.html:132
+msgid ""
+"Tajikistan, dominated by towering mountains and ancient history, offers a "
+"blend of breathtaking landscapes and a rich cultural heritage."
+msgstr ""
+
+#: templates/tajikistan_cities.html:134
+msgid ""
+"Tajikistan, located in Central Asia, is home to the Pamir Mountains, also "
+"known as the \"Roof of the World.\" The country’s history stretches back "
+"thousands of years and includes significant contributions to the Persian "
+"Empire and Silk Road trade routes. Tajikistan’s natural beauty and "
+"traditional way of life captivate every visitor."
+msgstr ""
+
+#: templates/tajikistan_cities.html:137
+msgid ""
+"The history of Tajikistan is closely tied to the ancient Persian Empire and "
+"the Silk Road. The country has been influenced by various cultures and "
+"empires, including the Mongols and Russians. Tajikistan became an "
+"independent nation after the dissolution of the Soviet Union in 1991, and it "
+"continues to celebrate its unique heritage and traditions."
+msgstr ""
+
+#: templates/tajikistan_cities.html:140
+msgid ""
+"Tajik culture is a rich tapestry of Persian, Turkic, and Russian influences. "
+"Music, dance, and poetry play a vital role in the lives of Tajik people, "
+"with Persian-language literature holding great importance. The country’s "
+"cuisine includes hearty dishes like qurutob and plov, often served during "
+"celebrations."
+msgstr ""
+
+#: templates/tajikistan_cities.html:142
+msgid "Modern Tajikistan"
+msgstr ""
+
+#: templates/tajikistan_cities.html:143
+msgid ""
+"Tajikistan is a rapidly developing country, working to modernize its economy "
+"and infrastructure while retaining its deep-rooted traditions. The capital, "
+"Dushanbe, is a growing city with Soviet-era buildings as well as modern "
+"architectural developments."
+msgstr ""
+
+#: templates/tajikistan_cities.html:146
+msgid ""
+"Tajikistan is a dream destination for adventure travelers, particularly "
+"those interested in trekking, mountaineering, and exploring the ancient "
+"Pamir Highway. The country's unspoiled nature, combined with its rich "
+"cultural heritage, offers an unforgettable experience for visitors."
+msgstr ""
+
+#: templates/tajikistan_cities.html:152
+msgid "Dushanbe: The Cultural Heart of Tajikistan"
+msgstr ""
+
+#: templates/tajikistan_cities.html:153
+msgid ""
+"Dushanbe, the capital city, is the political, cultural, and economic center "
+"of Tajikistan, combining historical landmarks with modern developments."
+msgstr ""
+
+#: templates/tajikistan_cities.html:155
+msgid "National Museum of Tajikistan"
+msgstr ""
+
+#: templates/tajikistan_cities.html:155
+msgid ""
+": A large museum showcasing the country’s history, art, and cultural "
+"heritage."
+msgstr ""
+
+#: templates/tajikistan_cities.html:156
+msgid "Rudaki Park"
+msgstr ""
+
+#: templates/tajikistan_cities.html:156
+msgid ""
+": A beautiful park in the heart of Dushanbe, named after the famous Persian "
+"poet Rudaki."
+msgstr ""
+
+#: templates/tajikistan_cities.html:157
+msgid "Dushanbe Flagpole"
+msgstr ""
+
+#: templates/tajikistan_cities.html:157
+msgid ""
+": One of the tallest flagpoles in the world, symbolizing the pride of the "
+"nation."
+msgstr ""
+
+#: templates/tajikistan_cities.html:163
+msgid "Pamir Mountains: The Roof of the World"
+msgstr ""
+
+#: templates/tajikistan_cities.html:164
+msgid ""
+"The Pamir Mountains are one of the most majestic ranges in the world, "
+"offering some of the most rugged and remote landscapes on the planet."
+msgstr ""
+
+#: templates/tajikistan_cities.html:166
+msgid "Pamir Highway"
+msgstr ""
+
+#: templates/tajikistan_cities.html:166
+msgid ""
+": One of the highest roads in the world, offering breathtaking views and "
+"access to remote villages."
+msgstr ""
+
+#: templates/tajikistan_cities.html:167
+msgid "Karakul Lake"
+msgstr ""
+
+#: templates/tajikistan_cities.html:167
+msgid ""
+": A stunning alpine lake surrounded by the towering peaks of the Pamirs."
+msgstr ""
+
+#: templates/tajikistan_cities.html:168
+msgid "Murghab"
+msgstr ""
+
+#: templates/tajikistan_cities.html:168
+msgid ""
+": A remote town in the Pamirs that serves as a base for exploring the "
+"region's mountains."
+msgstr ""
+
+#: templates/tajikistan_cities.html:174
+msgid "Khujand: The Ancient City of the North"
+msgstr ""
+
+#: templates/tajikistan_cities.html:175
+msgid ""
+"Khujand, located in the northern part of Tajikistan, is one of the oldest "
+"cities in Central Asia, with a rich history as a Silk Road hub."
+msgstr ""
+
+#: templates/tajikistan_cities.html:177
+msgid "Sheikh Muslihiddin Mausoleum"
+msgstr ""
+
+#: templates/tajikistan_cities.html:177
+msgid ": A historical mausoleum dedicated to a local poet and ruler."
+msgstr ""
+
+#: templates/tajikistan_cities.html:178
+msgid "Panjshanbe Bazaar"
+msgstr ""
+
+#: templates/tajikistan_cities.html:178
+msgid ""
+": One of the largest and most vibrant markets in Tajikistan, offering a wide "
+"variety of local goods."
+msgstr ""
+
+#: templates/tajikistan_cities.html:179
+msgid "Khujand Fortress"
+msgstr ""
+
+#: templates/tajikistan_cities.html:179
+msgid ""
+": An ancient fortress that played a key role in the city’s defense during "
+"the Silk Road era."
+msgstr ""
+
+#: templates/tajikistan_cities.html:185
+msgid "Iskanderkul: The Jewel of the Fann Mountains"
+msgstr ""
+
+#: templates/tajikistan_cities.html:186
+msgid ""
+"Iskanderkul is one of the most picturesque lakes in Central Asia, located in "
+"the stunning Fann Mountains."
+msgstr ""
+
+#: templates/tajikistan_cities.html:188
+msgid "Iskanderkul Lake"
+msgstr ""
+
+#: templates/tajikistan_cities.html:188
+msgid ""
+": A beautiful lake named after Alexander the Great, offering serene views "
+"and hiking opportunities."
+msgstr ""
+
+#: templates/tajikistan_cities.html:189
+msgid "Snake Lake"
+msgstr ""
+
+#: templates/tajikistan_cities.html:189
+msgid ": A smaller, nearby lake known for its legends and mystical atmosphere."
+msgstr ""
+
+#: templates/tajikistan_cities.html:190
+msgid "Fann Mountains"
+msgstr ""
+
+#: templates/tajikistan_cities.html:190
+msgid ""
+": A mountain range offering some of the best trekking and outdoor adventure "
+"opportunities in Tajikistan."
+msgstr ""
+
+#: templates/uzbekistan_cities.html:127
+msgid "Welcome to Uzbekistan"
+msgstr ""
+
+#: templates/uzbekistan_cities.html:128
+msgid "Explore the heart of Central Asia"
+msgstr ""
+
+#: templates/uzbekistan_cities.html:135
+msgid ""
+"Uzbekistan: A Journey Through Silk Road Heritage, Cultural Riches, and "
+"Modern\n"
+"                Ambitions"
+msgstr ""
+
+#: templates/uzbekistan_cities.html:137
+msgid ""
+"Exploring Uzbekistan: Where Ancient Traditions Meet Vibrant\n"
+"                Modernity"
+msgstr ""
+
+#: templates/uzbekistan_cities.html:140
+msgid ""
+"Uzbekistan, located in Central Asia, is a country rich in history, culture, "
+"and\n"
+"                    natural beauty. As\n"
+"                    one of the major hubs on the ancient Silk Road, "
+"Uzbekistan has been a crossroads of civilizations\n"
+"                    for centuries."
+msgstr ""
+
+#: templates/uzbekistan_cities.html:146
+msgid ""
+"Uzbekistan boasts a fascinating history that dates back thousands of years. "
+"It is\n"
+"                    home to ancient\n"
+"                    cities like Samarkand, Bukhara, and Khiva, which have "
+"long been centers of trade, culture, and\n"
+"                    learning. These cities feature stunning architectural "
+"masterpieces, including mosques, madrasas, and\n"
+"                    mausoleums that reflect the country's Islamic heritage."
+msgstr ""
+
+#: templates/uzbekistan_cities.html:153
+msgid ""
+"The culture of Uzbekistan is a vibrant blend of Persian, Turkic, and "
+"Russian\n"
+"                    influences. Traditional\n"
+"                    music, dance, and handicrafts are an integral part of "
+"Uzbek life. The country's cuisine is also\n"
+"                    renowned, with dishes like plov (a hearty rice dish), "
+"shashlik (grilled meat skewers), and various\n"
+"                    breads and pastries."
+msgstr ""
+
+#: templates/uzbekistan_cities.html:159
+msgid "Modern Uzbekistan"
+msgstr ""
+
+#: templates/uzbekistan_cities.html:160
+msgid ""
+"Today, Uzbekistan is a country on the rise. Since gaining independence in "
+"1991, it\n"
+"                    has been working\n"
+"                    to modernize its economy and infrastructure while "
+"preserving its rich cultural heritage. Tashkent,\n"
+"                    the capital, is a modern city with a blend of Soviet-era "
+"architecture and contemporary\n"
+"                    developments."
+msgstr ""
+
+#: templates/uzbekistan_cities.html:167
+msgid ""
+"Uzbekistan is becoming an increasingly popular tourist destination. Visitors "
+"are\n"
+"                    drawn to its\n"
+"                    historical sites, bustling bazaars, and warm "
+"hospitality. Whether exploring the ancient streets of\n"
+"                    Samarkand or enjoying the tranquility of the Uzbek "
+"countryside, there is much to discover in this\n"
+"                    captivating country."
+msgstr ""
+
+#: templates/uzbekistan_cities.html:176
+msgid "Tashkent: The Vibrant Capital"
+msgstr ""
+
+#: templates/uzbekistan_cities.html:177
+msgid ""
+"Tashkent, the capital city of Uzbekistan, is a bustling metropolis where "
+"modernity meets\n"
+"                tradition."
+msgstr ""
+
+#: templates/uzbekistan_cities.html:180
+msgid "Khast Imam Complex"
+msgstr ""
+
+#: templates/uzbekistan_cities.html:180
+msgid ""
+": A spiritual\n"
+"                    center housing the famous Quran of Caliph Uthman."
+msgstr ""
+
+#: templates/uzbekistan_cities.html:183
+msgid "Chorsu Bazaar"
+msgstr ""
+
+#: templates/uzbekistan_cities.html:183
+msgid ""
+": A lively market\n"
+"                    offering a glimpse into local life with fresh\n"
+"                    produce, spices, and traditional crafts."
+msgstr ""
+
+#: templates/uzbekistan_cities.html:187
+msgid "Amir Timur Square"
+msgstr ""
+
+#: templates/uzbekistan_cities.html:187
+msgid ""
+": A central\n"
+"                    landmark surrounded by important buildings and a\n"
+"                    statue of the great conqueror."
+msgstr ""
+
+#: templates/uzbekistan_cities.html:196
+msgid "Samarkand: The Jewel of the Silk Road"
+msgstr ""
+
+#: templates/uzbekistan_cities.html:197
+msgid ""
+"Samarkand, one of the oldest inhabited cities in Central Asia, is a treasure "
+"trove of\n"
+"                historical and\n"
+"                architectural wonders."
+msgstr ""
+
+#: templates/uzbekistan_cities.html:201
+msgid "Registan Square"
+msgstr ""
+
+#: templates/uzbekistan_cities.html:201
+msgid ""
+": A magnificent\n"
+"                    ensemble of three madrasahs with stunning Islamic\n"
+"                    architecture."
+msgstr ""
+
+#: templates/uzbekistan_cities.html:205
+msgid "Shah-i-Zinda"
+msgstr ""
+
+#: templates/uzbekistan_cities.html:205
+msgid ""
+": A necropolis with\n"
+"                    intricately decorated mausoleums."
+msgstr ""
+
+#: templates/uzbekistan_cities.html:207
+msgid "Bibi-Khanym Mosque"
+msgstr ""
+
+#: templates/uzbekistan_cities.html:207
+msgid ""
+": Once one of\n"
+"                    the largest mosques in the Islamic world, it still\n"
+"                    impresses with its grandeur."
+msgstr ""
+
+#: templates/uzbekistan_cities.html:216
+msgid "Bukhara: The Living Museum"
+msgstr ""
+
+#: templates/uzbekistan_cities.html:217
+msgid ""
+"Bukhara, a UNESCO World Heritage Site, is a city where history is alive in "
+"every\n"
+"                corner."
+msgstr ""
+
+#: templates/uzbekistan_cities.html:220
+msgid "The Ark Fortress"
+msgstr ""
+
+#: templates/uzbekistan_cities.html:220
+msgid ""
+": A massive\n"
+"                    fortress that has been a symbol of power for centuries."
+msgstr ""
+
+#: templates/uzbekistan_cities.html:223
+msgid "Poi Kalyan Complex"
+msgstr ""
+
+#: templates/uzbekistan_cities.html:223
+msgid ""
+": Featuring\n"
+"                    the Kalyan Minaret, Kalyan Mosque, and Mir-i-Arab\n"
+"                    Madrasah."
+msgstr ""
+
+#: templates/uzbekistan_cities.html:227
+msgid "Lyab-i Hauz"
+msgstr ""
+
+#: templates/uzbekistan_cities.html:227
+msgid ""
+": A picturesque plaza\n"
+"                    centered around a pool, surrounded by historic\n"
+"                    buildings."
+msgstr ""
+
+#: templates/uzbekistan_cities.html:235
+msgid "Khiva: The Ancient Oasis"
+msgstr ""
+
+#: templates/uzbekistan_cities.html:236
+msgid ""
+"Khiva, an ancient city located on the edge of the Kyzylkum Desert, is "
+"renowned for its\n"
+"                well-preserved\n"
+"                architecture and historical significance."
+msgstr ""
+
+#: templates/uzbekistan_cities.html:240
+msgid "Ichan Kala"
+msgstr ""
+
+#: templates/uzbekistan_cities.html:240
+msgid ""
+": The historic inner\n"
+"                    town, a UNESCO World Heritage Site, featuring an\n"
+"                    impressive collection of mosques, minarets, and "
+"madrasahs."
+msgstr ""
+
+#: templates/uzbekistan_cities.html:244
+msgid "Khiva Minaret"
+msgstr ""
+
+#: templates/uzbekistan_cities.html:244
+msgid ""
+": Known for its\n"
+"                    distinctive blue tile work and panoramic views of the\n"
+"                    city."
+msgstr ""
+
+#: templates/uzbekistan_cities.html:248
+msgid "Pakhlavan Makhmud Mausoleum"
+msgstr ""
+
+#: templates/uzbekistan_cities.html:248
+msgid ""
+": An\n"
+"                    important religious site, known for its intricate\n"
+"                    tile work and historical significance."
+msgstr ""
+
+#, fuzzy
+#~| msgid ""
+#~| "\n"
+#~| "                        Home "
+#~ msgid ""
+#~ "\n"
+#~ "                        About Us"
+#~ msgstr "Home"
+
+#, fuzzy
+#~| msgid ""
+#~| "\n"
+#~| "                        Home "
+#~ msgid ""
+#~ "Our\n"
+#~ "                Services"
+#~ msgstr "Home"
+
+#, fuzzy
+#~| msgid ""
+#~| "\n"
+#~| "                        Home "
+#~ msgid ""
+#~ "\n"
+#~ "                    Contact Us"
+#~ msgstr "Home"
+
+#~ msgid "Tour Packages"
+#~ msgstr "Tour Packages"
+
+#~ msgid "Contact"
+#~ msgstr "Contact"
+
+#, fuzzy
+#~| msgid ""
+#~| "\n"
+#~| "                        Home "
+#~ msgid ""
+#~ "\n"
+#~ "                Services"
+#~ msgstr "Home"
 
 #, fuzzy
 #~| msgid "Services"
@@ -822,28 +1831,12 @@ msgstr ""
 #~ msgstr "Discover Amazing Places With Us"
 
 #, fuzzy
-#~| msgid "Let's Discover The World Together"
-#~ msgid ""
-#~ "Let's Discover The World\n"
-#~ "                            Together"
-#~ msgstr "Let's Discover The World Together"
-
-#, fuzzy
 #~| msgid ""
 #~| "\n"
 #~| "                        Home "
 #~ msgid ""
 #~ "Tours &\n"
 #~ "                            Travel"
-#~ msgstr "Home"
-
-#, fuzzy
-#~| msgid ""
-#~| "\n"
-#~| "                        Home "
-#~ msgid ""
-#~ "About\n"
-#~ "                        Us"
 #~ msgstr "Home"
 
 #, fuzzy
