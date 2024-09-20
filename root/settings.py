@@ -31,6 +31,7 @@ INSTALLED_APPS = [
     'parler',
     'apps',
     'rest_framework',
+    "corsheaders",
     'drf_spectacular',
     'drf_spectacular_sidecar',
     'clickuz',
@@ -40,6 +41,7 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    "corsheaders.middleware.CorsMiddleware",
     'django.middleware.common.CommonMiddleware',
     'django.middleware.locale.LocaleMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -258,3 +260,18 @@ CKEDITOR_CONFIGS = {
         ]),
     },
 }
+
+CORS_ALLOWED_ORIGINS = [
+    "https://example.com",
+    "https://sub.example.com",
+    "http://localhost:8080",
+    "http://127.0.0.1:9000",
+    "https://silkroute.uz"
+]
+
+CSRF_TRUSTED_ORIGINS = [
+    "https://silkroute.uz",
+]
+
+CORS_ALLOW_ALL_ORIGINS = True
+CORS_ORIGIN_ALLOW_ALL = True

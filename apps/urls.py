@@ -1,5 +1,6 @@
 from django.contrib import admin
 from django.urls import path
+from django.views.decorators.csrf import csrf_exempt
 
 from apps.views import IndexView, AboutView, ServicesView, PackagesView, PackageDetailView, ContactModelFormView, \
     BookingFormView, PackageSearchView, CreateClickTransactionView, OrderedDetailView, ShowView, UzbekistanCitiesView, \
@@ -19,7 +20,7 @@ urlpatterns = [
     path('contact', ContactModelFormView.as_view(), name='contact'),
     path('booking', BookingFormView.as_view(), name='booking'),
     path('search', PackageSearchView.as_view(), name='trip-search'),
-    path("process/click/transaction/", CreateClickTransactionView.as_view(), name='payment'),
+    path("process/click/transaction/", csrf_exempt(CreateClickTransactionView.as_view()), name='payment'),
     path('example', ShowView.as_view(), name='example'),
     path('create-click-transaction/', CreateClickTransactionView.as_view(), name='create_click_transaction'),
 ]
