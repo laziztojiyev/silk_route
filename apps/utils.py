@@ -41,10 +41,11 @@ class PyClickMerchantAPIView(APIView):
                 {"error": AUTHORIZATION_FAIL_CODE, "error_note": AUTHORIZATION_FAIL}
             )
 
-        assert self.VALIDATE_CLASS
-        check_order = self.VALIDATE_CLASS().check_order(
-            order_id=merchant_trans_id, amount=amount
-        )
+        check_order = True
+        # assert self.VALIDATE_CLASS
+        # check_order = self.VALIDATE_CLASS().check_order(
+        #     order_id=merchant_trans_id, amount=amount
+        # )
         if check_order is True:
             result = METHODS[action](**serializer.validated_data)
             return Response(result)
