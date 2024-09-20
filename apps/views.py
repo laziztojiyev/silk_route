@@ -147,22 +147,31 @@ class CreateClickTransactionView(CreateView):
         return redirect(url)
 
 
+class Payment(PyClickMerchantAPIView):
+    pass
+
+
 class OrderedDetailView(TemplateView):
     template_name = 'ordered.html'
     queryset = Booking.objects.all()
     context_object_name = 'packagess'
 
+
 class ShowView(TemplateView):
     template_name = 'example.html'
+
 
 class UzbekistanCitiesView(TemplateView):
     template_name = 'uzbekistan_cities.html'
 
+
 class KazakhstanCitiesView(TemplateView):
     template_name = 'kazakhstan_cities.html'
 
+
 class TajikistanCitiesView(TemplateView):
     template_name = 'tajikistan_cities.html'
+
 
 class KyrgyzstanCitiesView(TemplateView):
     template_name = 'kyrgyzstan_cities.html'
