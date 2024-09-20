@@ -1,10 +1,10 @@
-from django.contrib import admin
 from django.urls import path
 from django.views.decorators.csrf import csrf_exempt
 
 from apps.views import IndexView, AboutView, ServicesView, PackagesView, PackageDetailView, ContactModelFormView, \
-    BookingFormView, PackageSearchView, CreateClickTransactionView, OrderedDetailView, ShowView, UzbekistanCitiesView, \
-    KazakhstanCitiesView, TajikistanCitiesView, KyrgyzstanCitiesView, Payment
+    BookingFormView, PackageSearchView, OrderedDetailView, ShowView, UzbekistanCitiesView, \
+    KazakhstanCitiesView, TajikistanCitiesView, KyrgyzstanCitiesView, ClickTransactionTestView, \
+    CreateClickTransactionView
 
 urlpatterns = [
     path('', IndexView.as_view(), name='index'),
@@ -20,10 +20,10 @@ urlpatterns = [
     path('contact', ContactModelFormView.as_view(), name='contact'),
     path('booking', BookingFormView.as_view(), name='booking'),
     path('search', PackageSearchView.as_view(), name='trip-search'),
-    path("process/click/transaction/", csrf_exempt(Payment.as_view()), name='payment'),
+    path("process123", csrf_exempt(CreateClickTransactionView.as_view()), name='payment'),
+    path("process/click/transaction/", csrf_exempt(ClickTransactionTestView.as_view()), name='create_click_transaction'),
     path('example', ShowView.as_view(), name='example'),
 ]
-
 
 # strukturani o'zgartiramiz
 # ruschani o'zgartirish

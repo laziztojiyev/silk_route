@@ -1,3 +1,4 @@
+from clickuz.status import ORDER_FOUND, INVALID_AMOUNT, ORDER_NOT_FOUND
 from django.conf import settings
 from django.http import HttpResponseRedirect
 from django.shortcuts import redirect
@@ -124,14 +125,33 @@ class PackageSearchView(ListView):
         return context
 
 
+class TransactionCheck(PyClickMerchantAPIView):
+    @classmethod
+    def check_order(cls, order_id: str, amount: str):
+        if order_id:
+            try:
+                order = ClickTransaction.objects.get(id=order_id)
+                if int(amount) == order.amount:
+                    return ORDER_FOUND
+                else:
+                    return INVALID_AMOUNT
+            except ClickTransaction.DoesNotExist:
+                return ORDER_NOT_FOUND
+
+    @classmethod
+    def successfully_payment(cls, transaction: ClickTransaction):
+        """Эта функция вызывается после успешной оплаты"""
+        pass
+
+
+class ClickTransactionTestView(PyClickMerchantAPIView):
+    VALIDATE_CLASS = TransactionCheck
+
+
 class CreateClickTransactionView(CreateView):
     model = ClickTransaction
+    template_name = 'payment.html'
     form_class = ClickTransactionForm
-    template_name = 'payment.html'  # Replace with your template name
-
-    # def __init__(self, **kwargs):
-    #     super().__init__(kwargs)
-    #     self.object = None
 
     def form_valid(self, form):
         # Save the form to create the ClickTransaction object
@@ -142,17 +162,6 @@ class CreateClickTransactionView(CreateView):
         url = PyClickMerchantAPIView.generate_url(
             order_id=self.object.id, amount=str(self.object.amount), return_url=return_url
         )
-
-        # Redirect to the generated URL
-        return redirect(url)
-
-
-class Payment(PyClickMerchantAPIView):
-
-    def get(self, request, *args, **kwargs):
-        return_url = "https://silkroute.uz"
-        url = PyClickMerchantAPIView.generate_url(order_id=request.GET.get('order_id'), amount=request.GET.get('summa'),
-                                                  return_url=return_url)
 
         # Redirect to the generated URL
         return redirect(url)

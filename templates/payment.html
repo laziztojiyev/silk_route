@@ -56,7 +56,7 @@
     <body>
 
     <div class="form-container">
-        <form action="{% url 'create_click_transaction' %}" method="post">
+        <form action="{% url 'payment' %}" method="post">
             {% csrf_token %}
             <div class="form-group">
                 <label for="amount">Amount:</label>
