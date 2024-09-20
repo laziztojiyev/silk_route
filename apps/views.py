@@ -148,7 +148,14 @@ class CreateClickTransactionView(CreateView):
 
 
 class Payment(PyClickMerchantAPIView):
-    pass
+
+    def get(self, request, *args, **kwargs):
+        return_url = "https://silkroute.uz"
+        url = PyClickMerchantAPIView.generate_url(order_id=request.GET.get('order_id'), amount=request.GET.get('summa'),
+                                                  return_url=return_url)
+
+        # Redirect to the generated URL
+        return redirect(url)
 
 
 class OrderedDetailView(TemplateView):
