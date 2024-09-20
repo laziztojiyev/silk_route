@@ -48,6 +48,7 @@ class PyClickMerchantAPIView(APIView):
         # )
         if check_order is True:
             result = METHODS[action](**serializer.validated_data)
+            print(result)
             return Response(result)
         return Response({"error": check_order})
 
