@@ -139,7 +139,7 @@
                 <div class="navbar-nav ml-auto py-0">
                     <a href="{% url 'index' %}"
                        class="nav-item nav-link {% if request.path == 'index' %}active{% endif %}">{% blocktrans %}
-                        Home{% endblocktrans %}</a>
+                        About Us{% endblocktrans %}</a>
                     <!-- Travel Guide Dropdown -->
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">{% blocktrans %}
@@ -162,10 +162,10 @@
                         Packages{% endblocktrans %}</a>
                     <a href="{% url 'contact' %}" class="nav-item nav-link">{% blocktrans %}Contact
                         Us{% endblocktrans %}</a>
-                    <a href="{% url 'about' %}"
-                       class="nav-item nav-link {% if request.path == 'about' %}active{% endif %}">{% blocktrans %}About
-                        Us{% endblocktrans %}</a>
-
+{#                    <a href="{% url 'about' %}"#}
+{#                       class="nav-item nav-link {% if request.path == 'about' %}active{% endif %}">{% blocktrans %}About#}
+{#                        Us{% endblocktrans %}</a>#}
+{##}
 
                 </div>
             </div>
