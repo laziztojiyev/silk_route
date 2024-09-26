@@ -74,6 +74,19 @@
                                     <a href="tel:+998909192220">+998909192220</a>
                                 </p>
                             </div>
+                            {#                            <div class="dropdown ml-3 multilang-wrap">#}
+
+                            {#                                <div class="dropdown-menu" aria-labelledby="languageDropdown">#}
+                            {#                                    <a class="dropdown-item"#}
+                            {#                                       href="{% url 'set_language' %}?next={{ request.path }}&language=en">#}
+                            {#                                        <img src="{% static 'img/icons8-united-kingdom-20.png' %}" alt="En"> English#}
+                            {#                                    </a>#}
+                            {#                                    <a class="dropdown-item"#}
+                            {#                                       href="{% url 'set_language' %}?next={{ request.path }}&language=ru">#}
+                            {#                                        <img src="{% static 'img/icons8-russia-20.png' %}" alt="Ru"> Русский#}
+                            {#                                    </a>#}
+                            {#                                </div>#}
+                            {#                            </div>#}
                             <div class="dropdown ml-3 multilang-wrap">
                                 <button class="btn btn-secondary dropdown-toggle" type="button" id="languageDropdown"
                                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
@@ -83,11 +96,11 @@
                                 <div class="dropdown-menu" aria-labelledby="languageDropdown">
                                     <a class="dropdown-item"
                                        href="{% url 'set_language' %}?next={{ request.path }}&language=en">
-                                        <img src="{% static 'img/icons8-united-kingdom-20.png' %}" alt="En"> English
+                                        <img src="{% static 'img/icons8-united-kingdom-20.png' %}" alt="EN"> EN
                                     </a>
                                     <a class="dropdown-item"
                                        href="{% url 'set_language' %}?next={{ request.path }}&language=ru">
-                                        <img src="{% static 'img/icons8-russia-20.png' %}" alt="Ru"> Русский
+                                        <img src="{% static 'img/icons8-russia-20.png' %}" alt="RU"> RU
                                     </a>
                                 </div>
                             </div>
@@ -162,10 +175,10 @@
                         Packages{% endblocktrans %}</a>
                     <a href="{% url 'contact' %}" class="nav-item nav-link">{% blocktrans %}Contact
                         Us{% endblocktrans %}</a>
-{#                    <a href="{% url 'about' %}"#}
-{#                       class="nav-item nav-link {% if request.path == 'about' %}active{% endif %}">{% blocktrans %}About#}
-{#                        Us{% endblocktrans %}</a>#}
-{##}
+                    {#                    <a href="{% url 'about' %}"#}
+                    {#                       class="nav-item nav-link {% if request.path == 'about' %}active{% endif %}">{% blocktrans %}About#}
+                    {#                        Us{% endblocktrans %}</a>#}
+                    {##}
 
                 </div>
             </div>
@@ -173,8 +186,6 @@
         <!-- Navbar End -->
     </div>
 </div>
-
-
 
 
 <!-- Carousel Start -->
@@ -260,8 +271,8 @@
             </div>
         </div>
         <div class="col-lg-3 col-md-6 mb-5">
-{#            <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">{% blocktrans %}Our#}
-{#                Services{% endblocktrans %}</h5>#}
+            {#            <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">{% blocktrans %}Our#}
+            {#                Services{% endblocktrans %}</h5>#}
             <div class="d-flex flex-column justify-content-start">
                 <a class="text-white-50 mb-2" href="{% url 'about' %}"><i class="fa fa-angle-right mr-2"></i>
                     {% blocktrans %}About Us{% endblocktrans %}</a>

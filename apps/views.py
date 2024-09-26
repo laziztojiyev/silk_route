@@ -40,23 +40,62 @@ class PackageDetailView(DetailView):
     context_object_name = 'package'
 
 
+# def set_language(request):
+#     next_url = request.GET.get('next', '/')
+#     lang_code = request.GET.get('language')
+#
+#     if lang_code and lang_code in dict(settings.LANGUAGES):
+#         # Strip out the language code from the URL before translating the URL.
+#         for code, _ in settings.LANGUAGES:
+#             prefix = f'/{code}/'
+#             if next_url.startswith(prefix):
+#                 next_url = next_url[len(prefix) - 1:]
+#                 break
+#
+#         # Activate the selected language
+#         activate(lang_code)
+#         # Append the selected language code to the URL
+#         next_url = f'/{lang_code}{next_url}'
+#
+#     return HttpResponseRedirect(next_url)
+
+from django.conf import settings
+from django.http import HttpResponseRedirect
+from django.utils.translation import activate, get_language
+
+from django.conf import settings
+from django.http import HttpResponseRedirect
+from django.utils.translation import activate
+from django.utils.http import url_has_allowed_host_and_scheme
+
+
 def set_language(request):
+    # Get the 'next' parameter from the request (the URL to redirect back to)
     next_url = request.GET.get('next', '/')
+
+    # Get the selected language code from the query parameters
     lang_code = request.GET.get('language')
 
+    # Ensure the selected language is in the available LANGUAGES
     if lang_code and lang_code in dict(settings.LANGUAGES):
-        # Strip out the language code from the URL before translating the URL.
+        # Strip any existing language code from the URL
         for code, _ in settings.LANGUAGES:
             prefix = f'/{code}/'
             if next_url.startswith(prefix):
-                next_url = next_url[len(prefix) - 1:]
+                next_url = next_url[len(prefix):]
                 break
 
-        # Activate the selected language
+        # Activate the selected language for the current request
         activate(lang_code)
-        # Append the selected language code to the URL
+
+        # Build the new URL by prepending the selected language code
         next_url = f'/{lang_code}{next_url}'
 
+    # Ensure the next_url is safe for redirection
+    if not url_has_allowed_host_and_scheme(next_url, allowed_hosts={request.get_host()}):
+        next_url = '/'
+
+    # Redirect the user to the updated URL with the selected language
     return HttpResponseRedirect(next_url)
 
 

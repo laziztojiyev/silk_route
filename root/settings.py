@@ -2,7 +2,7 @@ import os
 from pathlib import Path
 import os
 from urllib.parse import urljoin
-
+from django.utils.translation import gettext_lazy as _
 from django.conf import settings
 from django.core.files.storage import FileSystemStorage
 
@@ -98,8 +98,8 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en'
 LANGUAGES = [
-    ('en', 'English'),
-    ('ru', 'Russian'),  # Added Russian
+    ('en', _('English')),
+    ('ru', _('Russian')),  # Added Russian
 ]
 
 TIME_ZONE = 'Asia/Tashkent'
