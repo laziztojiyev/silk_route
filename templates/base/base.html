@@ -63,34 +63,27 @@
                 <div class="row">
                     <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
                         <div class="d-inline-flex align-items-center">
-                            <p class="mb-0" style="font-size: 1rem;">
+                            <!-- Email Section -->
+                            <p class="mb-0" style="font-size: 0.875rem;">  <!-- Font size reduced to 0.875rem (14px) -->
                                 <i class="fa fa-envelope mr-2"></i>
-                                <a href="mailto:info@silkroute.uz">info@silkroute.uz</a>
+                                <a href="mailto:info@silkroute.uz" style="font-size: 0.875rem;">info@silkroute.uz</a>
                             </p>
-                            <p class="text-body px-3 mb-0" style="font-size: 1rem;">|</p>
+                            <!-- Divider -->
+                            <p class="text-body px-3 mb-0" style="font-size: 0.875rem;">|</p> <!-- Font size reduced -->
+                            <!-- Phone Section -->
                             <div class="d-inline-flex align-items-center">
-                                <p class="mb-0" style="font-size: 1rem;">
+                                <p class="mb-0" style="font-size: 0.875rem;"> <!-- Font size reduced -->
                                     <i class="fa fa-phone-alt mr-2"></i>
-                                    <a href="tel:+998909192220">+998909192220</a>
+                                    <a href="tel:+998909192220" style="font-size: 0.875rem;">+998909192220</a>
+                                    <!-- Font size reduced -->
                                 </p>
                             </div>
-                            {#                            <div class="dropdown ml-3 multilang-wrap">#}
 
-                            {#                                <div class="dropdown-menu" aria-labelledby="languageDropdown">#}
-                            {#                                    <a class="dropdown-item"#}
-                            {#                                       href="{% url 'set_language' %}?next={{ request.path }}&language=en">#}
-                            {#                                        <img src="{% static 'img/icons8-united-kingdom-20.png' %}" alt="En"> English#}
-                            {#                                    </a>#}
-                            {#                                    <a class="dropdown-item"#}
-                            {#                                       href="{% url 'set_language' %}?next={{ request.path }}&language=ru">#}
-                            {#                                        <img src="{% static 'img/icons8-russia-20.png' %}" alt="Ru"> Русский#}
-                            {#                                    </a>#}
-                            {#                                </div>#}
-                            {#                            </div>#}
+                            <!-- Language Dropdown -->
                             <div class="dropdown ml-3 multilang-wrap">
                                 <button class="btn btn-secondary dropdown-toggle" type="button" id="languageDropdown"
                                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-                                        style="font-size: 1rem;">
+                                        style="font-size: 0.875rem;"> <!-- Font size adjusted here too -->
                                     {% blocktrans %}Language{% endblocktrans %}
                                 </button>
                                 <div class="dropdown-menu" aria-labelledby="languageDropdown">
@@ -104,10 +97,9 @@
                                     </a>
                                 </div>
                             </div>
-
-
                         </div>
                     </div>
+
                     <div class="col-lg-6 text-center text-lg-right">
                         <div class="d-inline-flex align-items-center">
                             <a class="text-primary px-3" href="https://www.facebook.com/silkroute.uz">
