@@ -307,15 +307,13 @@
             <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Payment</h6>
             <div class="w-100">
                 <div class="input-group">
-                    {#                                            <input type="text" class="form-control border-light" style="padding: 25px;"#}
-                    {#                                                   placeholder="Your Email">#}
                     <div class="input-group-append">
-                        <a href="{% url 'payment' %}">
-                            <img src="https://ajva-tour.uz/wp-content/uploads/2024/01/click.png" alt=""></a>
+                        <a href="{% url 'payment' %}">{% blocktrans %} Pay with click app {% endblocktrans %}
+                            <img src="{% static 'img/img.jpg' %}" alt="">
+                        </a>
                     </div>
                 </div>
             </div>
-
 
             {#            <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Newsletter</h6>#}
             {#            <div class="w-100">#}
