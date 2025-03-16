@@ -1,0 +1,3349 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-21 10:19+0500\n"
+"PO-Revision-Date: 2024-09-21 11:23+0500\n"
+"Last-Translator:   <>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Translated-Using: django-rosetta 0.10.0\n"
+
+#: apps/models.py:79
+msgid "Номер платежа в системе CLICK"
+msgstr ""
+
+#: apps/models.py:82
+msgid "Сумма оплаты (в сумах)"
+msgstr ""
+
+#: apps/models.py:88
+msgid "Выполняемое действие"
+msgstr ""
+
+#: apps/models.py:91
+msgid "Статус"
+msgstr ""
+
+#: apps/utils.py:92
+msgid "SIGN CHECK FAILED!"
+msgstr ""
+
+#: apps/utils.py:96
+msgid "Action not found"
+msgstr ""
+
+#: apps/utils.py:100
+msgid "Order not found"
+msgstr ""
+
+#: apps/utils.py:105
+msgid "Incorrect parameter amount"
+msgstr ""
+
+#: apps/utils.py:109
+msgid "Already paid"
+msgstr ""
+
+#: apps/utils.py:115
+msgid "Transaction not found"
+msgstr ""
+
+#: apps/utils.py:121
+msgid "Transaction cancelled"
+msgstr ""
+
+#: templates/about.html:126 templates/base/base.html:267
+#: templates/index.html:157
+msgid "About Us"
+msgstr "Об Узбекистане"
+
+#: templates/about.html:140 templates/index.html:171
+msgid "We offer the best tour packages to fit your budget."
+msgstr "Мы предлагаем лучшие туристические пакеты в рамках вашего бюджета"
+
+#: templates/about.html:141
+#| msgid ""
+#| "\n"
+#| "                        SILK ROUTE DMC (Destination Management Company) welcomes you to an extraordinary journey through\n"
+#| "                        the East, delving deep into traditions and histories spanning thousands of years. We are\n"
+#| "                        committed to providing you with an unforgettable holiday, showcasing the jewels of Central Asia,\n"
+#| "                        such as Samarkand, Bukhara, and Khiva.\n"
+#| "\n"
+#| "                        Our professional team guarantees high-quality service and aims to enhance your understanding of\n"
+#| "                        our culture, history, and geography. We offer a wide range of services, including:\n"
+#| "                        <br>\n"
+#| "                        - Guided tours to the cities of the Great Silk Road: Tashkent, Samarkand, Bukhara, Khiva, and\n"
+#| "                        other historical sites.\n"
+#| "                        <br>\n"
+#| "                        - Visa support.\n"
+#| "                        <br>\n"
+#| "                        - Hotel booking with various levels of comfort.\n"
+#| "                        <br>\n"
+#| "                        - Rental services for vehicles of different classes.\n"
+#| "                        <br>\n"
+#| "                        - Booking of air and train tickets.\n"
+#| "                        <br><br>\n"
+#| "                        - Arrangements for children's and student groups.\n"
+#| "                        <br><br>\n"
+#| "                        - Participation in Uzbekistan's various festivals.\n"
+#| "                        <br><br>\n"
+#| "                        - Tailored tours encompassing bike trips, photo tours, eco-tours, and beyond.\n"
+#| "                        <br>\n"
+#| "                        Our guides are highly qualified, dependable, and possess essential personal qualities. They are\n"
+#| "                        proficient in various foreign languages, including Turkish, Russian, English, French, German,\n"
+#| "                        Spanish, Italian, Japanese, and more. The excursions designed by our specialists are\n"
+#| "                        individualized, incorporating fascinating historical facts without adhering to standard\n"
+#| "                        templates. Our guides and translators boast deep knowledge of the region's history, as well as\n"
+#| "                        the culture and traditions of the local populace. They will regale you with legends and stories,\n"
+#| "                        immersing you in the enchanting ambiance of the East. Join us and immerse yourself in the unique\n"
+#| "                        beauty of Uzbekistan with SILKROUTE!\n"
+#| "                        </span>\n"
+#| "                    "
+msgid ""
+"\n"
+"                        SILK ROUTE DMC (Destination Management Company) welcomes you to an extraordinary journey through\n"
+"                        the East, delving deep into traditions and histories spanning thousands of years. We are\n"
+"                        committed to providing you with an unforgettable holiday, showcasing the jewels of Central Asia,\n"
+"                        such as Samarkand, Bukhara, and Khiva.\n"
+"\n"
+"                        Our professional team guarantees high-quality service and aims to enhance your understanding of\n"
+"                        our culture, history, and geography. We offer a wide range of services, including:\n"
+"                        <br>\n"
+"                        - Guided tours to the cities of the Great Silk Road: Tashkent, Samarkand, Bukhara, Khiva, and\n"
+"                        other historical sites.\n"
+"                        <br>\n"
+"                        - Visa support.\n"
+"                        <br>\n"
+"                        - Hotel booking with various levels of comfort.\n"
+"                        <br>\n"
+"                        - Rental services for vehicles of different classes.\n"
+"                        <br>\n"
+"                        - Booking of air and train tickets.\n"
+"                        <br>\n"
+"                        - Arrangements for children's and student groups.\n"
+"                        <br>\n"
+"                        - Participation in Uzbekistan's various festivals.\n"
+"                        <br>\n"
+"                        - Tailored tours encompassing bike trips, photo tours, eco-tours, and beyond.\n"
+"                        <br>\n"
+"                        Our guides are highly qualified, dependable, and possess essential personal qualities. They are\n"
+"                        proficient in various foreign languages, including Turkish, Russian, English, French, German,\n"
+"                        Spanish, Italian, Japanese, and more. The excursions designed by our specialists are\n"
+"                        individualized, incorporating fascinating historical facts without adhering to standard\n"
+"                        templates. Our guides and translators boast deep knowledge of the region's history, as well as\n"
+"                        the culture and traditions of the local populace. They will regale you with legends and stories,\n"
+"                        immersing you in the enchanting ambiance of the East. Join us and immerse yourself in the unique\n"
+"                        beauty of Uzbekistan with SILKROUTE!\n"
+"                        </span>\n"
+"                    "
+msgstr ""
+"\n"
+"SILK ROUTE – ваш путеводитель по Великому Шелковому пути. \n"
+"SILK ROUTE приглашает вас в необыкновенное путешествие по городам Средней Азии, погружаясь в традиции и историю, охватывающую тысячи лет. Мы стремимся предоставить вам незабываемый отдых, демонстрируя организацией туров по Узбекистану и по странам Средней Азии. Мы работаем как с индивидуальными туристами, так и с большими группами, гарантируя интересное и комфортное пребывание в странах Великого Шелкового пути. \n"
+"Наша профессиональная команда гарантирует высококачественное обслуживание и стремится улучшить ваше понимание нашей культуры, истории и географии. Мы предлагаем широкий спектр услуг, в том числе:\n"
+"- Экскурсии по городам Великого Шелкового пути: такие как Ташкент, Самарканд, Бухара, Хива и другие исторические города.\n"
+"- Визовая поддержка.\n"
+"- Бронирование отелей (различного уровня и комфорта).\n"
+"- Услуга по аренде автомобилей (разных классов).\n"
+"- Бронирование авиа и ж/д билетов.\n"
+"- Организация детских и студенческих групп.\n"
+"- Участие в различных фестивалях. (В городах Узбекистана).\n"
+"- Индивидуальные туры, включающие велопоездки, фототуры, экотуры и многое другое.\n"
+"\n"
+"Наши гиды высококвалифицированные, обладающие всеми необходимыми личными и профессиональными качествами. Они владеют несколькими иностранными языками, включая турецкий, русский, английский, индонезийский, французский, немецкий, испанский, итальянский, японский и другие. Предлагаемые Экскурсии, разработанные нашими специалистами, считаются уникальны, включают в себя увлекательные исторические факты, не придерживаясь стандартных шаблонов. Наши гиды и переводчики обладают глубоким знанием истории региона, а также культуры и традиций местного населения. Они побалуют вас легендами и историями, погружая в чарующую атмосферу Востока. Присоединяйтесь к нам и погрузитесь в неповторимую красоту Средней Азии вместе с SILKROUTE!"
+
+#: templates/base/base.html:81
+msgid "Language"
+msgstr "Язык"
+
+#: templates/base/base.html:141
+#| msgid ""
+#| "\n"
+#| "                        Contact Us"
+msgid ""
+"\n"
+"                        About Us"
+msgstr ""
+"\n"
+"О нас"
+
+#: templates/base/base.html:145
+#| msgid ""
+#| "\n"
+#| "                        Contact Us"
+msgid ""
+"\n"
+"                            Countries"
+msgstr ""
+"\n"
+"Страны"
+
+#: templates/base/base.html:148
+#| msgid ""
+#| "Send\n"
+#| "                                    Message"
+msgid ""
+"\n"
+"                                Uzbekistan"
+msgstr ""
+"\n"
+"Узбекистан"
+
+#: templates/base/base.html:150
+#| msgid ""
+#| "Send\n"
+#| "                                    Message"
+msgid ""
+"\n"
+"                                Kazakhstan"
+msgstr ""
+"\n"
+"Казахстан"
+
+#: templates/base/base.html:152
+#| msgid ""
+#| "Send\n"
+#| "                                    Message"
+msgid ""
+"\n"
+"                                Kyrgyzstan"
+msgstr ""
+"\n"
+"Кыргызстан"
+
+#: templates/base/base.html:154
+#| msgid ""
+#| "Send\n"
+#| "                                    Message"
+msgid ""
+"\n"
+"                                Tajikistan"
+msgstr ""
+"\n"
+"Таджикистан"
+
+#: templates/base/base.html:159
+msgid ""
+"\n"
+"                        Services"
+msgstr ""
+"\n"
+"Услуги"
+
+#: templates/base/base.html:161
+msgid ""
+"Tour\n"
+"                        Packages"
+msgstr "Туры"
+
+#: templates/base/base.html:163
+#| msgid ""
+#| "Contact\n"
+#| "                Us"
+msgid ""
+"Contact\n"
+"                        Us"
+msgstr "Связаться с нами"
+
+#: templates/base/base.html:233
+msgid ""
+"Welcome to Silkroute Travel Agency, your gateway to unforgettable journeys across the\n"
+"                globe.\n"
+"                Named after the legendary Silk Road, our agency embodies the spirit of exploration,\n"
+"                adventure, and cultural exchange. Whether you're seeking historical wonders, natural beauty,\n"
+"                or vibrant cultures, we are here to make your travel dreams a reality."
+msgstr ""
+"Добро пожаловать в туристическое агентство Silkroute – ваш проводник в незабываемые путешествия по всему миру.\n"
+"\n"
+"Названное в честь легендарного Шелкового пути, наше агентство воплощает дух исследований, приключений и культурного обмена. Независимо от того, ищете ли вы исторические чудеса, природную красоту или яркие культуры, мы здесь, чтобы воплотить ваши мечты о путешествиях в реальность."
+
+#: templates/base/base.html:238
+msgid ""
+"Follow\n"
+"                Us"
+msgstr "Подписывайтесь на нас"
+
+#: templates/base/base.html:271 templates/service.html:10
+#: templates/service.html:15
+msgid "Services"
+msgstr "Услуги"
+
+#: templates/base/base.html:273 templates/blog.html:126
+#: templates/blog.html:130
+msgid "Packages"
+msgstr "Туры"
+
+#: templates/base/base.html:277
+msgid ""
+"\n"
+"                        Contact Us"
+msgstr ""
+"\n"
+"Связаться с нами"
+
+#: templates/base/base.html:291
+msgid ""
+"Contact\n"
+"                Us"
+msgstr "Связаться с нами"
+
+#: templates/base/base.html:293
+#| msgid "3 Block Chorsu, Shaykhantakhur district,Tashkent, Uzbekistan"
+msgid ""
+"3 Block Chorsu, Shaykhantakhur\n"
+"                district,Tashkent, Uzbekistan"
+msgstr "г.Ташкент, Шайхантахурский район, массив Чорсу , дом 3."
+
+#: templates/blog.html:128 templates/contact.html:14 templates/single.html:127
+msgid "Home"
+msgstr "Главная"
+
+#: templates/blog.html:145 templates/index.html:113
+msgid "Perfect Tour Packages"
+msgstr "Идеальные туристические пакеты"
+
+#: templates/contact.html:11 templates/contact.html:16
+msgid "Contact Us"
+msgstr "Связаться с нами"
+
+#: templates/contact.html:87
+msgid "Contact For Any Query"
+msgstr "Свяжитесь по любому вопросу"
+
+#: templates/contact.html:98
+msgid "Your Name"
+msgstr "Ваше имя"
+
+#: templates/contact.html:104
+msgid "Your Email"
+msgstr "Ваш адрес электронной почты"
+
+#: templates/contact.html:111
+msgid "Subject"
+msgstr "Тема"
+
+#: templates/contact.html:117
+msgid "Message"
+msgstr "Сообщение"
+
+#: templates/contact.html:118
+msgid "Please enter your message"
+msgstr "Пожалуйста, введите ваше сообщение"
+
+#: templates/contact.html:122
+msgid ""
+"Send\n"
+"                                    Message"
+msgstr ""
+"Отправить\n"
+"сообщение"
+
+#: templates/index.html:18
+#| msgid "Your guide to THE Central Asia"
+msgid "Your guide to the Central Asia"
+msgstr "Ваш проводник в Центральную Азию"
+
+#: templates/index.html:29
+#| msgid "Discover the history of Central Asia with Silk Route"
+msgid ""
+"Discover the history of Central Asia with Silk\n"
+"                                    Route"
+msgstr "Откройте всю историю Центральной Азии вместе с Silk Route"
+
+#: templates/index.html:172
+#| msgid ""
+#| "\n"
+#| "                        SILK ROUTE DMC (Destination Management Company) welcomes you to an extraordinary journey through\n"
+#| "                        the East, delving deep into traditions and histories spanning thousands of years. We are\n"
+#| "                        committed to providing you with an unforgettable holiday, showcasing the jewels of Central Asia,\n"
+#| "                        such as Samarkand, Bukhara, and Khiva.\n"
+#| "\n"
+#| "                        Our professional team guarantees high-quality service and aims to enhance your understanding of\n"
+#| "                        our culture, history, and geography. We offer a wide range of services, including:\n"
+#| "                        <br>\n"
+#| "                        - Guided tours to the cities of the Great Silk Road: Tashkent, Samarkand, Bukhara, Khiva, and\n"
+#| "                        other historical sites.\n"
+#| "                        <br>\n"
+#| "                        - Visa support.\n"
+#| "                        <br>\n"
+#| "                        - Hotel booking with various levels of comfort.\n"
+#| "                        <br>\n"
+#| "                        - Rental services for vehicles of different classes.\n"
+#| "                        <br>\n"
+#| "                        - Booking of air and train tickets.\n"
+#| "                        <br><br>\n"
+#| "                        - Arrangements for children's and student groups.\n"
+#| "                        <br><br>\n"
+#| "                        - Participation in Uzbekistan's various festivals.\n"
+#| "                        <br><br>\n"
+#| "                        - Tailored tours encompassing bike trips, photo tours, eco-tours, and beyond.\n"
+#| "                        <br>\n"
+#| "                        Our guides are highly qualified, dependable, and possess essential personal qualities. They are\n"
+#| "                        proficient in various foreign languages, including Turkish, Russian, English, French, German,\n"
+#| "                        Spanish, Italian, Japanese, and more. The excursions designed by our specialists are\n"
+#| "                        individualized, incorporating fascinating historical facts without adhering to standard\n"
+#| "                        templates. Our guides and translators boast deep knowledge of the region's history, as well as\n"
+#| "                        the culture and traditions of the local populace. They will regale you with legends and stories,\n"
+#| "                        immersing you in the enchanting ambiance of the East. Join us and immerse yourself in the unique\n"
+#| "                        beauty of Uzbekistan with SILKROUTE!\n"
+#| "                        </span>\n"
+#| "                    "
+msgid ""
+"\n"
+"                            SILK ROUTE DMC (Destination Management Company) welcomes you to an extraordinary journey\n"
+"                            through\n"
+"                            the East, delving deep into traditions and histories spanning thousands of years. We are\n"
+"                            committed to providing you with an unforgettable holiday, showcasing the jewels of Central\n"
+"                            Asia,\n"
+"                            such as Samarkand, Bukhara, and Khiva.\n"
+"\n"
+"                            Our professional team guarantees high-quality service and aims to enhance your understanding\n"
+"                            of\n"
+"                            our culture, history, and geography. We offer a wide range of services, including:\n"
+"                            <br>\n"
+"                            - Guided tours to the cities of the Great Silk Road: Tashkent, Samarkand, Bukhara, Khiva,\n"
+"                            and\n"
+"                            other historical sites.\n"
+"                            <br>\n"
+"                            - Visa support.\n"
+"                            <br>\n"
+"                            - Hotel booking with various levels of comfort.\n"
+"                            <br>\n"
+"                            - Rental services for vehicles of different classes.\n"
+"                            <br>\n"
+"                            - Booking of air and train tickets.\n"
+"                            <br>\n"
+"                            - Arrangements for children's and student groups.\n"
+"                            <br>\n"
+"                            - Participation in Uzbekistan's various festivals.\n"
+"                            <br>\n"
+"                            - Tailored tours encompassing bike trips, photo tours, eco-tours, and beyond.\n"
+"                            <br>\n"
+"                            Our guides are highly qualified, dependable, and possess essential personal qualities. They\n"
+"                            are\n"
+"                            proficient in various foreign languages, including Turkish, Russian, English, French,\n"
+"                            German,\n"
+"                            Spanish, Italian, Japanese, and more. The excursions designed by our specialists are\n"
+"                            individualized, incorporating fascinating historical facts without adhering to standard\n"
+"                            templates. Our guides and translators boast deep knowledge of the region's history, as well\n"
+"                            as\n"
+"                            the culture and traditions of the local populace. They will regale you with legends and\n"
+"                            stories,\n"
+"                            immersing you in the enchanting ambiance of the East. Join us and immerse yourself in the\n"
+"                            unique\n"
+"                            beauty of Uzbekistan with SILKROUTE!\n"
+"                        "
+msgstr ""
+"\n"
+"SILK ROUTE – ваш путеводитель по Великому Шелковому пути. \n"
+"SILK ROUTE приглашает вас в необыкновенное путешествие по городам Средней Азии, погружаясь в традиции и историю, охватывающую тысячи лет. Мы стремимся предоставить вам незабываемый отдых, демонстрируя организацией туров по Узбекистану и по странам Средней Азии. Мы работаем как с индивидуальными туристами, так и с большими группами, гарантируя интересное и комфортное пребывание в странах Великого Шелкового пути. \n"
+"Наша профессиональная команда гарантирует высококачественное обслуживание и стремится улучшить ваше понимание нашей культуры, истории и географии. Мы предлагаем широкий спектр услуг, в том числе:\n"
+"- Экскурсии по городам Великого Шелкового пути: такие как Ташкент, Самарканд, Бухара, Хива и другие исторические города.\n"
+"- Визовая поддержка.\n"
+"- Бронирование отелей (различного уровня и комфорта).\n"
+"- Услуга по аренде автомобилей (разных классов).\n"
+"- Бронирование авиа и ж/д билетов.\n"
+"- Организация детских и студенческих групп.\n"
+"- Участие в различных фестивалях. (В городах Узбекистана).\n"
+"- Индивидуальные туры, включающие велопоездки, фототуры, экотуры и многое другое.\n"
+"\n"
+"Наши гиды высококвалифицированные, обладающие всеми необходимыми личными и профессиональными качествами. Они владеют несколькими иностранными языками, включая турецкий, русский, английский, индонезийский, французский, немецкий, испанский, итальянский, японский и другие. Предлагаемые Экскурсии, разработанные нашими специалистами, считаются уникальны, включают в себя увлекательные исторические факты, не придерживаясь стандартных шаблонов. Наши гиды и переводчики обладают глубоким знанием истории региона, а также культуры и традиций местного населения. Они побалуют вас легендами и историями, погружая в чарующую атмосферу Востока. Присоединяйтесь к нам и погрузитесь в неповторимую красоту Средней Азии вместе с SILKROUTE!"
+
+#: templates/index.html:244
+msgid "Competitive Pricing"
+msgstr "Конкурентное ценообразование"
+
+#: templates/index.html:245
+#| msgid ""
+#| "Get the best value for your money with our competitive pricing on\n"
+#| "                            hotel bookings.\n"
+#| "                            We work tirelessly to bring you the most attractive rates, ensuring you can enjoy your stay\n"
+#| "                            without breaking the bank."
+msgid ""
+"Get the best value for your money with our competitive\n"
+"                                pricing on hotel bookings.\n"
+"                                We work tirelessly to bring you the most attractive rates, ensuring you can enjoy your\n"
+"                                staywithout breaking the bank."
+msgstr ""
+"Получите лучшее соотношение цены и качества с нашими конкурентоспособными "
+"ценамина бронирование отелей. Мы работаем не покладая рук, чтобы "
+"предоставить вам самые привлекательные цены,гарантируя, что вы сможете "
+"насладиться своим пребыванием, не опустошая свой кошелек."
+
+#: templates/index.html:259
+msgid "Best Services"
+msgstr "Лучшие услуги"
+
+#: templates/index.html:260
+#| msgid ""
+#| "Experience top-notch customer service from the moment you book\n"
+#| "                            until the end of your stay.\n"
+#| "                            Our dedicated support team is available 24/7 to assist with any questions or concerns,\n"
+#| "                            ensuring a seamless and enjoyable experience."
+msgid ""
+"Experience top-notch customer service from the moment you\n"
+"                                bookuntil the end of your stay.Our dedicated support team is available 24/7 \n"
+"                                to assist with any questions or concerns,ensuring a seamless and enjoyable experience."
+msgstr ""
+"Испытайте первоклассное обслуживание клиентов с момента бронирования и до "
+"конца вашего пребывания. Наша специализированная служба поддержки доступна "
+"24/7, чтобы помочь с любыми вопросами или проблемами, гарантируя безупречный"
+" и приятный опыт."
+
+#: templates/index.html:273
+msgid "Cultural and Historical Stays"
+msgstr "Культурные и исторические туры"
+
+#: templates/index.html:274
+#| msgid ""
+#| "Immerse yourself in history and culture with our unique\n"
+#| "                            accommodations located in historical buildings and cultural hotspots.\n"
+#| "                            Enjoy a stay in a Mausoleum, a Mosque, or a boutique hotel in the heart of a vibrant\n"
+#| "                            cultural district."
+msgid ""
+"Immerse yourself in history and culture with our unique\n"
+"                                accommodations located in historical buildings and cultural hotspots.\n"
+"                                Enjoy a stay in a Mausoleum, a Mosque, or a boutique hotel in the heart of a vibrant\n"
+"                                cultural district."
+msgstr ""
+"Погрузитесь в историю и культуру с нашими уникальными номерами, "
+"расположенными в исторических зданиях и культурных центрах. Насладитесь "
+"пребыванием в мавзолее, мечети или бутик-отеле в самом сердце оживленного "
+"культурного района."
+
+#: templates/index.html:359 templates/service.html:78
+#| msgid ""
+#| "\n"
+#| "                        Services"
+msgid ""
+"\n"
+"                    Services"
+msgstr ""
+"\n"
+"Услуги"
+
+#: templates/index.html:361 templates/service.html:80
+msgid "Tours & Travel Services"
+msgstr "Туры и туристические услуги"
+
+#: templates/index.html:367 templates/service.html:86
+msgid "Travel Guide"
+msgstr "Наши путеводители"
+
+#: templates/index.html:368
+#| msgid ""
+#| "Embark on an unforgettable journey with our expertly crafted travel\n"
+#| "                        guide,\n"
+#| "                        designed to inspire and inform every traveler. From the bustling cities to serene landscapes,\n"
+#| "                        our guide covers the world's most breathtaking destinations with insider tips, must-see\n"
+#| "                        attractions, and hidden gems."
+msgid ""
+"Embark on an unforgettable journey with our expertly crafted\n"
+"                            travel guide,designed to inspire and inform every traveler. From the bustling cities to serene\n"
+"                            landscapes,our guide covers the world's most breathtaking destinations with insider tips, must-see\n"
+"                            attractions, and hidden gems."
+msgstr ""
+"Отправьтесь в незабываемое путешествие с нашим искусно составленным "
+"путеводителем, призванным вдохновлять и информировать каждого "
+"путешественника. От шумных городов до безмятежных пейзажей, наш путеводитель"
+" охватывает самые захватывающие места в мире с советами от знатоков, "
+"обязательными к посещению достопримечательностями и скрытыми жемчужинами."
+
+#: templates/index.html:377
+msgid "Cheap Flight & Train Tickets"
+msgstr "Дешёвые авиа и железнодорожные билеты"
+
+#: templates/index.html:378
+msgid ""
+"Find the most affordable flight and train tickets with ease. Our\n"
+"                            service ensures you secure the best deals for both short getaways and long journeys, making\n"
+"                            travel affordable for everyone."
+msgstr ""
+"Найдите самые доступные билеты на самолет и поезд с легкостью. Наш\n"
+"сервис гарантирует вам лучшие предложения как для коротких поездок, так и для длительных путешествий, делая\n"
+"путешествия доступными для всех."
+
+#: templates/index.html:386 templates/service.html:110
+msgid "Hotel Booking"
+msgstr "Бронирование отеля"
+
+#: templates/index.html:387
+#| msgid ""
+#| "Find the perfect place to rest and recharge with our comprehensive\n"
+#| "                        hotel booking service.\n"
+#| "                        From luxurious resorts to cozy bed and breakfasts, our platform offers a wide range of\n"
+#| "                        accommodations\n"
+#| "                        to suit every traveler's needs and preferences."
+msgid ""
+"Find the perfect place to rest and recharge with our\n"
+"                            comprehensive hotel booking service.\n"
+"                            From luxurious resorts to cozy bed and breakfasts, our platform offers a wide range of\n"
+"                            accommodations to suit every traveler's needs and preferences."
+msgstr ""
+"Найдите идеальное место для отдыха и восстановления сил с помощью нашей "
+"комплексной службы бронирования отелей. От роскошных курортов до уютных "
+"гостевых домов и завтраков, наша платформа предлагает широкий выбор "
+"вариантов размещения, которые удовлетворят потребности и предпочтения "
+"каждого путешественника."
+
+#: templates/index.html:397 templates/service.html:123
+msgid "Custom & Group Tours"
+msgstr "Индивидуальные и групповые туры"
+
+#: templates/index.html:398 templates/service.html:124
+msgid ""
+"We offer individual and group tours, tailored to your needs.\n"
+"                            Whether you're looking for personalized itineraries or group excursions, we've got you\n"
+"                            covered. Let us help you explore and experience destinations like never\n"
+"                            before."
+msgstr ""
+"Мы предлагаем индивидуальные и групповые туры, адаптированные под ваши потребности.\n"
+"Если вы ищете персонализированные маршруты или групповые экскурсии, у нас есть все, что вам\n"
+"нужно. Позвольте нам помочь вам исследовать и испытать направления, как никогда\n"
+"раньше."
+
+#: templates/index.html:408 templates/service.html:134
+msgid "Transfers & Corporate Trips"
+msgstr "Индивидуальные и групповые трансферы"
+
+#: templates/index.html:409 templates/service.html:135
+msgid ""
+"We provide individual and group transfers, as well as corporate\n"
+"                            trips and conference organization services. From airport pickups to business event travel\n"
+"                            arrangements, we ensure your journey is smooth and stress-free."
+msgstr ""
+"Мы предоставляем индивидуальные и групповые трансферы, а также корпоративные\n"
+"поездки и услуги по организации конференций. От встречи в аэропорту до организации деловых поездок\n"
+"мы гарантируем, что ваше путешествие будет гладким и беззаботным."
+
+#: templates/index.html:418 templates/service.html:144
+#| msgid "Best Services"
+msgid "Visa Services"
+msgstr "Оформление виз по запросу"
+
+#: templates/index.html:419 templates/service.html:145
+msgid ""
+"We assist with visa applications upon request. Our team of\n"
+"                            experts will guide you through the process, ensuring that all the required documents are in\n"
+"                            order for a successful application."
+msgstr ""
+"Мы помогаем с визовыми заявлениями по запросу. Наша команда\n"
+"экспертов проведет вас через весь процесс, гарантируя, что все необходимые документы в порядке\n"
+"для успешного заявления."
+
+#: templates/kazakhstan_cities.html:126
+#| msgid "Welcome to Uzbekistan"
+msgid "Welcome to Kazakhstan"
+msgstr "Добро пожаловать в Казахстан"
+
+#: templates/kazakhstan_cities.html:127
+msgid "Discover the vast beauty and cultural heritage of Kazakhstan"
+msgstr "Откройте для себя необъятную красоту и культурное наследие Казахстана"
+
+#: templates/kazakhstan_cities.html:134
+#| msgid ""
+#| "Exploring Uzbekistan: Where Ancient Traditions Meet Vibrant Modernity"
+msgid "Kazakhstan: Where Ancient Traditions and Modern Horizons Converge"
+msgstr "Казахстан: где сходятся древние традиции и современные горизонты"
+
+#: templates/kazakhstan_cities.html:135
+msgid ""
+"Kazakhstan is a country of vast steppes, mountains, and rich history, where nomadic traditions blend\n"
+"            seamlessly with modern ambitions."
+msgstr ""
+"Казахстан — страна бескрайних степей, гор и богатой истории, где кочевые традиции\n"
+"органично сочетаются с современными амбициями."
+
+#: templates/kazakhstan_cities.html:138
+msgid ""
+"Kazakhstan, the largest landlocked country in the world, is a diverse nation with a vibrant mix\n"
+"                of cultures, landscapes, and histories. Its cities are centers of innovation and tradition, from the\n"
+"                futuristic architecture of Nur-Sultan to the cultural depth of Almaty."
+msgstr ""
+"Казахстан, крупнейшая страна в мире, не имеющая выхода к морю, является разнообразной страной с ярким сочетанием\n"
+"культур, ландшафтов и историй. Его города являются центрами инноваций и традиций, от\n"
+"футуристической архитектуры Нур-Султана до культурной глубины Алматы."
+
+#: templates/kazakhstan_cities.html:142 templates/kyrgyzstan_cities.html:136
+#: templates/tajikistan_cities.html:136 templates/uzbekistan_cities.html:145
+msgid "History"
+msgstr "История"
+
+#: templates/kazakhstan_cities.html:143
+msgid ""
+"Kazakhstan's history is one of nomadic tribes, conquerors, and empire builders. It has been a\n"
+"                key crossroads for centuries, influenced by the Mongol Empire, the Silk Road, and Soviet rule. Today, the\n"
+"                country is independent and flourishing, preserving its past while looking to the future."
+msgstr ""
+"История Казахстана — это история кочевых племен, завоевателей и строителей империй. На протяжении веков он был\n"
+"ключевым перекрестком, на который влияли Монгольская империя, Шелковый путь и советское правление. Сегодня\n"
+"страна независима и процветает, сохраняя свое прошлое и глядя в будущее."
+
+#: templates/kazakhstan_cities.html:147 templates/kyrgyzstan_cities.html:139
+#: templates/tajikistan_cities.html:139 templates/uzbekistan_cities.html:152
+msgid "Culture"
+msgstr "Культура"
+
+#: templates/kazakhstan_cities.html:148
+msgid ""
+"Kazakh culture is rooted in nomadic traditions, with strong influences from Russia, China, and\n"
+"                Persia. The country celebrates its heritage through music, horseback riding, and wrestling, alongside modern\n"
+"                festivals, art, and architecture. Kazakh cuisine is famous for dishes like beshbarmak (boiled meat and pasta)\n"
+"                and kumis (fermented mare's milk)."
+msgstr ""
+"Казахская культура уходит корнями в кочевые традиции с сильным влиянием России, Китая и\n"
+"Персии. Страна празднует свое наследие через музыку, верховую езду и борьбу, наряду с современными\n"
+"фестивалями, искусством и архитектурой. Казахская кухня славится такими блюдами, как бешбармак (вареное мясо и паста)\n"
+"и кумыс (ферментированное кобылье молоко)."
+
+#: templates/kazakhstan_cities.html:153
+#| msgid "Modern Uzbekistan"
+msgid "Modern Kazakhstan"
+msgstr "Современный Казахстан"
+
+#: templates/kazakhstan_cities.html:154
+msgid ""
+"Since gaining independence in 1991, Kazakhstan has rapidly modernized its infrastructure,\n"
+"                economy, and global standing. Nur-Sultan, the futuristic capital, is a symbol of the country’s\n"
+"                transformation, with cutting-edge architecture and a vision for the future."
+msgstr ""
+"С момента обретения независимости в 1991 году Казахстан быстро модернизировал свою инфраструктуру,\n"
+"экономику и мировое положение. Нур-Султан, футуристическая столица, является символом трансформации страны\n"
+"с передовой архитектурой и видением будущего."
+
+#: templates/kazakhstan_cities.html:158 templates/kyrgyzstan_cities.html:145
+#: templates/tajikistan_cities.html:145 templates/uzbekistan_cities.html:166
+msgid "Tourism"
+msgstr "Туризм"
+
+#: templates/kazakhstan_cities.html:159
+msgid ""
+"Tourists are increasingly drawn to Kazakhstan's dramatic landscapes, ancient history, and\n"
+"                dynamic cities. Whether trekking through the Altai Mountains, exploring the vast steppes, or visiting the\n"
+"                urban centers, Kazakhstan offers something for every traveler."
+msgstr ""
+"Туристов все больше привлекают драматические пейзажи Казахстана, древняя история и\n"
+"динамичные города. Будь то поход по Алтайским горам, исследование бескрайних степей или посещение\n"
+"городских центров, Казахстан может предложить что-то для каждого путешественника."
+
+#: templates/kazakhstan_cities.html:167
+msgid "Nur-Sultan: The Futuristic Capital"
+msgstr "Нур-Султан: футуристическая столица"
+
+#: templates/kazakhstan_cities.html:168
+msgid ""
+"Nur-Sultan (formerly Astana), the capital of Kazakhstan, is known for its futuristic skyline and\n"
+"            ambitious urban planning."
+msgstr ""
+"Нур-Султан (ранее Астана), столица Казахстана, известна своим футуристическим горизонтом и\n"
+"амбициозным городским планированием."
+
+#: templates/kazakhstan_cities.html:171
+msgid "Bayterek Tower"
+msgstr "Башня Байтерек"
+
+#: templates/kazakhstan_cities.html:171
+msgid ""
+": A symbol of Nur-Sultan\n"
+"                offering panoramic views of the city."
+msgstr ""
+": Символ Нур-Султана,\n"
+"предлагающий панорамный вид на город."
+
+#: templates/kazakhstan_cities.html:174
+msgid "Khan Shatyr"
+msgstr "Хан Шатыр"
+
+#: templates/kazakhstan_cities.html:174
+msgid ""
+": A massive tent-shaped\n"
+"                shopping and entertainment complex."
+msgstr ""
+": Огромный\n"
+"торгово-развлекательный комплекс в форме шатра."
+
+#: templates/kazakhstan_cities.html:177
+msgid "Palace of Peace and Reconciliation"
+msgstr "Дворец Мира и Согласия"
+
+#: templates/kazakhstan_cities.html:177
+msgid ""
+": A\n"
+"                striking glass pyramid symbolizing unity and peace."
+msgstr ""
+":\n"
+"Эффектная стеклянная пирамида, символизирующая единство и мир."
+
+#: templates/kazakhstan_cities.html:185
+msgid "Almaty: The Cultural Heart of Kazakhstan"
+msgstr "Алматы: Культурное сердце Казахстана"
+
+#: templates/kazakhstan_cities.html:186
+msgid ""
+"Almaty, Kazakhstan’s largest city, is a hub of culture, history, and natural"
+" beauty."
+msgstr ""
+"Алматы, крупнейший город Казахстана, является центром культуры, истории и "
+"природной красоты."
+
+#: templates/kazakhstan_cities.html:188
+msgid "Kok Tobe Mountain"
+msgstr "Гора Кок-Тобе"
+
+#: templates/kazakhstan_cities.html:188
+msgid ""
+": A popular viewpoint\n"
+"                offering a stunning panorama of Almaty and the surrounding mountains."
+msgstr ""
+": Популярная смотровая площадка\n"
+", откуда открывается потрясающая панорама Алматы и окружающих гор."
+
+#: templates/kazakhstan_cities.html:191
+msgid "Zenkov Cathedral"
+msgstr "Зенковский собор"
+
+#: templates/kazakhstan_cities.html:191
+msgid ""
+": One of the tallest\n"
+"                wooden buildings in the world, located in Panfilov Park."
+msgstr ""
+": Одно из самых высоких\n"
+"деревянных зданий в мире, расположенное в парке Панфилова."
+
+#: templates/kazakhstan_cities.html:194
+msgid "Medeu Skating Rink"
+msgstr "Каток Медео"
+
+#: templates/kazakhstan_cities.html:194
+msgid ""
+": A world-famous\n"
+"                outdoor skating rink set in the scenic foothills of the Alatau Mountains."
+msgstr ""
+": всемирно известный\n"
+"открытый каток, расположенный в живописных предгорьях Алатау."
+
+#: templates/kazakhstan_cities.html:202
+msgid "Shymkent: The City of Gardens"
+msgstr "Шымкент: Город садов"
+
+#: templates/kazakhstan_cities.html:203
+msgid ""
+"Shymkent, one of Kazakhstan’s oldest cities, is known for its vibrant "
+"markets and green parks."
+msgstr ""
+"Шымкент, один из старейших городов Казахстана, известен своими оживленными "
+"рынками и зелеными парками."
+
+#: templates/kazakhstan_cities.html:205
+msgid "Shymkent Zoo"
+msgstr "Шымкентский зоопарк"
+
+#: templates/kazakhstan_cities.html:205
+msgid ""
+": One of the largest zoos in\n"
+"                Central Asia, housing a variety of wildlife."
+msgstr ""
+": Один из крупнейших зоопарков в\n"
+"Центральной Азии, где обитают самые разные дикие животные."
+
+#: templates/kazakhstan_cities.html:208
+msgid "Ordabasy Square"
+msgstr "Площадь Ордабасы"
+
+#: templates/kazakhstan_cities.html:208
+msgid ""
+": A historic square at the\n"
+"                heart of the city with monuments commemorating Kazakh unity."
+msgstr ""
+": Историческая площадь в\n"
+"центре города с памятниками, увековечивающими единство казахов."
+
+#: templates/kazakhstan_cities.html:211
+msgid "Central Park"
+msgstr "Центральный парк"
+
+#: templates/kazakhstan_cities.html:211
+msgid ""
+": A popular spot for locals\n"
+"                to relax and enjoy nature."
+msgstr ""
+": Популярное место среди местных жителей,\n"
+"где можно отдохнуть и насладиться природой."
+
+#: templates/kazakhstan_cities.html:219
+msgid "Aktobe: The Energy Hub"
+msgstr "Актобе: Энергетический хаб"
+
+#: templates/kazakhstan_cities.html:220
+msgid ""
+"Aktobe is an industrial city in western Kazakhstan, playing a major role in the country's energy\n"
+"            sector."
+msgstr ""
+"Актобе — промышленный город на западе Казахстана, играющий важную роль в энергетическом секторе страны\n"
+"."
+
+#: templates/kazakhstan_cities.html:223
+msgid "Nurgasyr Mosque"
+msgstr "Мечеть Нургасыр"
+
+#: templates/kazakhstan_cities.html:223
+msgid ""
+": One of the largest mosques\n"
+"                in the region, known for its modern architecture."
+msgstr ""
+": Одна из крупнейших мечетей\n"
+"в регионе, известная своей современной архитектурой."
+
+#: templates/kazakhstan_cities.html:226
+msgid "Regional Museum"
+msgstr "Краеведческий музей"
+
+#: templates/kazakhstan_cities.html:226
+msgid ""
+": A museum showcasing the\n"
+"                history and culture of Aktobe and the surrounding region."
+msgstr ""
+": Музей, демонстрирующий\n"
+"историю и культуру Актобе и окрестностей."
+
+#: templates/kazakhstan_cities.html:229
+msgid "Aktobe Reservoir"
+msgstr "Актюбинское водохранилище"
+
+#: templates/kazakhstan_cities.html:229
+msgid ""
+": A recreational area where\n"
+"                locals enjoy boating and fishing."
+msgstr ""
+": Зона отдыха, где\n"
+"местные жители любят кататься на лодках и ловить рыбу."
+
+#: templates/kyrgyzstan_cities.html:123
+#| msgid "Welcome to Uzbekistan"
+msgid "Welcome to Kyrgyzstan"
+msgstr "Добро пожаловать в Кыргызстан"
+
+#: templates/kyrgyzstan_cities.html:124
+msgid "Discover the land of mountains and rich cultural heritage"
+msgstr "Откройте для себя страну гор и богатого культурного наследия"
+
+#: templates/kyrgyzstan_cities.html:131
+msgid "Kyrgyzstan: A Land of Mountains, Nomads, and Tradition"
+msgstr "Кыргызстан: земля гор, кочевников и традиций"
+
+#: templates/kyrgyzstan_cities.html:132
+msgid ""
+"Kyrgyzstan is known for its stunning natural beauty, featuring towering "
+"peaks, alpine lakes, and a strong nomadic heritage."
+msgstr ""
+"Кыргызстан известен своей потрясающей природной красотой, возвышающимися "
+"вершинами, высокогорными озерами и богатым кочевым наследием."
+
+#: templates/kyrgyzstan_cities.html:134
+msgid ""
+"Nestled in the heart of Central Asia, Kyrgyzstan is a country where nomadic "
+"traditions and unspoiled landscapes define the culture and way of life. From"
+" the vibrant capital of Bishkek to the remote mountain villages, Kyrgyzstan "
+"offers visitors a unique experience."
+msgstr ""
+"Расположенный в самом сердце Центральной Азии, Кыргызстан — страна, где "
+"кочевые традиции и нетронутые ландшафты определяют культуру и образ жизни. "
+"От оживленной столицы Бишкека до отдаленных горных деревень, Кыргызстан "
+"предлагает посетителям уникальный опыт."
+
+#: templates/kyrgyzstan_cities.html:137
+msgid ""
+"Kyrgyzstan’s history is intertwined with nomadic cultures and the Silk Road."
+" It was influenced by various empires, including the Mongols, Russians, and "
+"Soviets. Today, it is an independent country with a strong sense of identity"
+" and pride in its heritage."
+msgstr ""
+"История Кыргызстана переплетена с кочевыми культурами и Шелковым путем. На "
+"него оказали влияние различные империи, включая монгольскую, русскую и "
+"советскую. Сегодня это независимая страна с сильным чувством идентичности и "
+"гордости за свое наследие."
+
+#: templates/kyrgyzstan_cities.html:140
+msgid ""
+"The Kyrgyz culture is deeply rooted in nomadic traditions, with strong "
+"influences from Turkish, Persian, and Russian cultures. Yurts, horses, and "
+"traditional music are central to life in Kyrgyzstan, and festivals often "
+"celebrate the country's nomadic past. Kyrgyz cuisine, such as beshbarmak and"
+" kymyz, reflects its pastoral roots."
+msgstr ""
+"Киргизская культура глубоко укоренена в кочевых традициях, с сильным "
+"влиянием турецкой, персидской и русской культур. Юрты, лошади и традиционная"
+" музыка играют центральную роль в жизни Киргизии, а фестивали часто "
+"прославляют кочевое прошлое страны. Киргизская кухня, такая как бешбармак и "
+"кумыс, отражает ее скотоводческие корни."
+
+#: templates/kyrgyzstan_cities.html:142
+#| msgid "Modern Uzbekistan"
+msgid "Modern Kyrgyzstan"
+msgstr "Современный Кыргызстан"
+
+#: templates/kyrgyzstan_cities.html:143
+#| msgid ""
+#| "Today, Uzbekistan is a country on the rise. Since gaining independence in 1991, it has been working\n"
+#| "                    to modernize its economy and infrastructure while preserving its rich cultural heritage. Tashkent,\n"
+#| "                    the capital, is a modern city with a blend of Soviet-era architecture and contemporary\n"
+#| "                    developments."
+msgid ""
+"Since gaining independence from the Soviet Union in 1991, Kyrgyzstan has "
+"worked to modernize while preserving its cultural heritage. Bishkek, the "
+"capital, is a growing city with Soviet-era architecture alongside modern "
+"developments."
+msgstr ""
+"С момента обретения независимости от Советского Союза в 1991 году Кыргызстан"
+" работал над модернизацией, сохраняя при этом свое культурное наследие. "
+"Бишкек, столица, является растущим городом с советской архитектурой наряду с"
+" современными разработками."
+
+#: templates/kyrgyzstan_cities.html:146
+msgid ""
+"Kyrgyzstan is becoming a popular destination for adventure tourism, "
+"especially trekking, horse riding, and mountaineering in the Tian Shan and "
+"Pamir-Alay mountain ranges. Visitors are also drawn to its beautiful lakes, "
+"such as Issyk-Kul, and the traditional lifestyle of its nomadic people."
+msgstr ""
+"Кыргызстан становится популярным направлением для приключенческого туризма, "
+"особенно треккинга, верховой езды и альпинизма в горах Тянь-Шаня и Памиро-"
+"Алая. Посетителей также привлекают его прекрасные озера, такие как Иссык-"
+"Куль, и традиционный образ жизни его кочевого народа."
+
+#: templates/kyrgyzstan_cities.html:152
+#| msgid "Tashkent: The Vibrant Capital"
+msgid "Bishkek: The Growing Capital"
+msgstr "Бишкек: Растущая столица"
+
+#: templates/kyrgyzstan_cities.html:153
+msgid ""
+"Bishkek, the capital of Kyrgyzstan, is a bustling city with wide boulevards,"
+" green spaces, and a rich history."
+msgstr ""
+"Бишкек, столица Кыргызстана, — оживленный город с широкими бульварами, "
+"зелеными насаждениями и богатой историей."
+
+#: templates/kyrgyzstan_cities.html:155
+msgid "Ala-Too Square"
+msgstr "Площадь Ала-Тоо"
+
+#: templates/kyrgyzstan_cities.html:155
+msgid ""
+": The central square of Bishkek, known for its monuments and national "
+"celebrations."
+msgstr ""
+": Центральная площадь Бишкека, известная своими памятниками и национальными "
+"праздниками."
+
+#: templates/kyrgyzstan_cities.html:156 templates/kyrgyzstan_cities.html:178
+#| msgid "Chorsu Bazaar"
+msgid "Osh Bazaar"
+msgstr "Ошский базар"
+
+#: templates/kyrgyzstan_cities.html:156
+#| msgid ""
+#| ": A lively market offering a glimpse into local life with fresh\n"
+#| "                    produce, spices, and traditional crafts."
+msgid ""
+": A lively market offering a wide variety of local produce, spices, and "
+"handmade goods."
+msgstr ""
+": Оживленный рынок, предлагающий широкий ассортимент местных продуктов, "
+"специй и изделий ручной работы."
+
+#: templates/kyrgyzstan_cities.html:157
+#| msgid "Registan Square"
+msgid "Victory Square"
+msgstr "Площадь Победы"
+
+#: templates/kyrgyzstan_cities.html:157
+msgid ": A significant memorial dedicated to the victory in World War II."
+msgstr ": Знаменитый мемориал, посвященный победе во Второй мировой войне."
+
+#: templates/kyrgyzstan_cities.html:163
+#| msgid "Explore the heart of Central Asia"
+msgid "Issyk-Kul: The Pearl of Central Asia"
+msgstr "Иссык-Куль: Жемчужина Средней Азии"
+
+#: templates/kyrgyzstan_cities.html:164
+msgid ""
+"Issyk-Kul is one of the largest alpine lakes in the world, renowned for its "
+"clear waters and stunning mountain backdrop."
+msgstr ""
+"Иссык-Куль — одно из крупнейших высокогорных озер в мире, известное своей "
+"чистой водой и потрясающим горным пейзажем."
+
+#: templates/kyrgyzstan_cities.html:166
+msgid "Cholpon-Ata"
+msgstr "Чолпон-Ата"
+
+#: templates/kyrgyzstan_cities.html:166
+msgid ""
+": A resort town on the shores of Issyk-Kul, famous for its petroglyphs and "
+"beach resorts."
+msgstr ""
+": Курортный город на берегу Иссык-Куля, известный своими петроглифами и "
+"пляжными курортами."
+
+#: templates/kyrgyzstan_cities.html:167
+msgid "Barskoon Gorge"
+msgstr "Ущелье Барскоон"
+
+#: templates/kyrgyzstan_cities.html:167
+msgid ""
+": A dramatic gorge located near Issyk-Kul, offering breathtaking views and "
+"hiking opportunities."
+msgstr ""
+": Живописное ущелье, расположенное недалеко от Иссык-Куля, предлагающее "
+"захватывающие виды и возможности для пеших походов."
+
+#: templates/kyrgyzstan_cities.html:168
+msgid "Skazka Canyon"
+msgstr "Каньон Сказка"
+
+#: templates/kyrgyzstan_cities.html:168
+msgid ""
+": A colorful canyon near Issyk-Kul known for its surreal rock formations."
+msgstr ""
+": Красочный каньон недалеко от Иссык-Куля, известный своими "
+"сюрреалистическими скальными образованиями."
+
+#: templates/kyrgyzstan_cities.html:174
+#| msgid "Khiva: The Ancient Oasis"
+msgid "Osh: The Ancient City"
+msgstr "Ош: Древний город"
+
+#: templates/kyrgyzstan_cities.html:175
+#| msgid ""
+#| "Samarkand, one of the oldest inhabited cities in Central Asia, is a treasure trove of historical and\n"
+#| "                architectural wonders."
+msgid ""
+"Osh, one of the oldest cities in Central Asia, is a key stop along the "
+"ancient Silk Road and known for its rich cultural heritage."
+msgstr ""
+"Ош, один из древнейших городов Центральной Азии, является ключевым пунктом "
+"на древнем Шелковом пути и известен своим богатым культурным наследием."
+
+#: templates/kyrgyzstan_cities.html:177
+msgid "Sulayman Mountain"
+msgstr "Гора Сулейман"
+
+#: templates/kyrgyzstan_cities.html:177
+msgid ": A UNESCO World Heritage Site, considered a sacred mountain in Islam."
+msgstr ""
+": Объект Всемирного наследия ЮНЕСКО, считающийся священной горой в исламе."
+
+#: templates/kyrgyzstan_cities.html:178
+msgid ""
+": One of the largest and most vibrant markets in Central Asia, reflecting "
+"the multicultural history of Osh."
+msgstr ""
+": Один из крупнейших и самых ярких рынков в Центральной Азии, отражающий "
+"многокультурную историю Оша."
+
+#: templates/kyrgyzstan_cities.html:179
+msgid "Russian Orthodox Church"
+msgstr "Русская Православная Церковь"
+
+#: templates/kyrgyzstan_cities.html:179
+msgid ": A historic church reflecting the city's diverse religious heritage."
+msgstr ""
+": Историческая церковь, отражающая разнообразное религиозное наследие "
+"города."
+
+#: templates/kyrgyzstan_cities.html:185
+msgid "Karakol: Gateway to Adventure"
+msgstr "Каракол: Ворота к приключениям"
+
+#: templates/kyrgyzstan_cities.html:186
+msgid ""
+"Karakol, located near the eastern end of Issyk-Kul, is a gateway to the "
+"mountains and a center for outdoor activities like trekking and skiing."
+msgstr ""
+"Каракол, расположенный недалеко от восточной оконечности Иссык-Куля, "
+"является воротами в горы и центром активного отдыха, такого как треккинг и "
+"катание на лыжах."
+
+#: templates/kyrgyzstan_cities.html:188
+msgid "Dungan Mosque"
+msgstr "Дунганская мечеть"
+
+#: templates/kyrgyzstan_cities.html:188
+msgid ""
+": A unique wooden mosque built by the Dungan people without using any nails."
+msgstr ""
+": Уникальная деревянная мечеть, построенная дунганским народом без "
+"использования гвоздей."
+
+#: templates/kyrgyzstan_cities.html:189
+msgid "Holy Trinity Cathedral"
+msgstr "Собор Святой Троицы"
+
+#: templates/kyrgyzstan_cities.html:189
+msgid ""
+": A wooden Russian Orthodox Church in Karakol, known for its architecture "
+"and cultural significance."
+msgstr ""
+": Деревянная русская православная церковь в Караколе, известная своей "
+"архитектурой и культурным значением."
+
+#: templates/kyrgyzstan_cities.html:190
+msgid "Jeti-Ögüz Gorge"
+msgstr "Ущелье Джети-Огуз"
+
+#: templates/kyrgyzstan_cities.html:190
+msgid ""
+": A spectacular gorge famous for its red rock formations and hiking trails."
+msgstr ""
+": Впечатляющее ущелье, известное своими красными скальными образованиями и "
+"пешеходными тропами."
+
+#: templates/ordered.html:14
+msgid "Your application has been accepted!"
+msgstr "Ваша заявка принята!"
+
+#: templates/ordered.html:15
+msgid "An operator will contact you soon for more detailed information."
+msgstr ""
+"Оператор свяжется с вами в ближайшее время для предоставления более "
+"подробной информации."
+
+#: templates/ordered.html:16
+msgid "Please make sure your phone is turned on!"
+msgstr "Убедитесь, что ваш телефон включен!"
+
+#: templates/service.html:12
+msgid ""
+"\n"
+"                        Home"
+msgstr ""
+"\n"
+"Главная"
+
+#: templates/service.html:87
+#| msgid ""
+#| "Embark on an unforgettable journey with our expertly crafted travel\n"
+#| "                        guide,\n"
+#| "                        designed to inspire and inform every traveler. From the bustling cities to serene landscapes,\n"
+#| "                        our guide covers the world's most breathtaking destinations with insider tips, must-see\n"
+#| "                        attractions, and hidden gems."
+msgid ""
+"Embark on an unforgettable journey with our expertly crafted\n"
+"                            travel guide,\n"
+"                            designed to inspire and inform every traveler. From the bustling cities to serene\n"
+"                            landscapes,\n"
+"                            our guide covers the world's most breathtaking destinations with insider tips, must-see\n"
+"                            attractions, and hidden gems."
+msgstr ""
+"Отправьтесь в незабываемое путешествие с нашим искусно составленным "
+"путеводителем, призванным вдохновлять и информировать каждого "
+"путешественника. От шумных городов до безмятежных пейзажей, наш путеводитель"
+" охватывает самые захватывающие места в мире с советами от знатоков, "
+"обязательными к посещению достопримечательностями и скрытыми жемчужинами."
+
+#: templates/service.html:98
+msgid "Ticket Booking"
+msgstr "Бронирование билетов"
+
+#: templates/service.html:99
+#| msgid ""
+#| "Secure your journey with ease using our seamless ticket booking\n"
+#| "                        service. Whether you're planning\n"
+#| "                        a quick getaway or a long-haul adventure, our platform offers a hassle-free experience to book\n"
+#| "                        flights,\n"
+#| "                        trains, and bus tickets at the best prices."
+msgid ""
+"Secure your journey with ease using our seamless ticket booking\n"
+"                            service. Whether you're planning\n"
+"                            a quick getaway or a long-haul adventure, our platform offers a hassle-free experience to\n"
+"                            book\n"
+"                            flights,\n"
+"                            trains, and bus tickets at the best prices."
+msgstr ""
+"Защитите свое путешествие с легкостью, используя наш безупречный сервис "
+"бронирования билетов. Планируете ли вы короткую поездку или долгое "
+"приключение, наша платформа предлагает беспроблемный опыт бронирования "
+"билетов на самолеты, поезда и автобусы по лучшим ценам."
+
+#: templates/service.html:111
+#| msgid ""
+#| "Find the perfect place to rest and recharge with our comprehensive\n"
+#| "                        hotel booking service.\n"
+#| "                        From luxurious resorts to cozy bed and breakfasts, our platform offers a wide range of\n"
+#| "                        accommodations\n"
+#| "                        to suit every traveler's needs and preferences."
+msgid ""
+"Find the perfect place to rest and recharge with our\n"
+"                            comprehensive\n"
+"                            hotel booking service.\n"
+"                            From luxurious resorts to cozy bed and breakfasts, our platform offers a wide range of\n"
+"                            accommodations\n"
+"                            to suit every traveler's needs and preferences."
+msgstr ""
+"Найдите идеальное место для отдыха и восстановления сил с помощью нашей "
+"комплексной службы бронирования отелей. От роскошных курортов до уютных "
+"гостевых домов и завтраков, наша платформа предлагает широкий выбор "
+"вариантов размещения, которые удовлетворят потребности и предпочтения "
+"каждого путешественника."
+
+#: templates/single.html:424
+#| msgid "Your Name"
+msgid "Full Name"
+msgstr "Ваше имя"
+
+#: templates/single.html:428
+#| msgid "Your Email"
+msgid "Email"
+msgstr "Ваш адрес электронной почты"
+
+#: templates/single.html:433
+msgid "Phone Number"
+msgstr "Номер телефона."
+
+#: templates/single.html:437
+msgid "Additional Information"
+msgstr "Дополнительная информация."
+
+#: templates/single.html:442
+msgid ""
+"After you have filled in the information, our staff will contact you within "
+"1 day."
+msgstr ""
+"После того как вы заполните информацию, наш персонал свяжется с вами в "
+"течение одного дня."
+
+#: templates/single.html:445
+msgid "Order Now"
+msgstr "Забронировать сейчас."
+
+#: templates/tajikistan_cities.html:123
+#| msgid "Welcome to Uzbekistan"
+msgid "Welcome to Tajikistan"
+msgstr "Добро пожаловать в Таджикистан"
+
+#: templates/tajikistan_cities.html:124
+msgid "Explore the Land of High Mountains and Rich Traditions"
+msgstr "Исследуйте страну высоких гор и богатых традиций"
+
+#: templates/tajikistan_cities.html:131
+msgid "Tajikistan: The Roof of the World"
+msgstr "Таджикистан: Крыша Мира"
+
+#: templates/tajikistan_cities.html:132
+msgid ""
+"Tajikistan, dominated by towering mountains and ancient history, offers a "
+"blend of breathtaking landscapes and a rich cultural heritage."
+msgstr ""
+"Таджикистан, где преобладают высокие горы и древняя история, предлагает "
+"сочетание захватывающих дух пейзажей и богатого культурного наследия."
+
+#: templates/tajikistan_cities.html:134
+msgid ""
+"Tajikistan, located in Central Asia, is home to the Pamir Mountains, also "
+"known as the \"Roof of the World.\" The country’s history stretches back "
+"thousands of years and includes significant contributions to the Persian "
+"Empire and Silk Road trade routes. Tajikistan’s natural beauty and "
+"traditional way of life captivate every visitor."
+msgstr ""
+"Таджикистан, расположенный в Центральной Азии, является домом для гор "
+"Памира, также известных как «Крыша мира». История страны насчитывает тысячи "
+"лет и включает в себя значительный вклад в Персидскую империю и торговые "
+"пути Шелкового пути. Природная красота и традиционный образ жизни "
+"Таджикистана очаровывают каждого посетителя."
+
+#: templates/tajikistan_cities.html:137
+msgid ""
+"The history of Tajikistan is closely tied to the ancient Persian Empire and "
+"the Silk Road. The country has been influenced by various cultures and "
+"empires, including the Mongols and Russians. Tajikistan became an "
+"independent nation after the dissolution of the Soviet Union in 1991, and it"
+" continues to celebrate its unique heritage and traditions."
+msgstr ""
+"История Таджикистана тесно связана с древней Персидской империей и Шелковым "
+"путем. Страна находилась под влиянием различных культур и империй, включая "
+"монголов и русских. Таджикистан стал независимым государством после распада "
+"Советского Союза в 1991 году и продолжает праздновать свое уникальное "
+"наследие и традиции."
+
+#: templates/tajikistan_cities.html:140
+msgid ""
+"Tajik culture is a rich tapestry of Persian, Turkic, and Russian influences."
+" Music, dance, and poetry play a vital role in the lives of Tajik people, "
+"with Persian-language literature holding great importance. The country’s "
+"cuisine includes hearty dishes like qurutob and plov, often served during "
+"celebrations."
+msgstr ""
+"Таджикская культура — это богатое переплетение персидских, тюркских и "
+"русских влияний. Музыка, танцы и поэзия играют важную роль в жизни таджиков,"
+" а персидская литература имеет большое значение. Кухня страны включает "
+"сытные блюда, такие как курутоб и плов, которые часто подают во время "
+"праздников."
+
+#: templates/tajikistan_cities.html:142
+#| msgid "Modern Uzbekistan"
+msgid "Modern Tajikistan"
+msgstr "Современный Таджикистан"
+
+#: templates/tajikistan_cities.html:143
+msgid ""
+"Tajikistan is a rapidly developing country, working to modernize its economy"
+" and infrastructure while retaining its deep-rooted traditions. The capital,"
+" Dushanbe, is a growing city with Soviet-era buildings as well as modern "
+"architectural developments."
+msgstr ""
+"Таджикистан — быстро развивающаяся страна, которая работает над "
+"модернизацией своей экономики и инфраструктуры, сохраняя при этом свои "
+"глубоко укоренившиеся традиции. Столица Душанбе — растущий город с "
+"советскими зданиями, а также современными архитектурными разработками."
+
+#: templates/tajikistan_cities.html:146
+msgid ""
+"Tajikistan is a dream destination for adventure travelers, particularly "
+"those interested in trekking, mountaineering, and exploring the ancient "
+"Pamir Highway. The country's unspoiled nature, combined with its rich "
+"cultural heritage, offers an unforgettable experience for visitors."
+msgstr ""
+"Таджикистан — это мечта для путешественников, ищущих приключений, особенно "
+"тех, кто интересуется треккингом, альпинизмом и исследованием древнего "
+"Памирского тракта. Нетронутая природа страны в сочетании с ее богатым "
+"культурным наследием дарит посетителям незабываемые впечатления."
+
+#: templates/tajikistan_cities.html:152
+msgid "Dushanbe: The Cultural Heart of Tajikistan"
+msgstr "Душанбе: Культурное сердце Таджикистана"
+
+#: templates/tajikistan_cities.html:153
+msgid ""
+"Dushanbe, the capital city, is the political, cultural, and economic center "
+"of Tajikistan, combining historical landmarks with modern developments."
+msgstr ""
+"Столица Душанбе является политическим, культурным и экономическим центром "
+"Таджикистана, сочетающим в себе исторические достопримечательности и "
+"современные разработки."
+
+#: templates/tajikistan_cities.html:155
+msgid "National Museum of Tajikistan"
+msgstr "Национальный музей Таджикистана"
+
+#: templates/tajikistan_cities.html:155
+msgid ""
+": A large museum showcasing the country’s history, art, and cultural "
+"heritage."
+msgstr ""
+": Крупный музей, демонстрирующий историю, искусство и культурное наследие "
+"страны."
+
+#: templates/tajikistan_cities.html:156
+msgid "Rudaki Park"
+msgstr "Парк Рудаки"
+
+#: templates/tajikistan_cities.html:156
+msgid ""
+": A beautiful park in the heart of Dushanbe, named after the famous Persian "
+"poet Rudaki."
+msgstr ""
+": Красивый парк в самом центре Душанбе, названный в честь известного "
+"персидского поэта Рудаки."
+
+#: templates/tajikistan_cities.html:157
+msgid "Dushanbe Flagpole"
+msgstr "Флагшток Душанбе"
+
+#: templates/tajikistan_cities.html:157
+msgid ""
+": One of the tallest flagpoles in the world, symbolizing the pride of the "
+"nation."
+msgstr ""
+": Один из самых высоких флагштоков в мире, символизирующий гордость нации."
+
+#: templates/tajikistan_cities.html:163
+msgid "Pamir Mountains: The Roof of the World"
+msgstr "Памирские горы: Крыша мира"
+
+#: templates/tajikistan_cities.html:164
+msgid ""
+"The Pamir Mountains are one of the most majestic ranges in the world, "
+"offering some of the most rugged and remote landscapes on the planet."
+msgstr ""
+"Памирские горы — один из самых величественных хребтов в мире, предлагающий "
+"одни из самых суровых и отдаленных ландшафтов на планете."
+
+#: templates/tajikistan_cities.html:166
+msgid "Pamir Highway"
+msgstr "Памирский тракт"
+
+#: templates/tajikistan_cities.html:166
+msgid ""
+": One of the highest roads in the world, offering breathtaking views and "
+"access to remote villages."
+msgstr ""
+": Одна из самых высокогорных дорог в мире, предлагающая захватывающие виды и"
+" доступ к отдаленным деревням."
+
+#: templates/tajikistan_cities.html:167
+msgid "Karakul Lake"
+msgstr "Озеро Каракуль"
+
+#: templates/tajikistan_cities.html:167
+msgid ""
+": A stunning alpine lake surrounded by the towering peaks of the Pamirs."
+msgstr ""
+": Потрясающее высокогорное озеро, окруженное возвышающимися вершинами "
+"Памира."
+
+#: templates/tajikistan_cities.html:168
+msgid "Murghab"
+msgstr "Мургаб"
+
+#: templates/tajikistan_cities.html:168
+msgid ""
+": A remote town in the Pamirs that serves as a base for exploring the "
+"region's mountains."
+msgstr ""
+": Отдаленный город на Памире, служащий базой для исследования гор региона."
+
+#: templates/tajikistan_cities.html:174
+msgid "Khujand: The Ancient City of the North"
+msgstr "Худжанд: Древний город Севера"
+
+#: templates/tajikistan_cities.html:175
+msgid ""
+"Khujand, located in the northern part of Tajikistan, is one of the oldest "
+"cities in Central Asia, with a rich history as a Silk Road hub."
+msgstr ""
+"Худжанд, расположенный в северной части Таджикистана, является одним из "
+"древнейших городов Центральной Азии с богатой историей как центр Шелкового "
+"пути."
+
+#: templates/tajikistan_cities.html:177
+msgid "Sheikh Muslihiddin Mausoleum"
+msgstr "Мавзолей шейха Муслихиддина"
+
+#: templates/tajikistan_cities.html:177
+msgid ": A historical mausoleum dedicated to a local poet and ruler."
+msgstr ": Исторический мавзолей, посвященный местному поэту и правителю."
+
+#: templates/tajikistan_cities.html:178
+msgid "Panjshanbe Bazaar"
+msgstr "Базар Панджшанбе"
+
+#: templates/tajikistan_cities.html:178
+msgid ""
+": One of the largest and most vibrant markets in Tajikistan, offering a wide"
+" variety of local goods."
+msgstr ""
+": Один из крупнейших и самых оживленных рынков в Таджикистане, предлагающий "
+"широкий ассортимент местных товаров."
+
+#: templates/tajikistan_cities.html:179
+#| msgid "The Ark Fortress"
+msgid "Khujand Fortress"
+msgstr "Худжандская крепость"
+
+#: templates/tajikistan_cities.html:179
+msgid ""
+": An ancient fortress that played a key role in the city’s defense during "
+"the Silk Road era."
+msgstr ""
+": Древняя крепость, сыгравшая ключевую роль в обороне города в эпоху "
+"Шелкового пути."
+
+#: templates/tajikistan_cities.html:185
+#| msgid "Samarkand: The Jewel of the Silk Road"
+msgid "Iskanderkul: The Jewel of the Fann Mountains"
+msgstr "Искандеркуль: жемчужина Фанских гор"
+
+#: templates/tajikistan_cities.html:186
+msgid ""
+"Iskanderkul is one of the most picturesque lakes in Central Asia, located in"
+" the stunning Fann Mountains."
+msgstr ""
+"Искандеркуль — одно из самых живописных озер Центральной Азии, расположенное"
+" в потрясающих Фанских горах."
+
+#: templates/tajikistan_cities.html:188
+msgid "Iskanderkul Lake"
+msgstr "Озеро Искандеркуль"
+
+#: templates/tajikistan_cities.html:188
+msgid ""
+": A beautiful lake named after Alexander the Great, offering serene views "
+"and hiking opportunities."
+msgstr ""
+": Красивое озеро, названное в честь Александра Македонского, предлагающее "
+"умиротворяющие виды и возможности для пеших прогулок."
+
+#: templates/tajikistan_cities.html:189
+msgid "Snake Lake"
+msgstr "Озеро Снейк"
+
+#: templates/tajikistan_cities.html:189
+msgid ""
+": A smaller, nearby lake known for its legends and mystical atmosphere."
+msgstr ""
+": Небольшое озеро неподалеку, известное своими легендами и мистической "
+"атмосферой."
+
+#: templates/tajikistan_cities.html:190
+msgid "Fann Mountains"
+msgstr "Фанские горы"
+
+#: templates/tajikistan_cities.html:190
+msgid ""
+": A mountain range offering some of the best trekking and outdoor adventure "
+"opportunities in Tajikistan."
+msgstr ""
+": Горный хребет, предлагающий одни из лучших возможностей для треккинга и "
+"приключений на свежем воздухе в Таджикистане."
+
+#: templates/uzbekistan_cities.html:127
+msgid "Welcome to Uzbekistan"
+msgstr "Добро пожаловать в Узбекистан"
+
+#: templates/uzbekistan_cities.html:128
+msgid "Explore the heart of Central Asia"
+msgstr "Ваш проводник в Центральную Азию"
+
+#: templates/uzbekistan_cities.html:135
+msgid ""
+"Uzbekistan: A Journey Through Silk Road Heritage, Cultural Riches, and Modern\n"
+"                Ambitions"
+msgstr ""
+"Узбекистан: Путешествие по наследию Шелкового пути, культурным богатствам и "
+"современным амбициям"
+
+#: templates/uzbekistan_cities.html:137
+#| msgid ""
+#| "Exploring Uzbekistan: Where Ancient Traditions Meet Vibrant Modernity"
+msgid ""
+"Exploring Uzbekistan: Where Ancient Traditions Meet Vibrant\n"
+"                Modernity"
+msgstr ""
+"Исследуя Узбекистан: Там, где древние традиции встречаются с яркой "
+"современностью."
+
+#: templates/uzbekistan_cities.html:140
+#| msgid ""
+#| "Uzbekistan, located in Central Asia, is a country rich in history, culture, and natural beauty. As\n"
+#| "                    one of the major hubs on the ancient Silk Road, Uzbekistan has been a crossroads of civilizations\n"
+#| "                    for centuries."
+msgid ""
+"Uzbekistan, located in Central Asia, is a country rich in history, culture, and\n"
+"                    natural beauty. As\n"
+"                    one of the major hubs on the ancient Silk Road, Uzbekistan has been a crossroads of civilizations\n"
+"                    for centuries."
+msgstr ""
+"Узбекистан, расположенный в Центральной Азии, - это страна, богатая "
+"историей, культурой и природной красотой. Как один из главных узлов на "
+"древнем Шелковом пути, Узбекистан на протяжении веков был перекрестком "
+"цивилизаций."
+
+#: templates/uzbekistan_cities.html:146
+#| msgid ""
+#| "Uzbekistan boasts a fascinating history that dates back thousands of years. It is home to ancient\n"
+#| "                    cities like Samarkand, Bukhara, and Khiva, which have long been centers of trade, culture, and\n"
+#| "                    learning. These cities feature stunning architectural masterpieces, including mosques, madrasas, and\n"
+#| "                    mausoleums that reflect the country's Islamic heritage."
+msgid ""
+"Uzbekistan boasts a fascinating history that dates back thousands of years. It is\n"
+"                    home to ancient\n"
+"                    cities like Samarkand, Bukhara, and Khiva, which have long been centers of trade, culture, and\n"
+"                    learning. These cities feature stunning architectural masterpieces, including mosques, madrasas, and\n"
+"                    mausoleums that reflect the country's Islamic heritage."
+msgstr ""
+"Узбекистан может похвастаться увлекательной историей, насчитывающей тысячи "
+"лет. Здесь находятся древние города, такие как Самарканд, Бухара и Хива, "
+"которые на протяжении долгого времени были центрами торговли, культуры и "
+"образования. Эти города известны своими архитектурными шедеврами, включая "
+"мечети, медресе и мавзолеи, отражающие исламское наследие страны."
+
+#: templates/uzbekistan_cities.html:153
+#| msgid ""
+#| "The culture of Uzbekistan is a vibrant blend of Persian, Turkic, and Russian influences. Traditional\n"
+#| "                    music, dance, and handicrafts are an integral part of Uzbek life. The country's cuisine is also\n"
+#| "                    renowned, with dishes like plov (a hearty rice dish), shashlik (grilled meat skewers), and various\n"
+#| "                    breads and pastries."
+msgid ""
+"The culture of Uzbekistan is a vibrant blend of Persian, Turkic, and Russian\n"
+"                    influences. Traditional\n"
+"                    music, dance, and handicrafts are an integral part of Uzbek life. The country's cuisine is also\n"
+"                    renowned, with dishes like plov (a hearty rice dish), shashlik (grilled meat skewers), and various\n"
+"                    breads and pastries."
+msgstr ""
+"Культура Узбекистана – это яркое сочетание персидского, тюркского и русского"
+" влияний. Традиционная музыка, танцы и ремесла являются неотъемлемой частью "
+"жизни узбеков. Также известна кухня страны, в том числе блюда, такие как "
+"плов, шашлык и разнообразные хлеба и выпечки."
+
+#: templates/uzbekistan_cities.html:159
+msgid "Modern Uzbekistan"
+msgstr "Современный Узбекистан"
+
+#: templates/uzbekistan_cities.html:160
+#| msgid ""
+#| "Today, Uzbekistan is a country on the rise. Since gaining independence in 1991, it has been working\n"
+#| "                    to modernize its economy and infrastructure while preserving its rich cultural heritage. Tashkent,\n"
+#| "                    the capital, is a modern city with a blend of Soviet-era architecture and contemporary\n"
+#| "                    developments."
+msgid ""
+"Today, Uzbekistan is a country on the rise. Since gaining independence in 1991, it\n"
+"                    has been working\n"
+"                    to modernize its economy and infrastructure while preserving its rich cultural heritage. Tashkent,\n"
+"                    the capital, is a modern city with a blend of Soviet-era architecture and contemporary\n"
+"                    developments."
+msgstr ""
+"Сегодня Узбекистан – это страна, находящаяся на подъеме. С момента обретения"
+" независимости в 1991 году он работает над модернизацией своей экономики и "
+"инфраструктуры, сохраняя при этом свое богатое культурное наследие. Ташкент,"
+" столица страны, представляет собой современный город, сочетающий советскую "
+"архитектуру с современными постройками."
+
+#: templates/uzbekistan_cities.html:167
+#| msgid ""
+#| "Uzbekistan is becoming an increasingly popular tourist destination. Visitors are drawn to its\n"
+#| "                    historical sites, bustling bazaars, and warm hospitality. Whether exploring the ancient streets of\n"
+#| "                    Samarkand or enjoying the tranquility of the Uzbek countryside, there is much to discover in this\n"
+#| "                    captivating country."
+msgid ""
+"Uzbekistan is becoming an increasingly popular tourist destination. Visitors are\n"
+"                    drawn to its\n"
+"                    historical sites, bustling bazaars, and warm hospitality. Whether exploring the ancient streets of\n"
+"                    Samarkand or enjoying the tranquility of the Uzbek countryside, there is much to discover in this\n"
+"                    captivating country."
+msgstr ""
+"Узбекистан становится все более популярным туристическим направлением. "
+"Посетителей привлекают его исторические памятники, шумные базары и "
+"гостеприимство местных жителей. Независимо от того, исследуете ли вы древние"
+" улицы Самарканда или наслаждаетесь спокойствием узбекской деревни, в этой "
+"очаровательной стране есть что открыть для себя."
+
+#: templates/uzbekistan_cities.html:176
+msgid "Tashkent: The Vibrant Capital"
+msgstr "Ташкент: Яркая столица"
+
+#: templates/uzbekistan_cities.html:177
+#| msgid ""
+#| "Tashkent, the capital city of Uzbekistan, is a bustling metropolis where "
+#| "modernity meets tradition."
+msgid ""
+"Tashkent, the capital city of Uzbekistan, is a bustling metropolis where modernity meets\n"
+"                tradition."
+msgstr ""
+"Ташкент, столица Узбекистана, - это оживленный мегаполис, где современность "
+"встречается с традицией."
+
+#: templates/uzbekistan_cities.html:180
+msgid "Khast Imam Complex"
+msgstr "Хаст-Имам Комплекс"
+
+#: templates/uzbekistan_cities.html:180
+#| msgid ""
+#| ": A spiritual center housing the famous Quran of Caliph Uthman."
+msgid ""
+": A spiritual\n"
+"                    center housing the famous Quran of Caliph Uthman."
+msgstr ": Духовный центр, в котором хранится знаменитый Коран халифа Усмана."
+
+#: templates/uzbekistan_cities.html:183
+msgid "Chorsu Bazaar"
+msgstr "Чорсу Базар"
+
+#: templates/uzbekistan_cities.html:183
+#| msgid ""
+#| ": A lively market offering a glimpse into local life with fresh\n"
+#| "                    produce, spices, and traditional crafts."
+msgid ""
+": A lively market\n"
+"                    offering a glimpse into local life with fresh\n"
+"                    produce, spices, and traditional crafts."
+msgstr ""
+": Оживленный рынок, предлагающий взглянуть на местную жизнь с его свежими "
+"продуктами, специями и традиционными ремеслами."
+
+#: templates/uzbekistan_cities.html:187
+msgid "Amir Timur Square"
+msgstr "Площадь Амира Тимура"
+
+#: templates/uzbekistan_cities.html:187
+#| msgid ""
+#| ": A central landmark surrounded by important buildings and a\n"
+#| "                    statue of the great conqueror."
+msgid ""
+": A central\n"
+"                    landmark surrounded by important buildings and a\n"
+"                    statue of the great conqueror."
+msgstr ""
+": Центральная достопримечательность, окруженная важными зданиями и статуей "
+"великого завоевателя."
+
+#: templates/uzbekistan_cities.html:196
+msgid "Samarkand: The Jewel of the Silk Road"
+msgstr "Самарканд: Жемчужина Шелкового пути"
+
+#: templates/uzbekistan_cities.html:197
+#| msgid ""
+#| "Samarkand, one of the oldest inhabited cities in Central Asia, is a treasure trove of historical and\n"
+#| "                architectural wonders."
+msgid ""
+"Samarkand, one of the oldest inhabited cities in Central Asia, is a treasure trove of\n"
+"                historical and\n"
+"                architectural wonders."
+msgstr ""
+"Самарканд, один из старейших населенных городов Центральной Азии, является "
+"сокровищницей исторических и архитектурных чудес."
+
+#: templates/uzbekistan_cities.html:201
+msgid "Registan Square"
+msgstr "Площадь Регистан"
+
+#: templates/uzbekistan_cities.html:201
+#| msgid ""
+#| ": A magnificent ensemble of three madrasahs with stunning Islamic\n"
+#| "                    architecture."
+msgid ""
+": A magnificent\n"
+"                    ensemble of three madrasahs with stunning Islamic\n"
+"                    architecture."
+msgstr ""
+": Великолепный ансамбль из трех медресе с потрясающей исламской "
+"архитектурой."
+
+#: templates/uzbekistan_cities.html:205
+msgid "Shah-i-Zinda"
+msgstr "Шах-и-Зинда"
+
+#: templates/uzbekistan_cities.html:205
+#| msgid ": A necropolis with intricately decorated mausoleums."
+msgid ""
+": A necropolis with\n"
+"                    intricately decorated mausoleums."
+msgstr ": Некрополь с искусно украшенными мавзолеями."
+
+#: templates/uzbekistan_cities.html:207
+msgid "Bibi-Khanym Mosque"
+msgstr "Мечеть Биби-Ханым"
+
+#: templates/uzbekistan_cities.html:207
+#| msgid ""
+#| ": Once one of the largest mosques in the Islamic world, it still\n"
+#| "                    impresses with its grandeur."
+msgid ""
+": Once one of\n"
+"                    the largest mosques in the Islamic world, it still\n"
+"                    impresses with its grandeur."
+msgstr ""
+": Когда-то одна из крупнейших мечетей в исламском мире, она до сих пор "
+"поражает своим величием."
+
+#: templates/uzbekistan_cities.html:216
+msgid "Bukhara: The Living Museum"
+msgstr "Бухара: Живой музей"
+
+#: templates/uzbekistan_cities.html:217
+#| msgid ""
+#| "Bukhara, a UNESCO World Heritage Site, is a city where history is alive in "
+#| "every corner."
+msgid ""
+"Bukhara, a UNESCO World Heritage Site, is a city where history is alive in every\n"
+"                corner."
+msgstr ""
+"Бухара, объект всемирного наследия ЮНЕСКО, - это город, в котором история "
+"оживает на каждом шагу."
+
+#: templates/uzbekistan_cities.html:220
+msgid "The Ark Fortress"
+msgstr "Крепость Арк"
+
+#: templates/uzbekistan_cities.html:220
+#| msgid ""
+#| ": A massive fortress that has been a symbol of power for centuries."
+msgid ""
+": A massive\n"
+"                    fortress that has been a symbol of power for centuries."
+msgstr ": Массивная крепость, символизировавшая власть на протяжении веков."
+
+#: templates/uzbekistan_cities.html:223
+msgid "Poi Kalyan Complex"
+msgstr "Комплекс Пои-Калян"
+
+#: templates/uzbekistan_cities.html:223
+#| msgid ""
+#| ": Featuring the Kalyan Minaret, Kalyan Mosque, and Mir-i-Arab\n"
+#| "                    Madrasah."
+msgid ""
+": Featuring\n"
+"                    the Kalyan Minaret, Kalyan Mosque, and Mir-i-Arab\n"
+"                    Madrasah."
+msgstr ": Включает минарет Калян, мечеть Калян и медресе Мир-и-Араб."
+
+#: templates/uzbekistan_cities.html:227
+msgid "Lyab-i Hauz"
+msgstr "Ляби-Хауз"
+
+#: templates/uzbekistan_cities.html:227
+#| msgid ""
+#| ": A picturesque plaza centered around a pool, surrounded by historic\n"
+#| "                    buildings."
+msgid ""
+": A picturesque plaza\n"
+"                    centered around a pool, surrounded by historic\n"
+"                    buildings."
+msgstr ""
+": Живописная площадь, окруженная историческими зданиями вокруг бассейна."
+
+#: templates/uzbekistan_cities.html:235
+msgid "Khiva: The Ancient Oasis"
+msgstr "Хива: Древний оазис"
+
+#: templates/uzbekistan_cities.html:236
+#| msgid ""
+#| "Khiva, an ancient city located on the edge of the Kyzylkum Desert, is renowned for its well-preserved\n"
+#| "                architecture and historical significance."
+msgid ""
+"Khiva, an ancient city located on the edge of the Kyzylkum Desert, is renowned for its\n"
+"                well-preserved\n"
+"                architecture and historical significance."
+msgstr ""
+"Хива, древний город на краю пустыни Кызылкум, известен своей хорошо "
+"сохранившейся архитектурой и исторической значимостью."
+
+#: templates/uzbekistan_cities.html:240
+msgid "Ichan Kala"
+msgstr "Ичан-Кала"
+
+#: templates/uzbekistan_cities.html:240
+#| msgid ""
+#| ": The historic inner town, a UNESCO World Heritage Site, featuring an\n"
+#| "                    impressive collection of mosques, minarets, and madrasahs."
+msgid ""
+": The historic inner\n"
+"                    town, a UNESCO World Heritage Site, featuring an\n"
+"                    impressive collection of mosques, minarets, and madrasahs."
+msgstr ""
+": Историческая внутренняя часть города, объект всемирного наследия ЮНЕСКО, с"
+" впечатляющей коллекцией мечетей, минаретов и медресе."
+
+#: templates/uzbekistan_cities.html:244
+msgid "Khiva Minaret"
+msgstr "Минарет Хивы"
+
+#: templates/uzbekistan_cities.html:244
+#| msgid ""
+#| ": Known for its distinctive blue tile work and panoramic views of the\n"
+#| "                    city."
+msgid ""
+": Known for its\n"
+"                    distinctive blue tile work and panoramic views of the\n"
+"                    city."
+msgstr ""
+": Известен своей характерной синей плиткой и панорамными видами на город."
+
+#: templates/uzbekistan_cities.html:248
+msgid "Pakhlavan Makhmud Mausoleum"
+msgstr "Мавзолей Пахлаван Махмуда"
+
+#: templates/uzbekistan_cities.html:248
+#| msgid ""
+#| ": An important religious site, known for its intricate\n"
+#| "                    tile work and historical significance."
+msgid ""
+": An\n"
+"                    important religious site, known for its intricate\n"
+"                    tile work and historical significance."
+msgstr ""
+": Важное религиозное место, известное своей сложной плиткой и исторической "
+"значимостью."
+
+#: venv/lib/python3.10/site-packages/django/contrib/messages/apps.py:16
+msgid "Messages"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/contrib/sitemaps/apps.py:8
+msgid "Site Maps"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/contrib/staticfiles/apps.py:9
+msgid "Static Files"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/contrib/syndication/apps.py:7
+msgid "Syndication"
+msgstr ""
+
+#. Translators: String used to replace omitted page numbers in elided page
+#. range generated by paginators, e.g. [1, 2, '…', 5, 6, 7, '…', 9, 10].
+#: venv/lib/python3.10/site-packages/django/core/paginator.py:30
+msgid "…"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/core/paginator.py:32
+msgid "That page number is not an integer"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/core/paginator.py:33
+msgid "That page number is less than 1"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/core/paginator.py:34
+msgid "That page contains no results"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/core/validators.py:22
+msgid "Enter a valid value."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/core/validators.py:104
+#: venv/lib/python3.10/site-packages/django/forms/fields.py:760
+msgid "Enter a valid URL."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/core/validators.py:165
+msgid "Enter a valid integer."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/core/validators.py:176
+msgid "Enter a valid email address."
+msgstr ""
+
+#. Translators: "letters" means latin letters: a-z and A-Z.
+#: venv/lib/python3.10/site-packages/django/core/validators.py:259
+msgid ""
+"Enter a valid “slug” consisting of letters, numbers, underscores or hyphens."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/core/validators.py:267
+msgid ""
+"Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or"
+" hyphens."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/core/validators.py:279
+#: venv/lib/python3.10/site-packages/django/core/validators.py:306
+msgid "Enter a valid IPv4 address."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/core/validators.py:286
+#: venv/lib/python3.10/site-packages/django/core/validators.py:307
+msgid "Enter a valid IPv6 address."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/core/validators.py:298
+#: venv/lib/python3.10/site-packages/django/core/validators.py:305
+msgid "Enter a valid IPv4 or IPv6 address."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/core/validators.py:341
+msgid "Enter only digits separated by commas."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/core/validators.py:347
+#, python-format
+msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/core/validators.py:382
+#, python-format
+msgid "Ensure this value is less than or equal to %(limit_value)s."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/core/validators.py:391
+#, python-format
+msgid "Ensure this value is greater than or equal to %(limit_value)s."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/core/validators.py:400
+#, python-format
+msgid "Ensure this value is a multiple of step size %(limit_value)s."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/core/validators.py:407
+#, python-format
+msgid ""
+"Ensure this value is a multiple of step size %(limit_value)s, starting from "
+"%(offset)s, e.g. %(offset)s, %(valid_value1)s, %(valid_value2)s, and so on."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/core/validators.py:439
+#, python-format
+msgid ""
+"Ensure this value has at least %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at least %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: venv/lib/python3.10/site-packages/django/core/validators.py:457
+#, python-format
+msgid ""
+"Ensure this value has at most %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at most %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: venv/lib/python3.10/site-packages/django/core/validators.py:480
+#: venv/lib/python3.10/site-packages/django/forms/fields.py:355
+#: venv/lib/python3.10/site-packages/django/forms/fields.py:394
+msgid "Enter a number."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/core/validators.py:482
+#, python-format
+msgid "Ensure that there are no more than %(max)s digit in total."
+msgid_plural "Ensure that there are no more than %(max)s digits in total."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: venv/lib/python3.10/site-packages/django/core/validators.py:487
+#, python-format
+msgid "Ensure that there are no more than %(max)s decimal place."
+msgid_plural "Ensure that there are no more than %(max)s decimal places."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: venv/lib/python3.10/site-packages/django/core/validators.py:492
+#, python-format
+msgid ""
+"Ensure that there are no more than %(max)s digit before the decimal point."
+msgid_plural ""
+"Ensure that there are no more than %(max)s digits before the decimal point."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: venv/lib/python3.10/site-packages/django/core/validators.py:563
+#, python-format
+msgid ""
+"File extension “%(extension)s” is not allowed. Allowed extensions are: "
+"%(allowed_extensions)s."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/core/validators.py:624
+msgid "Null characters are not allowed."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/base.py:1477
+#: venv/lib/python3.10/site-packages/django/forms/models.py:906
+msgid "and"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/base.py:1479
+#, python-format
+msgid "%(model_name)s with this %(field_labels)s already exists."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/constraints.py:20
+#, python-format
+msgid "Constraint “%(name)s” is violated."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:133
+#, python-format
+msgid "Value %(value)r is not a valid choice."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:134
+msgid "This field cannot be null."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:135
+msgid "This field cannot be blank."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:136
+#, python-format
+msgid "%(model_name)s with this %(field_label)s already exists."
+msgstr ""
+
+#. Translators: The 'lookup_type' is one of 'date', 'year' or
+#. 'month'. Eg: "Title must be unique for pub_date year"
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:140
+#, python-format
+msgid ""
+"%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:179
+#, python-format
+msgid "Field of type: %(field_type)s"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:1155
+#, python-format
+msgid "“%(value)s” value must be either True or False."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:1156
+#, python-format
+msgid "“%(value)s” value must be either True, False, or None."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:1158
+msgid "Boolean (Either True or False)"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:1208
+#, python-format
+msgid "String (up to %(max_length)s)"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:1210
+msgid "String (unlimited)"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:1314
+msgid "Comma-separated integers"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:1415
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid date format. It must be in YYYY-MM-DD "
+"format."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:1419
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:1554
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD) but it is an invalid "
+"date."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:1423
+msgid "Date (without time)"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:1550
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in YYYY-MM-DD "
+"HH:MM[:ss[.uuuuuu]][TZ] format."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:1558
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD "
+"HH:MM[:ss[.uuuuuu]][TZ]) but it is an invalid date/time."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:1563
+msgid "Date (with time)"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:1690
+#, python-format
+msgid "“%(value)s” value must be a decimal number."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:1692
+msgid "Decimal number"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:1853
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in [DD] "
+"[[HH:]MM:]ss[.uuuuuu] format."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:1857
+#, fuzzy
+#| msgid "Destination"
+msgid "Duration"
+msgstr "Место назначения"
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:1909
+msgid "Email address"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:1934
+msgid "File path"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:2012
+#, python-format
+msgid "“%(value)s” value must be a float."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:2014
+msgid "Floating point number"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:2054
+#, python-format
+msgid "“%(value)s” value must be an integer."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:2056
+msgid "Integer"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:2152
+msgid "Big (8 byte) integer"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:2169
+msgid "Small integer"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:2177
+msgid "IPv4 address"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:2208
+msgid "IP address"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:2301
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:2302
+#, python-format
+msgid "“%(value)s” value must be either None, True or False."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:2304
+msgid "Boolean (Either True, False or None)"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:2355
+msgid "Positive big integer"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:2370
+msgid "Positive integer"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:2385
+msgid "Positive small integer"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:2401
+#, python-format
+msgid "Slug (up to %(max_length)s)"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:2437
+msgid "Text"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:2512
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
+"format."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:2516
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
+"invalid time."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:2520
+msgid "Time"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:2628
+msgid "URL"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:2652
+msgid "Raw binary data"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:2717
+#, python-format
+msgid "“%(value)s” is not a valid UUID."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/__init__.py:2719
+msgid "Universally unique identifier"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/files.py:232
+msgid "File"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/files.py:393
+msgid "Image"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/json.py:26
+#, fuzzy
+#| msgid "Subject"
+msgid "A JSON object"
+msgstr "Тема"
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/json.py:28
+msgid "Value must be valid JSON."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/related.py:939
+#, python-format
+msgid "%(model)s instance with %(field)s %(value)r does not exist."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/related.py:941
+msgid "Foreign Key (type determined by related field)"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/related.py:1235
+msgid "One-to-one relationship"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/related.py:1292
+#, python-format
+msgid "%(from)s-%(to)s relationship"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/related.py:1294
+#, python-format
+msgid "%(from)s-%(to)s relationships"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/db/models/fields/related.py:1342
+msgid "Many-to-many relationship"
+msgstr ""
+
+#. Translators: If found as last label character, these punctuation
+#. characters will prevent the default label_suffix to be appended to the
+#. label
+#: venv/lib/python3.10/site-packages/django/forms/boundfield.py:185
+msgid ":?.!"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/fields.py:95
+msgid "This field is required."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/fields.py:304
+msgid "Enter a whole number."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/fields.py:475
+#: venv/lib/python3.10/site-packages/django/forms/fields.py:1252
+msgid "Enter a valid date."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/fields.py:498
+#: venv/lib/python3.10/site-packages/django/forms/fields.py:1253
+msgid "Enter a valid time."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/fields.py:525
+msgid "Enter a valid date/time."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/fields.py:559
+msgid "Enter a valid duration."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/fields.py:560
+#, python-brace-format
+msgid "The number of days must be between {min_days} and {max_days}."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/fields.py:629
+msgid "No file was submitted. Check the encoding type on the form."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/fields.py:630
+msgid "No file was submitted."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/fields.py:631
+msgid "The submitted file is empty."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/fields.py:633
+#, python-format
+msgid ""
+"Ensure this filename has at most %(max)d character (it has %(length)d)."
+msgid_plural ""
+"Ensure this filename has at most %(max)d characters (it has %(length)d)."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: venv/lib/python3.10/site-packages/django/forms/fields.py:638
+msgid "Please either submit a file or check the clear checkbox, not both."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/fields.py:702
+msgid ""
+"Upload a valid image. The file you uploaded was either not an image or a "
+"corrupted image."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/fields.py:874
+#: venv/lib/python3.10/site-packages/django/forms/fields.py:960
+#: venv/lib/python3.10/site-packages/django/forms/models.py:1585
+#, python-format
+msgid "Select a valid choice. %(value)s is not one of the available choices."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/fields.py:962
+#: venv/lib/python3.10/site-packages/django/forms/fields.py:1081
+#: venv/lib/python3.10/site-packages/django/forms/models.py:1583
+msgid "Enter a list of values."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/fields.py:1082
+msgid "Enter a complete value."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/fields.py:1321
+msgid "Enter a valid UUID."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/fields.py:1351
+msgid "Enter a valid JSON."
+msgstr ""
+
+#. Translators: This is the default suffix added to form field labels
+#: venv/lib/python3.10/site-packages/django/forms/forms.py:94
+msgid ":"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/forms.py:231
+#, python-format
+msgid "(Hidden field %(name)s) %(error)s"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/formsets.py:61
+#, python-format
+msgid ""
+"ManagementForm data is missing or has been tampered with. Missing fields: "
+"%(field_names)s. You may need to file a bug report if the issue persists."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/formsets.py:65
+#, python-format
+msgid "Please submit at most %(num)d form."
+msgid_plural "Please submit at most %(num)d forms."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: venv/lib/python3.10/site-packages/django/forms/formsets.py:70
+#, python-format
+msgid "Please submit at least %(num)d form."
+msgid_plural "Please submit at least %(num)d forms."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: venv/lib/python3.10/site-packages/django/forms/formsets.py:484
+#: venv/lib/python3.10/site-packages/django/forms/formsets.py:491
+#, fuzzy
+#| msgid "Order Now"
+msgid "Order"
+msgstr "Забронировать сейчас."
+
+#: venv/lib/python3.10/site-packages/django/forms/formsets.py:499
+msgid "Delete"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/models.py:899
+#, python-format
+msgid "Please correct the duplicate data for %(field)s."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/models.py:904
+#, python-format
+msgid "Please correct the duplicate data for %(field)s, which must be unique."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/models.py:911
+#, python-format
+msgid ""
+"Please correct the duplicate data for %(field_name)s which must be unique "
+"for the %(lookup)s in %(date_field)s."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/models.py:920
+msgid "Please correct the duplicate values below."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/models.py:1357
+msgid "The inline value did not match the parent instance."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/models.py:1448
+msgid ""
+"Select a valid choice. That choice is not one of the available choices."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/models.py:1587
+#, python-format
+msgid "“%(pk)s” is not a valid value."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/utils.py:227
+#, python-format
+msgid ""
+"%(datetime)s couldn’t be interpreted in time zone %(current_timezone)s; it "
+"may be ambiguous or it may not exist."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/widgets.py:461
+msgid "Clear"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/widgets.py:462
+msgid "Currently"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/widgets.py:463
+msgid "Change"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/widgets.py:800
+msgid "Unknown"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/widgets.py:801
+msgid "Yes"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/forms/widgets.py:802
+msgid "No"
+msgstr ""
+
+#. Translators: Please do not add spaces around commas.
+#: venv/lib/python3.10/site-packages/django/template/defaultfilters.py:876
+msgid "yes,no,maybe"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/template/defaultfilters.py:906
+#: venv/lib/python3.10/site-packages/django/template/defaultfilters.py:923
+#, python-format
+msgid "%(size)d byte"
+msgid_plural "%(size)d bytes"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: venv/lib/python3.10/site-packages/django/template/defaultfilters.py:925
+#, python-format
+msgid "%s KB"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/template/defaultfilters.py:927
+#, python-format
+msgid "%s MB"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/template/defaultfilters.py:929
+#, python-format
+msgid "%s GB"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/template/defaultfilters.py:931
+#, python-format
+msgid "%s TB"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/template/defaultfilters.py:933
+#, python-format
+msgid "%s PB"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dateformat.py:74
+msgid "p.m."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dateformat.py:75
+msgid "a.m."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dateformat.py:80
+msgid "PM"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dateformat.py:81
+msgid "AM"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dateformat.py:153
+msgid "midnight"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dateformat.py:155
+msgid "noon"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:7
+msgid "Monday"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:8
+msgid "Tuesday"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:9
+msgid "Wednesday"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:10
+msgid "Thursday"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:11
+msgid "Friday"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:12
+msgid "Saturday"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:13
+msgid "Sunday"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:16
+msgid "Mon"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:17
+msgid "Tue"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:18
+msgid "Wed"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:19
+msgid "Thu"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:20
+msgid "Fri"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:21
+msgid "Sat"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:22
+msgid "Sun"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:25
+msgid "January"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:26
+msgid "February"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:27
+msgid "March"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:28
+msgid "April"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:29
+msgid "May"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:30
+msgid "June"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:31
+msgid "July"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:32
+msgid "August"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:33
+msgid "September"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:34
+msgid "October"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:35
+#, fuzzy
+#| msgid "Phone Number"
+msgid "November"
+msgstr "Номер телефона."
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:36
+msgid "December"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:39
+msgid "jan"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:40
+msgid "feb"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:41
+msgid "mar"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:42
+msgid "apr"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:43
+msgid "may"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:44
+msgid "jun"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:45
+msgid "jul"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:46
+msgid "aug"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:47
+msgid "sep"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:48
+#, fuzzy
+#| msgid "Contact"
+msgid "oct"
+msgstr "Связаться с нами"
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:49
+msgid "nov"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:50
+msgid "dec"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:53
+msgctxt "abbrev. month"
+msgid "Jan."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:54
+msgctxt "abbrev. month"
+msgid "Feb."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:55
+msgctxt "abbrev. month"
+msgid "March"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:56
+msgctxt "abbrev. month"
+msgid "April"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:57
+msgctxt "abbrev. month"
+msgid "May"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:58
+msgctxt "abbrev. month"
+msgid "June"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:59
+msgctxt "abbrev. month"
+msgid "July"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:60
+msgctxt "abbrev. month"
+msgid "Aug."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:61
+msgctxt "abbrev. month"
+msgid "Sept."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:62
+msgctxt "abbrev. month"
+msgid "Oct."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:63
+msgctxt "abbrev. month"
+msgid "Nov."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:64
+msgctxt "abbrev. month"
+msgid "Dec."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:67
+msgctxt "alt. month"
+msgid "January"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:68
+msgctxt "alt. month"
+msgid "February"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:69
+msgctxt "alt. month"
+msgid "March"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:70
+msgctxt "alt. month"
+msgid "April"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:71
+msgctxt "alt. month"
+msgid "May"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:72
+msgctxt "alt. month"
+msgid "June"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:73
+msgctxt "alt. month"
+msgid "July"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:74
+msgctxt "alt. month"
+msgid "August"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:75
+msgctxt "alt. month"
+msgid "September"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:76
+msgctxt "alt. month"
+msgid "October"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:77
+#, fuzzy
+#| msgid "Phone Number"
+msgctxt "alt. month"
+msgid "November"
+msgstr "Номер телефона."
+
+#: venv/lib/python3.10/site-packages/django/utils/dates.py:78
+msgctxt "alt. month"
+msgid "December"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/ipv6.py:8
+msgid "This is not a valid IPv6 address."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/text.py:123
+#, python-format
+msgctxt "String to return when truncating text"
+msgid "%(truncated_text)s…"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/text.py:323
+msgid "or"
+msgstr ""
+
+#. Translators: This string is used as a separator between list elements
+#: venv/lib/python3.10/site-packages/django/utils/text.py:342
+#: venv/lib/python3.10/site-packages/django/utils/timesince.py:135
+msgid ", "
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/utils/timesince.py:8
+#, python-format
+msgid "%(num)d year"
+msgid_plural "%(num)d years"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: venv/lib/python3.10/site-packages/django/utils/timesince.py:9
+#, python-format
+msgid "%(num)d month"
+msgid_plural "%(num)d months"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: venv/lib/python3.10/site-packages/django/utils/timesince.py:10
+#, python-format
+msgid "%(num)d week"
+msgid_plural "%(num)d weeks"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: venv/lib/python3.10/site-packages/django/utils/timesince.py:11
+#, python-format
+msgid "%(num)d day"
+msgid_plural "%(num)d days"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: venv/lib/python3.10/site-packages/django/utils/timesince.py:12
+#, python-format
+msgid "%(num)d hour"
+msgid_plural "%(num)d hours"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: venv/lib/python3.10/site-packages/django/utils/timesince.py:13
+#, python-format
+msgid "%(num)d minute"
+msgid_plural "%(num)d minutes"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: venv/lib/python3.10/site-packages/django/views/csrf.py:29
+msgid "Forbidden"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/csrf.py:30
+msgid "CSRF verification failed. Request aborted."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/csrf.py:34
+msgid ""
+"You are seeing this message because this HTTPS site requires a “Referer "
+"header” to be sent by your web browser, but none was sent. This header is "
+"required for security reasons, to ensure that your browser is not being "
+"hijacked by third parties."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/csrf.py:40
+msgid ""
+"If you have configured your browser to disable “Referer” headers, please re-"
+"enable them, at least for this site, or for HTTPS connections, or for “same-"
+"origin” requests."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/csrf.py:45
+msgid ""
+"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or"
+" including the “Referrer-Policy: no-referrer” header, please remove them. "
+"The CSRF protection requires the “Referer” header to do strict referer "
+"checking. If you’re concerned about privacy, use alternatives like <a "
+"rel=\"noreferrer\" …> for links to third-party sites."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/csrf.py:54
+msgid ""
+"You are seeing this message because this site requires a CSRF cookie when "
+"submitting forms. This cookie is required for security reasons, to ensure "
+"that your browser is not being hijacked by third parties."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/csrf.py:60
+msgid ""
+"If you have configured your browser to disable cookies, please re-enable "
+"them, at least for this site, or for “same-origin” requests."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/csrf.py:66
+msgid "More information is available with DEBUG=True."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/generic/dates.py:44
+msgid "No year specified"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/generic/dates.py:64
+#: venv/lib/python3.10/site-packages/django/views/generic/dates.py:115
+#: venv/lib/python3.10/site-packages/django/views/generic/dates.py:214
+msgid "Date out of range"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/generic/dates.py:94
+msgid "No month specified"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/generic/dates.py:147
+msgid "No day specified"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/generic/dates.py:194
+msgid "No week specified"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/generic/dates.py:349
+#: venv/lib/python3.10/site-packages/django/views/generic/dates.py:380
+#, python-format
+msgid "No %(verbose_name_plural)s available"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/generic/dates.py:652
+#, python-format
+msgid ""
+"Future %(verbose_name_plural)s not available because "
+"%(class_name)s.allow_future is False."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/generic/dates.py:692
+#, python-format
+msgid "Invalid date string “%(datestr)s” given format “%(format)s”"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/generic/detail.py:56
+#, python-format
+msgid "No %(verbose_name)s found matching the query"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/generic/list.py:70
+msgid "Page is not “last”, nor can it be converted to an int."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/generic/list.py:77
+#, python-format
+msgid "Invalid page (%(page_number)s): %(message)s"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/generic/list.py:169
+#, python-format
+msgid "Empty list and “%(class_name)s.allow_empty” is False."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/static.py:49
+msgid "Directory indexes are not allowed here."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/static.py:51
+#, python-format
+msgid "“%(path)s” does not exist"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/static.py:68
+#: venv/lib/python3.10/site-packages/django/views/templates/directory_index.html:8
+#: venv/lib/python3.10/site-packages/django/views/templates/directory_index.html:11
+#, python-format
+msgid "Index of %(directory)s"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/templates/default_urlconf.html:7
+#: venv/lib/python3.10/site-packages/django/views/templates/default_urlconf.html:220
+msgid "The install worked successfully! Congratulations!"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/templates/default_urlconf.html:206
+#, python-format
+msgid ""
+"View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
+"target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/templates/default_urlconf.html:221
+#, python-format
+msgid ""
+"You are seeing this page because <a "
+"href=\"https://docs.djangoproject.com/en/%(version)s/ref/settings/#debug\" "
+"target=\"_blank\" rel=\"noopener\">DEBUG=True</a> is in your settings file "
+"and you have not configured any URLs."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/templates/default_urlconf.html:229
+msgid "Django Documentation"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/templates/default_urlconf.html:230
+msgid "Topics, references, &amp; how-to’s"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/templates/default_urlconf.html:238
+msgid "Tutorial: A Polling App"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/templates/default_urlconf.html:239
+msgid "Get started with Django"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/templates/default_urlconf.html:247
+msgid "Django Community"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django/views/templates/default_urlconf.html:248
+msgid "Connect, get help, or contribute"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django_ckeditor_5/views.py:77
+msgid "Page not found."
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/django_ckeditor_5/widgets.py:43
+msgid "Check the correct settings.CKEDITOR_5_CONFIGS "
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/drf_spectacular/openapi.py:1371
+#: venv/lib/python3.10/site-packages/drf_spectacular/openapi.py:1424
+#: venv/lib/python3.10/site-packages/drf_spectacular/openapi.py:1428
+#: venv/lib/python3.10/site-packages/drf_spectacular/openapi.py:1432
+msgid "No response body"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/drf_spectacular/openapi.py:1396
+#: venv/lib/python3.10/site-packages/drf_spectacular/openapi.py:1450
+msgid "Unspecified response body"
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/drf_spectacular/plumbing.py:484
+#, python-format
+msgid "Token-based authentication with required prefix \"%s\""
+msgstr ""
+
+#: venv/lib/python3.10/site-packages/drf_spectacular/views.py:45
+msgid ""
+"\n"
+"    OpenApi3 schema for this API. Format can be selected via content negotiation.\n"
+"\n"
+"    - YAML: application/vnd.oai.openapi\n"
+"    - JSON: application/vnd.oai.openapi+json\n"
+"    "
+msgstr ""
+
+#, fuzzy
+#~ msgid ""
+#~ "About\n"
+#~ "                        Us"
+#~ msgstr ""
+#~ "\n"
+#~ "Об Узбекистане"
+
+#~ msgid ""
+#~ "Our\n"
+#~ "                Services"
+#~ msgstr ""
+#~ "Наши\n"
+#~ "услуги"
+
+#~ msgid ""
+#~ "\n"
+#~ "                    Contact Us"
+#~ msgstr ""
+#~ "\n"
+#~ "Связаться с нами"
+
+#~ msgid "Tour Packages"
+#~ msgstr "Туры"
+
+#~ msgid ""
+#~ "\n"
+#~ "                Services"
+#~ msgstr ""
+#~ "\n"
+#~ "Наши\n"
+#~ "услуги"
+
+#~ msgid "Follow Us"
+#~ msgstr "Подписывайтесь на нас"
+
+#~ msgid "Blog Detail"
+#~ msgstr "Детали блога"
+
+#~ msgid "Our Services"
+#~ msgstr "Услуги"
+
+#~ msgid "About"
+#~ msgstr "Об Узбекистане"
+
+#~ msgid "Guides"
+#~ msgstr "гиды"
+
+#~ msgid "Blog"
+#~ msgstr "Блог"
+
+#~ msgid ""
+#~ "\n"
+#~ "                    Destination"
+#~ msgstr ""
+#~ "\n"
+#~ "Место назначения"
+
+#~ msgid ""
+#~ "\n"
+#~ "                    Guides"
+#~ msgstr ""
+#~ "\n"
+#~ "гиды"
+
+#~ msgid ""
+#~ "\n"
+#~ "                    Blog"
+#~ msgstr ""
+#~ "\n"
+#~ "Блог"
+
+#~ msgid "Tours & Travel"
+#~ msgstr "Туры и путешествия"
+
+#~ msgid "Book Now"
+#~ msgstr "Забронируйте сейчас"
+
+#, fuzzy
+#~ msgid "Home "
+#~ msgstr "Главная"
+
+#~ msgid "Discover Amazing Places With Us"
+#~ msgstr "Откройте для себя удивительные места вместе с нами"
+
+#~ msgid "Let's Discover The World Together"
+#~ msgstr "Давайте откроем мир вместе"
