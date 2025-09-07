@@ -359,6 +359,14 @@
 <script src="{% static 'lib/tempusdominus/js/moment-timezone.min.js' %}"></script>
 <script src="{% static 'lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js' %}"></script>
 <script src="https://cdn.ckeditor.com/ckeditor5/43.1.1/classic/ckeditor.js"></script>
+<textarea id="editor"></textarea>
+
+<script>
+  ClassicEditor
+    .create(document.querySelector('#editor'))
+    .catch(error => console.error(error));
+</script>
+
 
 <!-- Contact Javascript File -->
 <script src="{% static 'mail/jqBootstrapValidation.min.js' %}"></script>
