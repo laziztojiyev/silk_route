@@ -73,11 +73,11 @@ WSGI_APPLICATION = 'root.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'silkroute',
-        'USER': 'laziz',
-        'PASSWORD': '1qa2ws3edfr4',
-        'HOST': 'localhost',
-        'PORT': 5433,
+        'NAME': os.getenv('DB_NAME'),
+        'USER': os.getenv('DB_USER'),
+        'PASSWORD': os.getenv('DB_PASSWORD'),
+        'HOST': os.getenv('DB_HOST'),
+        'PORT': os.getenv('DB_PORT'),
     }
 }
 
@@ -114,6 +114,7 @@ LOCALE_PATHS = [
     os.path.join(BASE_DIR, "locale")
 ]
 PARLER_DEFAULT_LANGUAGE_CODE = 'en'
+
 PARLER_LANGUAGES = {
     None: (
         {'code': 'en', },
